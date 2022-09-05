@@ -63,11 +63,23 @@
           "settings": {
             "text": "<p>Newcomers can sample all surpassing tea blends and find the one that talks to them, while experienced tea lovers will enjoy the multifariousness our unique bundles can offer.<\/p>"
           }
+        },
+        "6615fdc9-bad7-4eeb-8e5d-bd1ba9fac5aa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Your Tea BUNDLE",
+            "button_link": "",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "6615fdc9-bad7-4eeb-8e5d-bd1ba9fac5aa"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -191,8 +203,8 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Choose Your Bundle",
+        "button_link": "shopify:\/\/collections\/bundles",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
