@@ -817,7 +817,99 @@
         "failure": "Non livrés",
         "failed_title": "Votre commande n'a pas pu être livrée",
         "failed_contact_merchant": "Contactez %{company} pour organiser la livraison.",
-        "failed_contact_merchant_no_company": "Contactez-nous pour organiser la livraison."
+        "failed_contact_merchant_no_company": "Contactez-nous pour organiser la livraison.",
+        "pick_up_in_store_marker": {
+          "shipping": "Lieu de ramassage"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Articles de cet envoi",
+          "unfulfilled_table_title": "Articles en préparation pour l'expédition",
+          "product_image_label": "Image du produit",
+          "description_label": "La description",
+          "quantity_label": "Quantité"
+        },
+        "opt_in_message_html": "Vos informations ont été enregistrées avec succès avec %{shopify_pay}",
+        "order_updates_description_missing": "Vous ne recevez pas les mises à jour d'expédition.",
+        "order_updates_subscribe_to_email_notifications": "Recevez des mises à jour d'expédition par e-mail",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Recevez des mises à jour d'expédition par e-mail ou SMS",
+        "order_updates_subscribe_to_phone_notifications": "Recevez des mises à jour d'expédition par SMS",
+        "order_updates_submit_subscription": "Soumettre",
+        "track_shipment": "Suivi de livraison",
+        "shopify_pay": {
+          "order_completed_html": "Commande terminée avec %{shopify_pay}",
+          "learn_more_label": "En savoir plus sur Shop Pay"
+        },
+        "other_options": "Autres options",
+        "delivery_information_label": "Informations de livraison:",
+        "gift_card_sent_confirmation": "Cartes cadeaux envoyées",
+        "qr_code": {
+          "send_link_to_phone": "Ou envoyez un lien sur votre téléphone",
+          "title": "Suivre sur votre téléphone",
+          "subtitle": "Scannez le code avec l'appareil photo de votre téléphone pour suivre avec Shop."
+        },
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Scannez avec votre téléphone",
+            "description": "Shop vous enverra des mises à jour de livraison en temps réel une fois votre commande expédiée."
+          },
+          "sms": {
+            "title": "Ou envoyez un lien sur votre téléphone"
+          }
+        },
+        "view_business_customer_account": "Voir le compte"
+      },
+      "review": {
+        "title": "Examen",
+        "review_title": "Vérifier la commande",
+        "checkout_as_guest": "Commander en tant qu'invité",
+        "blocks": {
+          "contact_method_title": "Contact",
+          "billing_address_title": "Facturation",
+          "shipping_address_title": "Envoyez à",
+          "shipping_method_title": "Méthode",
+          "payment_method_title": "Paiement",
+          "change_link_label": "Changer",
+          "change_contact_method_link_label": "Modifier les coordonnées",
+          "change_billing_address_link_label": "Modifier l'adresse de facturation",
+          "change_shipping_address_link_label": "Changer l'adresse de livraison",
+          "change_shipping_method_link_label": "Changer le mode d'expédition",
+          "change_payment_method_link_label": "Changer la méthode de paiement",
+          "pick_up_in_store_shipping_method_html": "Retrait en magasin · %{location_name}"
+        }
+      },
+      "remember_me": {
+        "save": "sauvegarder",
+        "title": "Souviens-toi de moi",
+        "label": "Enregistrer mes informations pour un paiement plus rapide",
+        "description_html": "La prochaine fois que vous vérifierez ici ou sur d'autres magasins alimentés par Shopify, vous recevrez un code par SMS pour acheter en toute sécurité avec Shop Pay.",
+        "mobile_phone_icon_alt": "Téléphone mobile",
+        "mobile_phone_number": "numéro de téléphone portable",
+        "terms_and_privacy_html": "En continuant, vous acceptez les %{privacy_href} et %{terms_href} de Shop Pay.",
+        "privacy_policy": "Politique de confidentialité",
+        "terms_of_service": "Conditions d'utilisation",
+        "errors": {
+          "optin": "Shop Pay n'est pas disponible"
+        },
+        "installments": {
+          "paid_in_installments": "Paiement en plusieurs fois avec Shop Pay.",
+          "view_schedule": "Afficher le calendrier"
+        },
+        "title_with_logo_html": "Se souvenir de moi avec %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Laissez Shop Pay remplir mon adresse et mes informations de paiement pour des paiements plus rapides.",
+        "label_faster_checkouts_and_thousand_shops": "Enregistrez mes informations avec Shop Pay pour des paiements plus rapides dans plus d'un million de magasins."
+      },
+      "notifications": {
+        "title": "Avis"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Montant à payer pour la commande %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Ajoutée",
+            "other": "%{count} ajouté"
+          },
+          "removed": "Supprimé"
+        }
       }
     }
   }
