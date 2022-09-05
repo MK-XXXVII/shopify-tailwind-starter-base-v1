@@ -40,7 +40,7 @@
     },
     "cart": {
       "view": "Ver mi carrito ({{ count }})",
-      "item_added": "Artículo agregado a tu carrito"
+      "item_added": "Artículo añadido a tu carrito"
     },
     "share": {
       "copy_to_clipboard": "Copiar enlace",
@@ -207,7 +207,7 @@
       }
     },
     "cart": {
-      "cart": "Carrito"
+      "cart": "Carro"
     },
     "contact": {
       "form": {
@@ -260,8 +260,8 @@
       },
       "update": "Actualizar",
       "login": {
-        "title": "¿Tienes una cuenta?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicia sesión<\/a> para finalizar tus compras con mayor rapidez."
+        "title": "¿Tener una cuenta?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Inicie sesión<\/a> para pagar más rápido."
       }
     },
     "footer": {
