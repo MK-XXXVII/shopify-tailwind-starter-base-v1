@@ -1367,6 +1367,104 @@
         "first_name": "Vorname",
         "last_name": "Nachname"
       }
+    },
+    "orders": {
+      "order_list": {
+        "two_images_accessibility_label": "Die Reihenfolge umfasst {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Die Reihenfolge umfasst {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Die Reihenfolge umfasst {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} Element",
+          "other": "{{count}} Elemente"
+        },
+        "list_view": "Listenansicht anzeigen",
+        "multiple_shipments": "Mehrere Sendungen",
+        "no_filtered_results_description": "Filter entfernen oder anpassen, um Ihre Bestellungen anzuzeigen",
+        "no_filtered_results_title": "Keine gefilterten Ergebnisse",
+        "order_link": "Auftrag {{name}} anzeigen",
+        "order_number": "Auftrag {{name}}",
+        "orders_title": "Bestätigt",
+        "pagination": {
+          "nav_accessibility_label": "Navigationsschaltflächen für Bestellungen",
+          "next": "Nächste",
+          "next_accessibility_label": "Nächste Bestellungen",
+          "previous": "Vorher",
+          "previous_accessibility_label": "Vorherige Bestellungen"
+        },
+        "sort_by": "Sortieren nach: {{option}}",
+        "sort_hide_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen ausblenden.",
+        "sort_show_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen anzeigen."
+      },
+      "order_status": {
+        "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
+        "in_review_description": "Wir lassen Sie wissen, wenn wir weitere Informationen benötigen oder wenn Ihre Bestellung bestätigt ist.",
+        "in_review_label": "Im Rückblick",
+        "in_review_title": "Ihre Bestellung wird überprüft",
+        "no_tracking_number": "Für diese Sendung gibt es keine Sendungsverfolgungsnummer.",
+        "on_its_way_label": "Auf dem Weg",
+        "on_its_way_title": "Ihre Sendung ist unterwegs",
+        "out_for_delivery_label": "raus zur Lieferung",
+        "out_for_delivery_title": "Ihre Sendung ist zur Zustellung bereit",
+        "resume_tracking": "Tracking fortsetzen",
+        "submitted_label": "Eingereicht",
+        "track_shipment": "Sendung verfolgen"
+      },
+      "status_mark_as_delivered": "Als zugestellt markieren",
+      "status_title": "Bestellstatus"
+    },
+    "order_details": {
+      "addresses_section_title": "Rechnung und Versand",
+      "billing_address": "Rechnungsadresse",
+      "card_ending_with": "endet mit {{lastDigits}}",
+      "contact": "Kontakt",
+      "fully_refunded_label": "ERSTATTET",
+      "discount": "Rabatt",
+      "summary_totals_title_accessibility_label": "Bestellsummen",
+      "taxes": "Steuern",
+      "title": "Auftrag {{name}}",
+      "total": "Gesamt",
+      "unit_price": "({{price}}\/ea)"
+    },
+    "addresses": {
+      "add_button": "Adresse hinzufügen",
+      "address_deleted_notification": "Adresse gelöscht",
+      "cancel_adding_address_accessibility_label": "Hinzufügen einer Adresse abbrechen",
+      "cancel_deletion_button": "Absagen",
+      "cancel_deletion_button_accessibility_label": "Löschen von {{address}} abbrechen",
+      "default_address": {
+        "title": "Standardadresse",
+        "title_accessibility_label": "Standardadresse: {{address}}"
+      },
+      "delete_button": "Löschen",
+      "delete_button_accessibility_label": "Löschen Sie {{address}}",
+      "delete_confirmation_button": "Adresse löschen",
+      "delete_confirmation_button_accessibility_label": "Löschen Sie {{address}}",
+      "delete_confirmation_message": "Adresse löschen? Bestehende Bestellungen sind davon nicht betroffen.",
+      "edit_button": "Bearbeiten",
+      "edit_button_accessibility_label": "Bearbeiten Sie {{address}}",
+      "edit_section_accessibility_label": "Bearbeiten Sie {{address}}",
+      "loading_accessibility_message": "Adresse wird geladen",
+      "loading_addresses_accessibility_message": "Adressen werden geladen",
+      "loading_billing_accessibility_message": "Rechnungsadresse wird geladen",
+      "loading_finished_accessibility_message": "Neue Seite mit Adressen wurde geladen",
+      "loading_shipping_accessibility_message": "Versandadresse wird geladen",
+      "save_new_address_accessibility_label": "Adresse speichern",
+      "title": "Adressen"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Vorschläge schließen",
+      "auto_complete_title": "Anregungen",
+      "billing_address": "Als Rechnungsadresse verwenden",
+      "cancel": "Absagen",
+      "cancel_accessibility_label": "Bearbeitung der Adresse {{address}} abbrechen",
+      "creation_success_notification": "Adresse hinzugefügt",
+      "default_address": "Dies ist meine Standardadresse",
+      "default_address_creation_success_notification": "Standardadresse hinzugefügt",
+      "default_address_update_success_notification": "Standardadresse aktualisiert",
+      "loading_add_form_accessibility_message": "Neues Adressformular wird geladen",
+      "loading_edit_form_accessibility_message": "Formular zum Bearbeiten der Adresse wird geladen",
+      "loading_finished_accessibility_message": "Formular wurde geladen",
+      "save": "Speichern"
     }
   }
 }
