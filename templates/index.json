@@ -6,15 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Get a Tea Bundle, Pay LESS!",
+            "heading": "Holy Tea Blends",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "2ee1f140-fcec-4b8d-92f3-97ee1119be49": {
           "type": "text",
           "settings": {
-            "text": "Newcomers can sample all surpassing tea blends and find the one that talks to them, while experienced tea lovers will enjoy the multifariousness our  unique bundle can offer.",
-            "text_style": "body"
+            "text": "Tea as it should be....",
+            "text_style": "subtitle"
           }
         },
         "button": {
@@ -31,18 +31,18 @@
       },
       "block_order": [
         "heading",
-        "text",
+        "2ee1f140-fcec-4b8d-92f3-97ee1119be49",
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tea-scoop-banner-1.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/tea-scoop-banner-2.jpg",
+        "image_overlay_opacity": 100,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "accent-1",
+        "color_scheme": "accent-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
@@ -54,20 +54,32 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Get a Tea Bundle, <\/p><p>Pay LESS!<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Newcomers can sample all surpassing tea blends and find the one that talks to them, while experienced tea lovers will enjoy the multifariousness our unique bundles can offer.<\/p>"
+          }
+        },
+        "6615fdc9-bad7-4eeb-8e5d-bd1ba9fac5aa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find Your Tea BUNDLE",
+            "button_link": "shopify:\/\/collections\/bundles",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "6615fdc9-bad7-4eeb-8e5d-bd1ba9fac5aa"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -81,7 +93,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Most freshly Crafted Bundles",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -150,6 +162,7 @@
         "1661703012a4037518-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1.hand-crafted-tea-blends-holy-tea-amsterdam_0da2c439-f2ea-4acc-8d50-75c16c379edb.jpg",
             "title": "Hand-crafted Blends",
             "text": "<p>Our tea blends are made by heart centred people, not mindless machines. Such as we produce everything in small, concentrated batches, our teas are always fresh, full of flavour, and loaded with vitamins and antioxidants that fill your mind, body, and spirit.<\/p>",
             "link_label": "",
@@ -159,6 +172,7 @@
         "1661703012a4037518-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/2.premium-quality-tea-blends-holy-tea-amsterdam.jpg",
             "title": "Premium Quality",
             "text": "<p>Our Team in Amsterdam (NL), Hamburg (DE), Thessaloniki (GR) are passionate about the difference that loose-leaf tea blends can make. You will find a wide range to try and to choose from.<\/p>",
             "link_label": "",
@@ -168,6 +182,7 @@
         "1661703012a4037518-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/3.worldwide-sources-tea-blends-holy-tea-amsterdam.jpg",
             "title": "Worldwide Sources",
             "text": "<p>We are proud to source all our speciality teas from around the world. This helps us support global tea workers and ensures that we get quality products to our customers.<\/p><p>Subscribe<\/p>",
             "link_label": "",
@@ -183,13 +198,13 @@
       "settings": {
         "title": "Why To Choose Holy Tea?",
         "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "square",
+        "image_width": "full",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "background_style": "none",
+        "button_label": "Choose Your Bundle",
+        "button_link": "shopify:\/\/collections\/bundles",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
