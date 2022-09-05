@@ -150,6 +150,7 @@
         "1661703012a4037518-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1.hand-crafted-tea-blends-holy-tea-amsterdam_0da2c439-f2ea-4acc-8d50-75c16c379edb.jpg",
             "title": "Hand-crafted Blends",
             "text": "<p>Our tea blends are made by heart centred people, not mindless machines. Such as we produce everything in small, concentrated batches, our teas are always fresh, full of flavour, and loaded with vitamins and antioxidants that fill your mind, body, and spirit.<\/p>",
             "link_label": "",
@@ -184,10 +185,10 @@
         "title": "Why To Choose Holy Tea?",
         "heading_size": "h1",
         "image_width": "half",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
