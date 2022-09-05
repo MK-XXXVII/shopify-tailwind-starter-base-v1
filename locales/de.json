@@ -2,7 +2,7 @@
   "general": {
     "password_page": {
       "login_form_heading": "Geben Sie den Store mit dem Passwort ein:",
-      "login_password_button": "Mit Passwort betreten",
+      "login_password_button": "Mit Passwort eingeben",
       "login_form_password_label": "Passwort",
       "login_form_password_placeholder": "Ihr Passwort",
       "login_form_error": "Falsches Passwort!",
@@ -23,9 +23,9 @@
         "instagram": "Instagram",
         "tumblr": "Tumblr",
         "snapchat": "Snapchat",
-        "youtube": "YouTube",
+        "youtube": "Youtube",
         "vimeo": "Vimeo",
-        "tiktok": "TikTok"
+        "tiktok": "Tick ​​Tack"
       }
     },
     "continue_shopping": "Weiter shoppen",
@@ -55,26 +55,26 @@
     }
   },
   "newsletter": {
-    "label": "E-Mail",
-    "success": "Danke für deine Anmeldung",
+    "label": "Email",
+    "success": "Danke fürs Abonnieren",
     "button_label": "Abonnieren"
   },
   "accessibility": {
-    "skip_to_text": "Direkt zum Inhalt",
-    "close": "Schließen",
+    "skip_to_text": "Zum Inhalt springen",
+    "close": "Nah dran",
     "unit_price_separator": "pro",
-    "vendor": "Anbieter:",
+    "vendor": "Verkäufer:",
     "error": "Fehler",
-    "refresh_page": "Wenn du dich für eine Auswahl entscheidest, wird die Seite komplett aktualisiert.",
+    "refresh_page": "Die Auswahl einer Auswahl führt zu einer vollständigen Seitenaktualisierung.",
     "link_messages": {
-      "new_window": "Wird in einem neuen Fenster geöffnet.",
-      "external": "Öffnet externe Webseite."
+      "new_window": "Öffnet in einem neuen Fenster.",
+      "external": "Öffnet externe Website."
     },
-    "loading": "Wird geladen ...",
-    "skip_to_product_info": "Zu Produktinformationen springen",
-    "total_reviews": "Bewertungen insgesamt",
+    "loading": "Wird geladen...",
+    "skip_to_product_info": "Zu den Produktinformationen springen",
+    "total_reviews": "Gesamtbewertungen",
     "star_reviews_info": "{{ rating_value }} von {{ rating_max }} Sternen",
-    "collapsible_content_title": "Einklappbarer Inhalt"
+    "collapsible_content_title": "Zusammenklappbarer Inhalt"
   },
   "blogs": {
     "article": {
@@ -97,8 +97,8 @@
     }
   },
   "onboarding": {
-    "product_title": "Beispiel für Produkttitel",
-    "collection_title": "Name deiner Kategorie"
+    "product_title": "Beispiel Produkttitel",
+    "collection_title": "Der Name Ihrer Sammlung"
   },
   "products": {
     "product": {
@@ -123,8 +123,8 @@
       "unavailable": "Nicht verfügbar",
       "vendor": "Anbieter",
       "video_exit_message": "{{ title }} öffnet das Video auf derselben Seite im Vollbildmodus.",
-      "xr_button": "In deinem Bereich ansehen",
-      "xr_button_label": "\"Ansicht in deinem Raum\" lädt den Artikel in ein Augmented-Reality-Fenster",
+      "xr_button": "Sehen Sie sich in Ihrem Raum an",
+      "xr_button_label": "Ansicht in Ihrem Bereich, lädt Artikel in Augmented-Reality-Fenster",
       "pickup_availability": {
         "view_store_info": "Shop-Informationen anzeigen",
         "check_other_stores": "Verfügbarkeit in anderen Shops überprüfen",
@@ -186,18 +186,18 @@
   },
   "templates": {
     "search": {
-      "no_results": "Keine Ergebnisse gefunden für \"{{ terms }}\". Überprüfe die Schreibweise oder versuche es mit einer anderen Suchanfrage.",
+      "no_results": "Keine Ergebnisse für „{{ terms }}“ gefunden. Überprüfen Sie die Rechtschreibung oder verwenden Sie ein anderes Wort oder einen anderen Ausdruck.",
       "results_with_count": {
         "one": "{{ count }} Ergebnis",
         "other": "{{ count }} Ergebnisse"
       },
       "title": "Suchergebnisse",
-      "page": "Seite",
+      "page": "Buchseite",
       "products": "Produkte",
-      "search_for": "Nach \"{{ terms }}\" suchen",
+      "search_for": "Suche nach „{{ terms }}“",
       "results_with_count_and_term": {
-        "one": "{{ count }} Ergebnis für \"{{ terms }}\" gefunden",
-        "other": "{{ count }} Ergebnisse für \"{{ terms }}\" gefunden"
+        "one": "{{ count }} Ergebnis gefunden für „{{ terms }}“",
+        "other": "{{ count }} Ergebnisse gefunden für „{{ terms }}“"
       }
     },
     "cart": {
@@ -206,13 +206,13 @@
     "contact": {
       "form": {
         "name": "Name",
-        "email": "E-Mail",
+        "email": "Email",
         "phone": "Telefonnummer",
         "comment": "Kommentar",
         "send": "Senden",
-        "post_success": "Danke, dass du uns kontaktiert hast. Wir werden uns so schnell wie möglich bei dir melden.",
-        "error_heading": "Bitte passe Folgendes an:",
-        "title": "Kontaktformular"
+        "post_success": "Danke, dass sie uns kontaktiert haben. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "error_heading": "Bitte passen Sie Folgendes an:",
+        "title": "Kontakt Formular"
       }
     },
     "404": {
@@ -222,11 +222,11 @@
   },
   "sections": {
     "header": {
-      "announcement": "Ankündigung",
-      "menu": "Menü",
+      "announcement": "Bekanntmachung",
+      "menu": "Speisekarte",
       "cart_count": {
-        "one": "{{ count }} Artikel",
-        "other": "{{ count }} Artikel"
+        "one": "{{ count }} Element",
+        "other": "{{ count }} Elemente"
       }
     },
     "cart": {
@@ -258,20 +258,20 @@
       }
     },
     "footer": {
-      "payment": "Zahlungsmethoden"
+      "payment": "Zahlungsarten"
     },
     "featured_blog": {
-      "view_all": "Alle anzeigen",
-      "onboarding_title": "Blog-Beitrag",
-      "onboarding_content": "Verschaffe deinen Kunden eine Übersicht über deinen Blog-Beitrag"
+      "view_all": "Alle ansehen",
+      "onboarding_title": "Blogeintrag",
+      "onboarding_content": "Geben Sie Ihren Kunden eine Zusammenfassung Ihres Blogbeitrags"
     },
     "featured_collection": {
-      "view_all": "Alle anzeigen",
-      "view_all_label": "Alle Produkte in der Kategorie {{ collection_name }} anzeigen",
-      "slider": "Slider"
+      "view_all": "Alle ansehen",
+      "view_all_label": "Sehen Sie sich alle Produkte in der {{ collection_name }}-Kollektion an",
+      "slider": "Schieberegler"
     },
     "collection_list": {
-      "view_all": "Alle anzeigen"
+      "view_all": "Alle ansehen"
     },
     "collection_template": {
       "title": "Sammlung",
@@ -285,10 +285,10 @@
       "load_slide": "Folie laden",
       "previous_slideshow": "Vorherige Folie",
       "next_slideshow": "Nächste Folie",
-      "pause_slideshow": "Slideshow pausieren",
-      "play_slideshow": "Slideshow abspielen",
+      "pause_slideshow": "Diashow anhalten",
+      "play_slideshow": "Diashow abspielen",
       "carousel": "Karussell",
-      "slide": "Folie"
+      "slide": "Gleiten"
     },
     "page": {
       "title": "Seitentitel"
@@ -400,7 +400,7 @@
       "price": "Preis",
       "quantity": "Menge",
       "total": "Gesamt",
-      "fulfilled_at_html": "Ausgeführt am {{ date }}",
+      "fulfilled_at_html": "Erfüllt {{ date }}",
       "track_shipment": "Sendung verfolgen",
       "tracking_url": "Tracking-Link",
       "tracking_company": "Träger",
@@ -1208,7 +1208,8 @@
       "invalid_start_date_or_issue_number_for_debit": "ein gültiges Startdatum oder eine Ausgabenummer ist erforderlich",
       "invalid_expiry_year": "ist kein gültiges Ablaufjahr",
       "reset_password_html": "Diese E-Mail-Adresse ist bereits mit einem Konto verknüpft. Wenn dieses Konto Ihnen gehört, können Sie <a href=\"\/account\/login#recover\">Ihr Passwort zurücksetzen<\/a>",
-      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet, bitte klicken Sie auf den darin enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen."
+      "verify_email": "Wir haben eine E-Mail an %{customer_email} gesendet, bitte klicken Sie auf den darin enthaltenen Link, um Ihre E-Mail-Adresse zu bestätigen.",
+      "product_not_available": "Produkt ist für diesen Kunden nicht veröffentlicht."
     },
     "email_marketing": {
       "subscribed": {
@@ -1389,11 +1390,23 @@
           "next": "Nächste",
           "next_accessibility_label": "Nächste Bestellungen",
           "previous": "Vorher",
-          "previous_accessibility_label": "Vorherige Bestellungen"
+          "previous_accessibility_label": "Vorherige Bestellungen",
+          "load_more": "Mehr laden",
+          "load_more_accessibility_label": "Laden Sie mehr Bestellungen"
         },
         "sort_by": "Sortieren nach: {{option}}",
         "sort_hide_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen ausblenden.",
-        "sort_show_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen anzeigen."
+        "sort_show_options_accessibility_label": "Sortieroptionen für bestätigte Bestellungen anzeigen.",
+        "column_headers": {
+          "items": "Artikel",
+          "payment_status": "Zahlungsstatus"
+        },
+        "estimated_shortform": "Europäische Sommerzeit. {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Zahlung überfällig"
+          }
+        }
       },
       "order_status": {
         "estimated_delivery": "Voraussichtliche Lieferung {{date}}",
@@ -1449,7 +1462,14 @@
       "loading_finished_accessibility_message": "Neue Seite mit Adressen wurde geladen",
       "loading_shipping_accessibility_message": "Versandadresse wird geladen",
       "save_new_address_accessibility_label": "Adresse speichern",
-      "title": "Adressen"
+      "title": "Adressen",
+      "delete_confirmation_title": "Adresse löschen?",
+      "delete_confirmation_description": "Bestehende Bestellungen sind davon nicht betroffen.",
+      "edit_modal_title": {
+        "default": "Adresse bearbeiten",
+        "billing": "Rechnungsadresse bearbeiten",
+        "shipping": "Versandadresse bearbeiten"
+      }
     },
     "address_form": {
       "auto_complete_close_accessibility_label": "Vorschläge schließen",
@@ -1489,7 +1509,10 @@
         "section_title": "Ort",
         "shipping_address_required": "Fügen Sie diesem Standort eine Lieferadresse hinzu, um Bestellungen aufzugeben.",
         "tax_details_title": "Steuerdetails",
-        "tax_id": "Steuer ID"
+        "tax_id": "Steuer ID",
+        "taxes_none": "Keiner",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Alle Steuerbefreiungen anzeigen"
       },
       "addresses": {
         "cancel_adding_shipping_address_accessibility_label": "Hinzufügen der Lieferadresse abbrechen",
@@ -1506,9 +1529,12 @@
           "title": "Im Rückblick",
           "pagination": {
             "nav_accessibility_label": "Navigationsschaltflächen für Bestellungen in der Überprüfung"
-          }
+          },
+          "show_all_orders_in_review": "Alle Bestellungen im Überblick anzeigen",
+          "show_less_orders_in_review": "Weniger Bestellungen in der Überprüfung anzeigen"
         },
-        "order_list_column_headers_location": "Ort"
+        "order_list_column_headers_location": "Ort",
+        "order_list_column_headers_contact": "Kontakt"
       },
       "draft_order_details": {
         "draft_order_subtitle": "Bestätigt {{date}} von Auftrag {{draftOrderName}}",
@@ -1529,7 +1555,9 @@
             "title_with_date": "Zahlung fällig {{date}}",
             "description_overdue": "Ihre Zahlung ist verspätet.",
             "description_partially_paid": "Diese Bestellung wurde teilweise bezahlt. Sie haben ein Restguthaben.",
-            "description_authorized": "Ihre Zahlungsmethode wird am Fälligkeitsdatum belastet, oder Sie können jetzt bezahlen."
+            "description_authorized": "Ihre Zahlungsmethode wird am Fälligkeitsdatum belastet, oder Sie können jetzt bezahlen.",
+            "title_due_on_receipt": "Zahlung noch nicht fällig",
+            "description_due_on_receipt": "Bei Fälligkeit erhalten Sie eine Rechnung."
           },
           "draft": {
             "description": "Zahlungsdetails werden entschieden, wenn die Bestellung bestätigt wird.",
@@ -1600,7 +1628,10 @@
       "legal_notice": "Impressum",
       "privacy_policy": "Datenschutz-Bestimmungen",
       "refund_policy": "Rückgaberecht",
-      "shipping_policy": "Versandbedingungen"
+      "shipping_policy": "Versandbedingungen",
+      "subscription_policy": "Abonnementrichtlinie",
+      "terms_of_sale": "Verkaufsbedingungen",
+      "terms_of_service": "Nutzungsbedingungen"
     }
   }
 }
