@@ -67,7 +67,7 @@
     "error": "Erreur",
     "refresh_page": "Le choix d'une sélection entraîne l'actualisation de la page entière.",
     "link_messages": {
-      "new_window": "S'ouvre dans une nouvelle fenêtre.",
+      "new_window": "Ouvre dans une nouvelle fenêtre.",
       "external": "Ouvre un site web externe."
     },
     "loading": "Chargement en cours...",
@@ -124,8 +124,8 @@
       "unavailable": "Indisponible",
       "vendor": "Distributeur",
       "video_exit_message": "{{ title }} ouvre la vidéo en plein écran dans la même fenêtre.",
-      "xr_button": "Afficher dans son espace",
-      "xr_button_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée",
+      "xr_button": "Voir dans votre espace",
+      "xr_button_label": "Visualisez dans votre espace, charge l'élément dans la fenêtre de réalité augmentée",
       "pickup_availability": {
         "view_store_info": "Afficher les informations du magasin",
         "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
@@ -407,7 +407,7 @@
       "price": "Prix",
       "quantity": "Quantité",
       "total": "Total",
-      "fulfilled_at_html": "Traitée le {{ date }}",
+      "fulfilled_at_html": "Rempli {{ date }}",
       "track_shipment": "Suivi de livraison",
       "tracking_url": "Lien de suivi",
       "tracking_company": "Transporteur",
@@ -1041,7 +1041,8 @@
       "invalid_start_date_or_issue_number_for_debit": "une date de début ou un numéro d'émission valide est requis",
       "invalid_expiry_year": "n'est pas une année d'expiration valide",
       "reset_password_html": "Cette adresse e-mail est déjà associée à un compte. Si ce compte vous appartient, vous pouvez <a href=\"\/account\/login#recover\">réinitialiser votre mot de passe<\/a>",
-      "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail."
+      "verify_email": "Nous avons envoyé un e-mail à %{customer_email}, veuillez cliquer sur le lien inclus pour vérifier votre adresse e-mail.",
+      "product_not_available": "le produit n'est pas publié pour ce client."
     },
     "notices": {
       "order": {
@@ -1276,7 +1277,9 @@
           "order_date": "Date de commande",
           "order_number": "Numéro de commande",
           "status": "Statut de la commande",
-          "total": "Total"
+          "total": "Total",
+          "items": "Articles",
+          "payment_status": "Statut de paiement"
         },
         "delivered": "Livré {{date}}",
         "empty_state_order_source_description": "Seules les commandes passées par {{email}} s'afficheront ici.",
@@ -1304,7 +1307,9 @@
           "next": "Prochain",
           "next_accessibility_label": "Prochaines commandes",
           "previous": "Précédent",
-          "previous_accessibility_label": "Commandes précédentes"
+          "previous_accessibility_label": "Commandes précédentes",
+          "load_more": "Charger plus",
+          "load_more_accessibility_label": "Charger plus de commandes"
         },
         "sort_by": "Trier par : {{option}}",
         "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
@@ -1332,7 +1337,8 @@
         "payment_status": {
           "list_view": {
             "due": "Paiement dû {{date}}",
-            "due_today": "Paiement dû aujourd'hui"
+            "due_today": "Paiement dû aujourd'hui",
+            "overdue": "Retard de paiement"
           },
           "table_view": {
             "overdue": "En retard",
@@ -1341,7 +1347,8 @@
             "paid": "Payé"
           }
         },
-        "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}"
+        "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}",
+        "estimated_shortform": "Est. {{date}}"
       },
       "order_status": {
         "canceled_description": "Votre commande a été annulée le {{date}}.",
@@ -1415,6 +1422,13 @@
       "pagination": {
         "load_more": "Charger plus",
         "load_more_accessibility_label": "Charger plus d'adresses"
+      },
+      "delete_confirmation_title": "Supprimer l'adresse ?",
+      "delete_confirmation_description": "Les commandes existantes ne sont pas affectées.",
+      "edit_modal_title": {
+        "default": "Modifier l'adresse",
+        "billing": "Modifier l'adresse de facturation",
+        "shipping": "Modifier l'adresse de livraison"
       }
     },
     "address_form": {
@@ -1579,7 +1593,10 @@
       "legal_notice": "Mention légale",
       "privacy_policy": "Politique de confidentialité",
       "refund_policy": "Politique de remboursement",
-      "shipping_policy": "Politique d'expédition"
+      "shipping_policy": "Politique d'expédition",
+      "subscription_policy": "Politique d'abonnement",
+      "terms_of_sale": "Conditions de vente",
+      "terms_of_service": "Conditions d'utilisation"
     }
   }
 }
