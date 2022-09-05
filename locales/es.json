@@ -621,7 +621,29 @@
           "due_later": "Total adeudado %{due_at}",
           "due_later_checkout_to_draft": "Total adeudado más tarde"
         },
-        "maximum_discount_code_limit_reached": "Has alcanzado el número máximo de códigos de descuento. Elimina un código existente para usar <strong style=\"text-transform:uppercase\">%{code}<\/strong>."
+        "maximum_discount_code_limit_reached": "Has alcanzado el número máximo de códigos de descuento. Elimina un código existente para usar <strong style=\"text-transform:uppercase\">%{code}<\/strong>.",
+        "product_change_label": "Cambio",
+        "product_image_label": "Imagen del producto",
+        "scroll_order_summary": "Desplácese para ver más artículos",
+        "expand_order_summary": "Mostrar resumen del pedido",
+        "collapse_order_summary": "Ocultar resumen del pedido",
+        "original_price": "Precio original",
+        "sale_price": "Precio de venta",
+        "total_updated_label": "Precio total actualizado:",
+        "order_total_updated_label": "total actualizado",
+        "total_already_paid_label": "Ya pagado",
+        "unit_price": {
+          "accessible_separator": "por",
+          "content_html": "%{price}%{accessible_separator}%{per_unit}"
+        },
+        "gift_card_ending": "Tarjeta de regalo que termina en %{last_characters}",
+        "estimated_tax_label": "Impuesto estimado",
+        "multiple_shipping_lines_label": "Envío total",
+        "recurring_total_label": "total recurrente",
+        "recurring_total_tooltip": "No incluye gastos de envío, impuestos, aranceles ni ningún descuento aplicable.",
+        "confirmation_number_label": "Confirmación #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> no se pudo usar con sus descuentos existentes. Ya tienes una combinación mejor.",
+        "percent_off_shipping": "%{percent}% de descuento en el envío"
       },
       "shipping": {
         "title": "Transporte",
@@ -639,11 +661,13 @@
         "cheapest_rate_label": "Lo mas barato",
         "please_enter_your_shipping_information_notice": "Por favor ingrese su información de envío.",
         "estimated_delivery_date": {
-          "one": "%{count} día laborable"
+          "one": "%{count} día laborable",
+          "other": "%{count} días hábiles"
         },
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
-            "other": "para %{count} entregas"
+            "other": "para %{count} entregas",
+            "one": "para %{count} entrega"
           },
           "subscription_delivery_frequency": {
             "day": {
@@ -686,7 +710,27 @@
         "one_time_purchase_shipping": "Envío único",
         "subscription_local_delivery": "Entrega local de suscripción",
         "subscription_pickup": "recogida de suscripción",
-        "delivery_date_range": "%{min_time}–%{max_time}"
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "estimated_delivery_date_range": "%{minimum} a %{maximum} días hábiles",
+        "estimated_delivery_time": "Entrega estimada %{time}",
+        "estimated_delivery_time_range": "Entrega estimada %{min_time}–%{max_time}",
+        "arrives_time": "llega %{time}",
+        "arrives_time_range": "Llega %{min_time}–%{max_time}",
+        "estimated_time": "%{time} estimado",
+        "estimated_time_range": "%{min_time}–%{max_time} estimado",
+        "shipping_line_phone_label": "Número de teléfono móvil (requerido)",
+        "shipping_line_phone": "Su mensajero puede utilizar este número para ponerse en contacto con usted.",
+        "shipping_line_delivery_phone_label": "Número de teléfono móvil",
+        "shipping_line_delivery_phone": "Podemos usar este número para llamarlo o enviarle un mensaje de texto sobre su entrega.",
+        "optional_shipping_line_delivery_instructions_label": "Instrucciones de entrega (opcional)",
+        "shipping_line_delivery_instructions": "Ingrese la información necesaria, como códigos de puerta o instrucciones de entrega.",
+        "other_method": {
+          "zero": "No hay otros métodos disponibles",
+          "one": "%{count} otro método disponible en",
+          "other": "%{count} otros métodos disponibles a partir de"
+        },
+        "shipping_rate_discounted_amount": "Era: %{original_amount}. Ahora: %{amount}",
+        "local_delivery": "Entrega local"
       },
       "localized_fields": {
         "additional_information": {
@@ -766,7 +810,27 @@
             "amount": "Monto",
             "find_nearest_atm": "Encuentra el cajero automático más cercano"
           }
-        }
+        },
+        "credit_card_vaulting_sign_in_banner_title": "Guarde su tarjeta de crédito",
+        "credit_card_vaulting_sign_in_banner_info": "Inicie sesión o cree una cuenta para guardar su tarjeta de crédito para futuras compras.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Iniciar sesión",
+        "ftd_vault_credit_card_label": "Guarde esta tarjeta de crédito en mi cuenta para pagar más rápido",
+        "card_number_label": "Número de tarjeta",
+        "card_number_placeholder": "Número de tarjeta",
+        "card_pay_with": "Pagar con:",
+        "card_security_notice": "Todas las transacciones son seguras y encriptadas.",
+        "card_security_vault_notice": "Necesitamos sus datos para futuros pagos. Todas las transacciones son seguras y encriptadas.",
+        "card_information_notice": "Todas las transacciones son seguras y encriptadas. La información de la tarjeta de crédito nunca se almacena.",
+        "name_on_card_label": "Nombre en la tarjeta",
+        "name_on_card_placeholder": "Nombre en la tarjeta",
+        "card_expired": "Venció",
+        "card_expiry_label": "Fecha de caducidad (MM \/ AA)",
+        "card_expiry_placeholder": "Fecha de caducidad (MM \/ AA)",
+        "credit_card_start_month": "Mes de inicio",
+        "credit_card_start_year": "Año de inicio",
+        "delete_customer_mandate_modal_title": "¿Quitar esta tarjeta de pago?",
+        "delete_customer_mandate_modal_body": "Si quita esta tarjeta, deberá volver a agregarla antes de usarla para pagos.",
+        "delete_customer_mandate_modal_confirm": "Quitar tarjeta"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Saldo actual %{amount}",
