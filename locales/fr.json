@@ -366,9 +366,9 @@
       "order_number_link": "Numéro de commande {{ number }}",
       "date": "Date",
       "payment_status": "Statut de paiement",
-      "fulfillment_status": "Statut des commandes",
+      "fulfillment_status": "État d'exécution",
       "total": "Total",
-      "none": "Vous n'avez encore passé aucune commande."
+      "none": "Vous n'avez pas encore passé de commande."
     },
     "recover_password": {
       "title": "réinitialisez votre mot de passe",
@@ -394,21 +394,21 @@
       "title": "Commande {{ name }}",
       "date_html": "Placé sur {{ date }}",
       "cancelled_html": "Commande annulée le {{ date }}",
-      "cancelled_reason": "Motif : {{ reason }}",
+      "cancelled_reason": "Raison : {{ reason }}",
       "billing_address": "Adresse de facturation",
       "payment_status": "Statut de paiement",
-      "shipping_address": "Adresse d'expédition",
-      "fulfillment_status": "Statut des commandes",
+      "shipping_address": "Adresse de livraison",
+      "fulfillment_status": "Statut d'exécution",
       "discount": "Remise",
       "shipping": "Expédition",
-      "tax": "Taxes",
+      "tax": "Impôt",
       "product": "Produit",
-      "sku": "SKU",
+      "sku": "UGS",
       "price": "Prix",
       "quantity": "Quantité",
       "total": "Total",
       "fulfilled_at_html": "Traitée le {{ date }}",
-      "track_shipment": "Suivre l'envoi",
+      "track_shipment": "Suivi de livraison",
       "tracking_url": "Lien de suivi",
       "tracking_company": "Transporteur",
       "tracking_number": "Numéro de suivi",
@@ -422,12 +422,12 @@
       "subtext": "Votre carte cadeau",
       "gift_card_code": "Code carte cadeau",
       "shop_link": "Continuer vos achats",
-      "remaining_html": "Reste {{ balance }}",
-      "add_to_apple_wallet": "Ajouter à Apple Wallet",
-      "qr_image_alt": "Code QR : scannez-le pour utiliser votre carte-cadeau",
+      "remaining_html": "{{ balance }} restant",
+      "add_to_apple_wallet": "Ajouter au portefeuille Apple",
+      "qr_image_alt": "Code QR - scannez pour utiliser la carte-cadeau",
       "copy_code": "Copier le code",
       "expired": "Expiré",
-      "copy_code_success": "Le code a bien été copié",
+      "copy_code_success": "Code copié avec succès",
       "print_gift_card": "Imprimer"
     }
   },
@@ -1229,7 +1229,24 @@
       "navigation_accessibility_message": "Vous avez navigué jusqu'à {{sectionName}}",
       "open_menu_accessibility_label": "Ouvrir la navigation principale",
       "orders_link_label": "Ordres",
-      "shop_logo_accessibility_label": "{{shopName}} logo"
+      "shop_logo_accessibility_label": "{{shopName}} logo",
+      "account_menu": {
+        "hide_accessibility_label": "Masquer le menu du compte",
+        "label": "Compte",
+        "show_accessibility_label": "Afficher le menu Compte"
+      },
+      "action_menu_accessibility_label": "Plus d'actions",
+      "close_menu_accessibility_label": "Fermer la navigation principale",
+      "contact_email_subject": "Contact de la boutique en ligne {{shopName}}",
+      "contact_link": "Contactez-nous",
+      "delete_confirmation": {
+        "cancel": "Annuler",
+        "delete": "Effacer"
+      },
+      "dismiss_toast": "Rejeter",
+      "document_title": "{{sectionName}} - {{shopName}} - Compte",
+      "generic_accessibility_label": "{{label}} : {{value}}",
+      "go_to_store_link": "Aller au magasin"
     },
     "account_information": {
       "loading_accessibility_message": "Chargement des informations de compte",
