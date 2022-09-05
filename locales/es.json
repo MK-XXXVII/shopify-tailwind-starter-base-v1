@@ -705,7 +705,79 @@
         "card_fields_unavailable_html": {
           "one": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br><a href=\"%{current_url}\">Actualice esta página<\/a> o vuelva a intentarlo más tarde.",
           "other": "Los pagos con tarjeta de crédito y débito no están disponibles en este momento.<br><a href=\"%{current_url}\">Actualice esta página<\/a> o pruebe con otro método de pago."
-        }
+        },
+        "subscription_agreement_label_html": "Entiendo que estoy de acuerdo con una suscripción. Se renovará al precio y frecuencia indicados hasta que finalice o sea\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">cancelado<\/a>.",
+        "change_currency_section_description": "Seleccione una opción de moneda",
+        "no_real_orders_dev_store": "Esta tienda no puede aceptar pedidos reales o pagos reales.",
+        "waiting_on_payment_methods": "Obtener métodos de pago disponibles...",
+        "apple_pay_payment_error": "No se pudo completar su pago. Vuelve a intentarlo o utiliza otro método de pago.",
+        "taxes_not_included": "Impuestos no incluidos",
+        "no_taxes_banner_content": "No se cobrarán impuestos en este pedido. Una vez que haya cobrado el pago, ya no se pueden agregar impuestos.",
+        "paypal": {
+          "connect": "Haga clic para conectar su cuenta de PayPal"
+        },
+        "apple": {
+          "connect": "Haga clic para conectar su cuenta de Apple Pay",
+          "not_available": "Apple Pay no está disponible en este navegador. Para conectar su cuenta de Apple Pay, deberá usar Safari en un dispositivo Apple."
+        },
+        "google": {
+          "connect": "Haga clic para conectarse con su cuenta de Google Pay",
+          "error_authorizing": "Error al autorizar el pago"
+        },
+        "account_connected": "Cuenta conectada",
+        "email_connected": "Cuenta conectada:",
+        "mor_disclaimer_html": "Al hacer clic a continuación y completar su pedido, acepta comprar sus artículos de Global-e como comerciante registrado\npara esta transacción, en los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Términos y Condiciones<\/a> de Global-e\ny <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de Privacidad<\/a>. Global-e es una empresa internacional\nproveedor de servicios de cumplimiento a %{shop_name}"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Saldo actual %{amount}",
+        "credit_card_expires_on_notice": "Caduca el %{month}\/%{year}",
+        "express_payment_gateway_label": "Expresar",
+        "manual_payment_gateway_label": "Manual",
+        "billing_address_title": "Dirección de Envio"
+      },
+      "field_errors": {
+        "address_address2_blank": "Introduzca un apartamento, suite, etc.",
+        "address_address2_too_long": "La segunda línea de dirección es demasiado larga (máximo 255 caracteres)",
+        "address_address2_contains_emojis": "Address2 no puede contener emojis",
+        "address_address2_contains_html_tags": "Address2 no puede contener etiquetas HTML.",
+        "address_city_blank": "Introduce una ciudad",
+        "address_city_too_long": "La ciudad es demasiado larga (el máximo es de 255 caracteres)",
+        "address_city_contains_emojis": "La ciudad no puede contener emojis",
+        "address_city_contains_html_tags": "La ciudad no puede contener etiquetas HTML.",
+        "address_country_blank": "Seleccione un país\/región",
+        "address_country_not_supported": "No enviamos a este país o región. Introduce una nueva dirección de envío e inténtalo de nuevo.",
+        "address_province_blank": "Selecciona un estado\/provincia",
+        "address_company_blank": "Introduzca un nombre de empresa",
+        "address_company_too_long": "El nombre de la empresa es demasiado largo (el máximo es de 255 caracteres)",
+        "address_company_contains_emojis": "La empresa no puede contener emojis",
+        "address_company_contains_html_tags": "La empresa no puede contener etiquetas HTML.",
+        "address_phone_blank": "Introduce un número de teléfono válido",
+        "address_phone_contains_emojis": "El número de teléfono no puede contener emojis",
+        "address_zip_blank": "Ingrese un ZIP \/ código postal",
+        "address_zip_invalid_for_country": "Ingrese un código postal válido para %{country}",
+        "address_zip_invalid_for_country_and_province": "Ingrese un código postal válido para %{province}, %{country}",
+        "gift_card_expired": "Esta tarjeta de regalo ha caducado",
+        "gift_card_depleted": "A esta tarjeta de regalo no le quedan fondos",
+        "gift_card_currency_mismatch": "Solo se pueden usar tarjetas de regalo en %{checkout_currency} con este pedido",
+        "payment_gateway_needs_paid_plan_error": "Este método de pago no está disponible en la tienda en este momento",
+        "payment_gateway_not_in_test_mode": "no está configurado para probar pedidos. Esta tienda no puede aceptar pedidos reales o pagos reales.",
+        "payment_gateway_incompatible_with_multi_currency": "Para completar este pago en su moneda local, debe pagar con tarjeta de crédito.",
+        "payment_gateway_unsupported_for_subscriptions": "Este método de pago no está disponible para pedidos de suscripción.",
+        "subscription_agreement_blank": "Para continuar con su compra, acepte los términos de suscripción",
+        "physical_gift_card_invalid_quantity": "Las líneas de pedido de tarjetas de regalo físicas deben tener una cantidad que coincida con la cantidad de códigos de tarjetas de regalo.",
+        "physical_gift_card_duplicate_code": "La línea de pedido de la tarjeta de regalo física contiene un código duplicado.",
+        "physical_gift_card_invalid_code": "El código de la tarjeta de regalo física no es válido."
+      },
+      "payment_errors": {
+        "generic_error": "Hubo un problema al procesar su pago. Vuelve a intentarlo o utiliza otro método de pago.",
+        "rejected_transaction": "Su pago fue rechazado. Vuelve a intentarlo o utiliza otro método de pago.",
+        "credit_card_processing": "Su pago no se puede procesar por razones técnicas. Vuelve a intentarlo en unos minutos o utiliza otro método de pago.",
+        "checkout_amount_changed": "No se pudo procesar su pago porque el monto adeudado al finalizar la compra ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_payment_not_allowed": "No se permiten pagos diferidos. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_amount_changed": "No se pudo procesar su pago porque el monto del pago diferido cambió. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "deferred_date_changed": "No se pudo procesar su pago porque la fecha de pago diferido ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
+        "order_total_changed": "No se pudo procesar su pago porque el total de su pedido ha cambiado. Comprueba el total de tu pedido e inténtalo de nuevo."
       }
     }
   }
