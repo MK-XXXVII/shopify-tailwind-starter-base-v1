@@ -1,13 +1,13 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Accéder à la boutique à l'aide d'un mot de passe :",
+      "login_form_heading": "Entrez dans le magasin en utilisant le mot de passe :",
       "login_password_button": "Saisir avec un mot de passe",
       "login_form_password_label": "Mot de passe",
       "login_form_password_placeholder": "Votre mot de passe",
       "login_form_error": "Mot de passe incorrect !",
-      "login_form_submit": "Saisir",
-      "admin_link_html": "La boutique vous appartient-elle ? <a href=\"\/admin\" class=\"link underlined-link\">Se connecter ici<\/a>",
+      "login_form_submit": "Entrer",
+      "admin_link_html": "Êtes-vous le propriétaire du magasin ? <a href=\"\/admin\" class=\"link underlined-link\">Connectez-vous ici<\/a>",
       "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}"
     },
     "social": {
@@ -92,7 +92,7 @@
       "message": "Commentaire",
       "post": "Publier le commentaire",
       "back_to_blog": "Retour au blog",
-      "share": "Partager cet article",
+      "share": "Partagez cet article",
       "success": "Votre commentaire a bien été publié ! Merci !",
       "success_moderated": "Votre commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog."
     }
@@ -121,7 +121,7 @@
       },
       "share": "Partager ce produit",
       "sold_out": "Épuisé",
-      "unavailable": "Non disponible",
+      "unavailable": "Indisponible",
       "vendor": "Distributeur",
       "video_exit_message": "{{ title }} ouvre la vidéo en plein écran dans la même fenêtre.",
       "xr_button": "Afficher dans son espace",
@@ -281,9 +281,9 @@
       "view_all": "Tout afficher"
     },
     "collection_template": {
-      "title": "Collection",
+      "title": "Le recueil",
       "empty": "Aucun produit trouvé",
-      "use_fewer_filters_html": "Utiliser moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">tout supprimer<\/a>"
+      "use_fewer_filters_html": "Utilisez moins de filtres ou <a class=\"{{ class }}\" href=\"{{ link }}\">supprimez-les tous<\/a>"
     },
     "video": {
       "load_video": "Charger la vidéo : {{ description }}"
@@ -330,21 +330,21 @@
       "edit_address": "Modifier l'adresse",
       "first_name": "Prénom",
       "last_name": "Nom de famille",
-      "company": "Entreprise",
+      "company": "Compagnie",
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "Ville",
       "country": "Pays\/région",
       "province": "Province",
       "zip": "Code postal",
-      "phone": "Téléphone",
+      "phone": "Téléphoner",
       "set_default": "Définir comme adresse par défaut",
-      "add": "Ajouter l'adresse",
+      "add": "Ajoutez l'adresse",
       "update": "Mettre à jour l'adresse",
       "cancel": "Annuler",
-      "edit": "Modifier",
-      "delete": "Supprimer",
-      "delete_confirm": "Êtes-vous certain(e) de vouloir supprimer cette adresse ?"
+      "edit": "Éditer",
+      "delete": "Effacer",
+      "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
     },
     "log_in": "Connexion",
     "log_out": "Déconnexion",
@@ -362,10 +362,10 @@
     },
     "orders": {
       "title": "Historique des commandes",
-      "order_number": "Commande",
+      "order_number": "Ordre",
       "order_number_link": "Numéro de commande {{ number }}",
       "date": "Date",
-      "payment_status": "Statut des paiements",
+      "payment_status": "Statut de paiement",
       "fulfillment_status": "Statut des commandes",
       "total": "Total",
       "none": "Vous n'avez encore passé aucune commande."
@@ -1062,6 +1062,48 @@
         "confirmation": "Merci de vous être abonné à notre liste de diffusion.",
         "disclaimer": "Vous pouvez vous désinscrire à tout moment.",
         "unsubscribe": "Se désabonner"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Rupture de stock"
+        }
+      },
+      "vendor": {
+        "label": "Marque"
+      },
+      "price": {
+        "label": "Prix"
+      },
+      "product_type": {
+        "label": "Type de produit"
+      },
+      "boolean": {
+        "true_label": "Oui",
+        "false_label": "Non"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Pertinence",
+        "price_ascending": "Prix ​​croissant",
+        "price_descending": "Prix, décroissant"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Erreur - %{title}",
+      "products": "Des produits",
+      "shopping_cart": "Votre Panier",
+      "account": "Compte",
+      "create_account": "Créer un compte",
+      "reset_account": "Réinitialiser le compte",
+      "addresses": "Adresses",
+      "order": "Commande %{name}",
+      "search": "Chercher",
+      "search_results": {
+        "one": "Recherche : %{count} résultat trouvé pour \"%{terms}\"",
+        "other": "Recherche : %{count} résultats trouvés pour \"%{terms}\""
       }
     }
   }
