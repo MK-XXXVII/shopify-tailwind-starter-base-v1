@@ -6,15 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Get a Tea Bundle, Pay LESS!",
+            "heading": "Holy Tea Blends",
             "heading_size": "h0"
           }
         },
-        "text": {
+        "2ee1f140-fcec-4b8d-92f3-97ee1119be49": {
           "type": "text",
           "settings": {
-            "text": "Newcomers can sample all surpassing tea blends and find the one that talks to them, while experienced tea lovers will enjoy the multifariousness our  unique bundle can offer.",
-            "text_style": "body"
+            "text": "Tea as it should be....",
+            "text_style": "subtitle"
           }
         },
         "button": {
@@ -31,7 +31,7 @@
       },
       "block_order": [
         "heading",
-        "text",
+        "2ee1f140-fcec-4b8d-92f3-97ee1119be49",
         "button"
       ],
       "settings": {
@@ -54,14 +54,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>Get a Tea Bundle, <\/p><p>Pay LESS!<\/p>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Newcomers can sample all surpassing tea blends and find the one that talks to them, while experienced tea lovers will enjoy the multifariousness our unique bundles can offer.<\/p>"
           }
         }
       },
