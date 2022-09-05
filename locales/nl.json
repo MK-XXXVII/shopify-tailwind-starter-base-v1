@@ -87,13 +87,13 @@
       "moderated": "Let op: opmerkingen moeten worden goedgekeurd voordat ze worden gepubliceerd.",
       "comment_form_title": "laat een reactie achter",
       "name": "Naam",
-      "email": "E‑mail",
-      "message": "Reactie",
+      "email": "E-mail",
+      "message": "Opmerking",
       "post": "Plaats een reactie",
       "back_to_blog": "Terug naar blog",
       "share": "deel dit artikel",
-      "success": "Je reactie is geplaatst! Bedankt!",
-      "success_moderated": "Je reactie is geplaatst. Wij publiceren het zo; onze blog wordt gemodereerd."
+      "success": "Je reactie is succesvol geplaatst! Dank je!",
+      "success_moderated": "Uw reactie is succesvol geplaatst. We zullen het over een tijdje publiceren, omdat onze blog wordt gemodereerd."
     }
   },
   "onboarding": {
@@ -107,56 +107,56 @@
       "on_sale": "Uitverkoop",
       "product_variants": "Productvarianten",
       "quantity": {
-        "label": "Aantal",
-        "input_label": "Aantal voor {{ product }}",
-        "increase": "Aantal verhogen voor {{ product }}",
-        "decrease": "Aantal verlagen voor {{ product }}"
+        "label": "Hoeveelheid",
+        "input_label": "Hoeveelheid voor {{ product }}",
+        "increase": "Verhoog de hoeveelheid voor {{ product }}",
+        "decrease": "Aantal verminderen voor {{ product }}"
       },
       "price": {
-        "from_price_html": "Vanaf {{ price }}",
+        "from_price_html": "Van {{ price }}",
         "regular_price": "Normale prijs",
-        "sale_price": "Aanbiedingsprijs",
-        "unit_price": "Eenheidsprijs"
+        "sale_price": "Verkoopprijs",
+        "unit_price": "Eenheid prijs"
       },
-      "share": "Dit product delen",
+      "share": "Deel dit product",
       "sold_out": "Uitverkocht",
       "unavailable": "Niet beschikbaar",
       "vendor": "Leverancier",
-      "video_exit_message": "{{ title }} opent een video op volledig scherm in hetzelfde venster.",
+      "video_exit_message": "{{ title }} opent video op volledig scherm in hetzelfde venster.",
       "xr_button": "Bekijk in je ruimte",
       "xr_button_label": "Bekijk in je ruimte, laadt artikel in augmented reality-venster",
       "pickup_availability": {
-        "view_store_info": "Winkelgegevens bekijken",
-        "check_other_stores": "Controleer de beschikbaarheid bij andere winkels",
-        "pick_up_available": "Afhaling is beschikbaar",
-        "pick_up_available_at_html": "Afhaling is beschikbaar bij <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "pick_up_unavailable_at_html": "Afhaling is momenteel niet beschikbaar bij <span class=\"color-foreground\">{{ location_name }}<\/span>",
-        "unavailable": "Kan beschikbaarheid voor afhalen niet laden",
+        "view_store_info": "Winkelinformatie bekijken",
+        "check_other_stores": "Check beschikbaarheid bij andere winkels",
+        "pick_up_available": "Afhalen mogelijk",
+        "pick_up_available_at_html": "Ophalen mogelijk bij <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Ophalen is momenteel niet mogelijk op <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Kan ophaalbeschikbaarheid niet laden",
         "refresh": "Vernieuwen"
       },
       "media": {
-        "open_media": "Media {{ index }} openen in modaal",
-        "play_model": "3D-viewer afspelen",
+        "open_media": "Open media {{ index }} in modaal",
+        "play_model": "Speel 3D-viewer",
         "play_video": "Video afspelen",
-        "gallery_viewer": "Gallery-weergave",
-        "load_image": "Afbeelding {{ index }} laden in gallery-weergave",
-        "load_model": "3D-model {{ index }} laden in gallery-weergave",
-        "load_video": "Video {{ index }} afspelen in gallery-weergave",
-        "image_available": "Afbeelding {{ index }} is nu beschikbaar in gallery-weergave"
+        "gallery_viewer": "Galerijviewer",
+        "load_image": "Laad afbeelding {{ index }} in galerijweergave",
+        "load_model": "Laad 3D-model {{ index }} in galerijweergave",
+        "load_video": "Video afspelen {{ index }} in galerijweergave",
+        "image_available": "Afbeelding {{ index }} is nu beschikbaar in de galerijweergave"
       },
-      "view_full_details": "Alle details bekijken",
+      "view_full_details": "Bekijk alle details",
       "include_taxes": "Inclusief belasting.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten<\/a> berekend bij het afrekenen.",
-      "choose_options": "Opties kiezen",
-      "choose_product_options": "Opties kiezen voor {{ product_name }}"
+      "choose_options": "Kies opties",
+      "choose_product_options": "Kies opties voor {{ product_name }}"
     },
     "modal": {
-      "label": "Mediagalerij"
+      "label": "Media galerij"
     },
     "facets": {
-      "apply": "Toepassen",
-      "clear": "Wissen",
-      "clear_all": "Alles verwijderen",
+      "apply": "Van toepassing zijn",
+      "clear": "Duidelijk",
+      "clear_all": "Verwijder alles",
       "from": "Van",
       "filter_and_sort": "Filteren en sorteren",
       "filter_by_label": "Filter:",
@@ -343,15 +343,15 @@
     "log_out": "Uitloggen",
     "login_page": {
       "cancel": "Annuleren",
-      "create_account": "Account aanmaken",
-      "email": "E‑mail",
-      "forgot_password": "Wachtwoord vergeten?",
+      "create_account": "Maak account",
+      "email": "E-mail",
+      "forgot_password": "Je wachtwoord vergeten?",
       "guest_continue": "Doorgaan",
-      "guest_title": "Doorgaan als gast",
+      "guest_title": "Ga verder als gast",
       "password": "Wachtwoord",
-      "title": "Inloggegevens",
-      "sign_in": "Inloggen",
-      "submit": "Verzenden"
+      "title": "Log in",
+      "sign_in": "Log in",
+      "submit": "Indienen"
     },
     "orders": {
       "title": "Besteloverzicht",
@@ -406,7 +406,7 @@
       "tracking_company": "Vervoerder",
       "tracking_number": "Trackingnummer",
       "subtotal": "Subtotaal",
-      "total_duties": "Douanerechten"
+      "total_duties": "Taken"
     }
   },
   "gift_cards": {
