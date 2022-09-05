@@ -614,12 +614,15 @@
         "amount_off_shipping": "%{amount} Rabatt auf den Versand",
         "deferred_payment_info": {
           "title": "Die Zahlung von %{amount_due} ist am %{due_at} fällig",
-          "description_html": "Bei Fragen zu Ihrer Bestellung, %{contact_us}."
+          "description_html": "Bei Fragen zu Ihrer Bestellung, %{contact_us}.",
+          "paid_today": "Heute insgesamt bezahlt"
         },
         "payment_terms_totals": {
           "due_today": "Insgesamt heute fällig",
-          "due_later": "Gesamt fällig %{due_at}"
-        }
+          "due_later": "Gesamt fällig %{due_at}",
+          "due_later_checkout_to_draft": "Gesamtbetrag später fällig"
+        },
+        "maximum_discount_code_limit_reached": "Sie haben die maximale Anzahl an Rabattcodes erreicht. Entfernen Sie einen vorhandenen Code, um <strong style=\"text-transform:uppercase\">%{code}<\/strong> zu verwenden."
       },
       "shipping": {
         "title": "Versand",
@@ -681,7 +684,10 @@
             "other": "Für die ersten %{count} Bestellungen"
           }
         },
-        "one_time_purchase_shipping": "Einmaliger Versand"
+        "one_time_purchase_shipping": "Einmaliger Versand",
+        "subscription_local_delivery": "Abonnement lokale Lieferung",
+        "subscription_pickup": "Abholung des Abonnements",
+        "delivery_date_range": "%{min_time}–%{max_time}"
       },
       "localized_fields": {
         "additional_information": {
@@ -742,7 +748,21 @@
         "bank_picker_label": "Bank",
         "subscription_card_update_agreement_label": "Wenn Sie die Zahlungsmethode ändern, werden Ihr Abonnement und zukünftige wiederkehrende Zahlungen aktualisiert.",
         "subscription_agreement_label": "Ich verstehe, dass ich einem Abonnement zustimme. Es wird zum angegebenen Preis und in der angegebenen Häufigkeit verlängert, bis es endet oder %{cancelled} beträgt.",
-        "subscription_agreement_cancelled": "abgesagt"
+        "subscription_agreement_cancelled": "abgesagt",
+        "purchase_options_card_update_agreement_label_html": "Indem Sie Ihre Zahlungsmethode aktualisieren, autorisieren Sie Zahlungen für wiederkehrende oder aufgeschobene Käufe gemäß der <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">Stornierungsrichtlinie<\/a> dieses Shops.",
+        "giropay_label": "Giropay",
+        "multibanco_label": "Multibanco",
+        "receiver_payment_experience_hint": "Nach Ihrer Bestellung erhalten Sie Zahlungsdetails. Nehmen Sie die Zahlung innerhalb von %{due_days} Tagen an einem Geldautomaten oder online vor.",
+        "pending_payment": {
+          "due_notice": "Ihre Zahlung von %{amount_due} ist am %{due_date} fällig.",
+          "multibanco": {
+            "instruction_html": "Führen Sie Ihre Zahlung an einem Geldautomaten oder online mit den unten stehenden Angaben durch. Für Fragen oder um Zahlungsdetails zu aktualisieren, %{contact_us}.",
+            "entity": "Einheit",
+            "reference": "Bezug",
+            "amount": "Menge",
+            "find_nearest_atm": "Finden Sie den nächsten Geldautomaten"
+          }
+        }
       },
       "payment_summary": {
         "free_label": "Frei"
@@ -797,7 +817,9 @@
         "subscription_agreement_blank": "Um mit Ihrem Kauf fortzufahren, stimmen Sie den Abonnementbedingungen zu",
         "physical_gift_card_invalid_quantity": "Physische Geschenkgutscheinpositionen müssen eine Menge haben, die der Anzahl der Geschenkgutscheincodes entspricht.",
         "physical_gift_card_duplicate_code": "Die Position der physischen Geschenkkarte enthält doppelten Code.",
-        "physical_gift_card_invalid_code": "Der physische Geschenkkartencode ist ungültig."
+        "physical_gift_card_invalid_code": "Der physische Geschenkkartencode ist ungültig.",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Geschenkkarten werden nicht mit aufgeschobenen Kaufoptionen unterstützt.",
+        "address_zip_not_supported": "Dieser Standort wird nicht unterstützt."
       },
       "payment_errors": {
         "generic_error": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
@@ -980,7 +1002,11 @@
         },
         "pick_up_in_store_marker": {
           "current": "Aktueller Versandort"
-        }
+        },
+        "company_location_title": "Ort",
+        "thank_you_title_review": "Ihre Bestellung wurde zur Überprüfung übermittelt",
+        "thank_you_confirmed_order_with_draft": "Wir lassen Sie wissen, wenn wir weitere Informationen benötigen oder wenn Ihre Bestellung bestätigt ist.",
+        "payment_method_draft_order": "Fällig, nachdem die Bestellung überprüft wurde"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "Senden Sie mir eine E-Mail mit Neuigkeiten und Angeboten",
@@ -1007,14 +1033,17 @@
         "legal_notice": "Impressum",
         "shipping_policy": "Versandbedingungen",
         "terms_of_sale": "Verkaufsbedingungen",
-        "subscription_policy": "Abonnementrichtlinie"
+        "subscription_policy": "Abonnementrichtlinie",
+        "purchase_options_policy": "Richtlinien für Kaufoptionen",
+        "contact_information": "Kontaktinformationen"
       },
       "mor_policies": {
         "terms_and_conditions": "Geschäftsbedingungen des eingetragenen Händlers",
         "privacy_policy": "Datenschutzrichtlinie des eingetragenen Händlers"
       },
       "remember_me": {
-        "shopify_pay_label": "Laden bezahlen"
+        "shopify_pay_label": "Laden bezahlen",
+        "external_acessibility_label": "(öffnet ein neues Fenster)"
       },
       "order_payment_collection": {
         "changes_summary": {
@@ -1045,6 +1074,37 @@
         "custom_label": "Benutzerdefinierte Spitze",
         "add_tip": "Tipp hinzufügen",
         "update_tip": "Update-Tipp"
+      },
+      "subscriptions": {
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "other": ", dann %{count} Zahlungen zu jeweils %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Zahlungsarten",
+        "title": "Zahlungsarten",
+        "update_card_button_label": "Karte aktualisieren",
+        "delete_customer_mandate": {
+          "generic_error": "Bei der Verarbeitung Ihrer Anfrage ist ein Problem aufgetreten.",
+          "success_message": "Ihre Zahlungsmethode wurde erfolgreich gelöscht"
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Produkt nicht verfügbar",
+          "other": "Produkte nicht verfügbar"
+        },
+        "products_not_available": {
+          "one": "Dieses Produkt wird aus Ihrem Einkaufswagen entfernt, da es in Ihrem Land\/Ihrer Region nicht verfügbar ist.",
+          "other": "Diese Produkte werden aus Ihrem Einkaufswagen entfernt, da sie in Ihrem Land\/Ihrer Region nicht verfügbar sind."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Dieses Produkt ist in Ihrem Land\/Ihrer Region nicht verfügbar.",
+          "other": "Diese Produkte sind in Ihrem Land\/Ihrer Region nicht verfügbar."
+        },
+        "unavailable_label": "Nicht verfügbar"
       }
     }
   }
