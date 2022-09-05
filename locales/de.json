@@ -323,21 +323,21 @@
       "edit_address": "Adresse bearbeiten",
       "first_name": "Vorname",
       "last_name": "Nachname",
-      "company": "Unternehmen",
+      "company": "Gesellschaft",
       "address1": "Adresse 1",
       "address2": "Adresse 2",
-      "city": "Ort",
+      "city": "Stadt",
       "country": "Land\/Region",
-      "province": "Bundesland\/Provinz",
-      "zip": "PLZ",
-      "phone": "Telefonnummer",
-      "set_default": "Als Standard-Adresse festlegen",
+      "province": "Provinz",
+      "zip": "Postleitzahl",
+      "phone": "Telefon",
+      "set_default": "Als Standardadresse festlegen",
       "add": "Adresse hinzufügen",
       "update": "Adresse aktualisieren",
-      "cancel": "Abbrechen",
+      "cancel": "Absagen",
       "edit": "Bearbeiten",
       "delete": "Löschen",
-      "delete_confirm": "Bist du sicher, dass du diese Adresse löschen möchtest?"
+      "delete_confirm": "Möchten Sie diese Adresse wirklich löschen?"
     },
     "log_in": "Einloggen",
     "log_out": "Abmelden",
@@ -354,14 +354,14 @@
       "submit": "Senden"
     },
     "orders": {
-      "title": "Bestellhistorie",
-      "order_number": "Bestellung",
+      "title": "Bestellverlauf",
+      "order_number": "Befehl",
       "order_number_link": "Bestellnummer {{ number }}",
       "date": "Datum",
       "payment_status": "Zahlungsstatus",
-      "fulfillment_status": "Fulfillmentstatus",
-      "total": "Gesamtsumme",
-      "none": "Du hast noch keine Bestellungen aufgegeben."
+      "fulfillment_status": "Erfüllungsstatus",
+      "total": "Gesamt",
+      "none": "Sie haben noch keine Bestellungen aufgegeben."
     },
     "recover_password": {
       "title": "Setze dein Passwort zurück",
@@ -384,27 +384,27 @@
       "submit": "Passwort zurücksetzen"
     },
     "order": {
-      "title": "Bestellung {{ name }}",
+      "title": "Auftrag {{ name }}",
       "date_html": "Aufgegeben am {{ date }}",
       "cancelled_html": "Bestellung storniert am {{ date }}",
       "cancelled_reason": "Grund: {{ reason }}",
       "billing_address": "Rechnungsadresse",
       "payment_status": "Zahlungsstatus",
-      "shipping_address": "Lieferadresse",
-      "fulfillment_status": "Fulfillmentstatus",
+      "shipping_address": "Lieferanschrift",
+      "fulfillment_status": "Erfüllungsstatus",
       "discount": "Rabatt",
       "shipping": "Versand",
       "tax": "Steuer",
       "product": "Produkt",
-      "sku": "SKU",
+      "sku": "Artikelnummer",
       "price": "Preis",
       "quantity": "Menge",
-      "total": "Gesamtsumme",
+      "total": "Gesamt",
       "fulfilled_at_html": "Ausgeführt am {{ date }}",
-      "track_shipment": "Sendung nachverfolgen",
+      "track_shipment": "Sendung verfolgen",
       "tracking_url": "Tracking-Link",
-      "tracking_company": "Versanddienstleister",
-      "tracking_number": "Trackingnummer",
+      "tracking_company": "Träger",
+      "tracking_number": "Auftragsnummer, Frachtnummer, Sendungscode",
       "subtotal": "Zwischensumme",
       "total_duties": "Zollgebühren"
     }
@@ -415,9 +415,9 @@
       "subtext": "Dein Geschenkgutschein",
       "gift_card_code": "Gutscheincode",
       "shop_link": "Weiter shoppen",
-      "remaining_html": "{{ balance }} verbleibend",
+      "remaining_html": "Verbleibende {{ balance }}",
       "add_to_apple_wallet": "Zu Apple Wallet hinzufügen",
-      "qr_image_alt": "QR-Code – Scannen, um Geschenkgutschein einzulösen",
+      "qr_image_alt": "QR-Code – zum Einlösen der Geschenkkarte scannen",
       "copy_code": "Code kopieren",
       "expired": "Abgelaufen",
       "copy_code_success": "Code erfolgreich kopiert",
@@ -1319,6 +1319,53 @@
         "two_to_four_hours": "Normalerweise in 4 Stunden fertig",
         "immediately": "Jetzt abholbereit",
         "next_day": "Am nächsten Tag abholbereit"
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Kontomenü ausblenden",
+        "label": "Konto",
+        "show_accessibility_label": "Kontomenü anzeigen"
+      },
+      "action_menu_accessibility_label": "Mehr Aktionen",
+      "close_menu_accessibility_label": "Hauptnavigation schließen",
+      "contact_email_subject": "Kontakt vom Online-Shop {{shopName}}",
+      "contact_link": "Kontaktiere uns",
+      "delete_confirmation": {
+        "cancel": "Absagen",
+        "delete": "Löschen"
+      },
+      "dismiss_toast": "Zurückweisen",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "Zum Laden gehen",
+      "loading_message": "Wird geladen",
+      "log_out_link": "Ausloggen",
+      "login_prompt": {
+        "continue": "Fortsetzen",
+        "privacy": "Privatsphäre",
+        "title": "Melden Sie sich weiter an"
+      },
+      "logout_overlay_label": "Sie werden abgemeldet...",
+      "nav_label_accessibility_label": "Hauptnavigation",
+      "navigation_accessibility_message": "Sie haben zu {{sectionName}} navigiert",
+      "open_menu_accessibility_label": "Hauptnavigation öffnen",
+      "orders_link_label": "Aufträge",
+      "shop_logo_accessibility_label": "{{shopName}}-Logo"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Kontoinformationen werden geladen",
+      "loading_finished_accessibility_message": "Kontoinformationen wurden geladen",
+      "profile_card": {
+        "cancel": "Absagen",
+        "cancel_accessibility_label": "Bearbeiten des Profils abbrechen",
+        "edit": "Bearbeiten",
+        "edit_accessibility_label": "Profil bearbeiten",
+        "email_help_text": "Die für die Anmeldung verwendete E-Mail-Adresse kann nicht geändert werden",
+        "first_name": "Vorname",
+        "last_name": "Nachname"
       }
     }
   }
