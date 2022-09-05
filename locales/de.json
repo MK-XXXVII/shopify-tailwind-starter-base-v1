@@ -638,7 +638,91 @@
         "please_enter_your_shipping_information_notice": "Bitte geben Sie Ihre Versandinformationen ein.",
         "estimated_delivery_date": {
           "one": "%{count} Werktag"
+        },
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "other": "für %{count} Lieferungen"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "jeden Tag",
+              "other": "alle %{count} Tage"
+            },
+            "week": {
+              "one": "jede Woche",
+              "other": "alle %{count} Wochen"
+            },
+            "month": {
+              "one": "jeden Monat",
+              "other": "alle %{count} Monate"
+            },
+            "year": {
+              "one": "jedes Jahr",
+              "other": "alle %{count} Jahre"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} pro Lieferung",
+          "prepaid_shipping_price_label": "%{shipping_price} pro Lieferung x %{delivery_interval_count}",
+          "initial_order_discounted": "Zuerst Versandkosten %{discounted_shipping_cost}, dann %{frequency_description}",
+          "prepaid_initial_order_discounted": "Erste Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Erste Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Zuerst Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency}, dann %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Zuerst Versandkosten %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), dann %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inbegriffen",
+          "recurring_order_shipping_price": "gefolgt von %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Erster Auftrag enthalten, gefolgt von %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} pro Lieferung), gefolgt von %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Erstbestellung kostenlos",
+            "other": "Erste %{count} Bestellungen kostenlos"
+          },
+          "free_for_first_n_order": {
+            "one": "Für Erstbestellung",
+            "other": "Für die ersten %{count} Bestellungen"
+          }
+        },
+        "one_time_purchase_shipping": "Einmaliger Versand"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Zusätzliche Information"
         }
+      },
+      "payment": {
+        "amazon_payments_label": "AmazonPay",
+        "amazon_payments_login_hint": "Sie werden aufgefordert, sich bei Amazon anzumelden.",
+        "amazon_payments_logout": "Melden Sie sich von Amazon Pay ab",
+        "amazon_payments_failed_mfa_challenge": "Die ausgewählte Zahlungsmethode konnte nicht verwendet werden. Wählen Sie eine andere Methode oder wenden Sie sich an Ihre Bank oder Ihren Kartenaussteller.",
+        "amazon_payments_abandoned_mfa_challenge": "Ihre Zahlung konnte nicht abgeschlossen werden. Probieren Sie eine andere Zahlungsmethode aus oder wenden Sie sich an Ihre Bank oder Ihren Kartenaussteller.",
+        "amazon_payments_could_not_enqueue_authorize": "Bei der Verarbeitung Ihrer Zahlung ist ein Problem aufgetreten. Versuchen Sie es erneut oder verwenden Sie eine andere Zahlungsmethode.",
+        "title": "Zahlung",
+        "amount_left_to_pay_label": "Zahlung fällig:",
+        "discount_button_action_label": "Rabattcode anwenden",
+        "gift_card_code_label": "Gutscheincode",
+        "apply_gift_card_button_label": "Sich bewerben",
+        "gift_card_balance_label": "Gleichgewicht:",
+        "supported_card_brands_more_label": "und mehr…",
+        "detected_card_brand": "Erkannte Kartenmarke: {brand}",
+        "delete_customer_mandate_modal_cancel": "Absagen",
+        "card_verification_value_label": "Sicherheitscode",
+        "card_verification_value_placeholder": "Sicherheitscode",
+        "card_verification_confirm": "Bitte geben Sie zur Verifizierung den Sicherheitscode Ihrer Karte ein.",
+        "card_expiry_date_explanation": "Ablaufdatum der Karte im Format: Monat, Monat, Jahr, Jahr",
+        "card_expiration_month_label": "Monat des Ablaufens",
+        "card_expiration_year_label": "Ablaufjahr",
+        "card_verification_value_explanation": "3-stelliger Sicherheitscode, der normalerweise auf der Rückseite Ihrer Karte zu finden ist. American Express-Karten haben einen 4-stelligen Code auf der Vorderseite.",
+        "card_verification_value_explanation_amex": "4-stelliger Sicherheitscode auf der Vorderseite Ihrer Karte",
+        "card_verification_value_explanation_other": "3-stelliger Sicherheitscode auf der Rückseite Ihrer Karte",
+        "card_start_label": "Ausstellungsdatum (MM \/ JJ)",
+        "card_start_placeholder": "Ausstellungsdatum (MM \/ JJ)",
+        "card_issue_number_label": "Ausgabe Nummer",
+        "card_issue_number_placeholder": "Ausgabe Nummer",
+        "card_change_label": "Veränderung",
+        "card_update_label": "Karte aktualisieren",
+        "ends_with_label": "endet mit %{last_digits}",
+        "masked_digits_label": "•••• %{last_digits}",
+        "expiry_long": "(Läuft ab %{month}\/%{year})",
+        "expiry_short": "(Exp %{month}\/%{year})"
       }
     }
   }
