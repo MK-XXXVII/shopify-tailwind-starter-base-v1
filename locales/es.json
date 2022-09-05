@@ -593,12 +593,15 @@
         "amount_off_shipping": "%{amount} de descuento en el envío",
         "deferred_payment_info": {
           "title": "El pago de %{amount_due} vence el %{due_at}",
-          "description_html": "Si tiene preguntas sobre su pedido, %{contact_us}."
+          "description_html": "Si tiene preguntas sobre su pedido, %{contact_us}.",
+          "paid_today": "Total pagado hoy"
         },
         "payment_terms_totals": {
           "due_today": "Total adeudado hoy",
-          "due_later": "Total adeudado %{due_at}"
-        }
+          "due_later": "Total adeudado %{due_at}",
+          "due_later_checkout_to_draft": "Total adeudado más tarde"
+        },
+        "maximum_discount_code_limit_reached": "Has alcanzado el número máximo de códigos de descuento. Elimina un código existente para usar <strong style=\"text-transform:uppercase\">%{code}<\/strong>."
       },
       "shipping": {
         "title": "Transporte",
@@ -660,7 +663,10 @@
             "other": "Para los primeros %{count} pedidos"
           }
         },
-        "one_time_purchase_shipping": "Envío único"
+        "one_time_purchase_shipping": "Envío único",
+        "subscription_local_delivery": "Entrega local de suscripción",
+        "subscription_pickup": "recogida de suscripción",
+        "delivery_date_range": "%{min_time}–%{max_time}"
       },
       "localized_fields": {
         "additional_information": {
@@ -726,7 +732,21 @@
         },
         "account_connected": "Cuenta conectada",
         "email_connected": "Cuenta conectada:",
-        "mor_disclaimer_html": "Al hacer clic a continuación y completar su pedido, acepta comprar sus artículos de Global-e como comerciante registrado\npara esta transacción, en los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Términos y Condiciones<\/a> de Global-e\ny <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de Privacidad<\/a>. Global-e es una empresa internacional\nproveedor de servicios de cumplimiento a %{shop_name}"
+        "mor_disclaimer_html": "Al hacer clic a continuación y completar su pedido, acepta comprar sus artículos de Global-e como comerciante registrado\npara esta transacción, en los <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Términos y Condiciones<\/a> de Global-e\ny <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Política de Privacidad<\/a>. Global-e es una empresa internacional\nproveedor de servicios de cumplimiento a %{shop_name}",
+        "purchase_options_card_update_agreement_label_html": "Al actualizar su método de pago, autoriza pagos para cualquier compra recurrente o diferida de acuerdo con la <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">política de cancelación<\/a> de esta tienda.",
+        "giropay_label": "Giropay",
+        "multibanco_label": "multibanco",
+        "receiver_payment_experience_hint": "Después de realizar su pedido, recibirá los detalles de pago. Realice el pago en un cajero automático o en línea dentro de %{due_days} días.",
+        "pending_payment": {
+          "due_notice": "Su pago de %{amount_due} vence el %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Realice su pago en un cajero automático o en línea utilizando los detalles a continuación. Para preguntas o para actualizar los detalles de pago, %{contact_us}.",
+            "entity": "Entidad",
+            "reference": "Referencia",
+            "amount": "Monto",
+            "find_nearest_atm": "Encuentra el cajero automático más cercano"
+          }
+        }
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Saldo actual %{amount}",
@@ -766,7 +786,9 @@
         "subscription_agreement_blank": "Para continuar con su compra, acepte los términos de suscripción",
         "physical_gift_card_invalid_quantity": "Las líneas de pedido de tarjetas de regalo físicas deben tener una cantidad que coincida con la cantidad de códigos de tarjetas de regalo.",
         "physical_gift_card_duplicate_code": "La línea de pedido de la tarjeta de regalo física contiene un código duplicado.",
-        "physical_gift_card_invalid_code": "El código de la tarjeta de regalo física no es válido."
+        "physical_gift_card_invalid_code": "El código de la tarjeta de regalo física no es válido.",
+        "gift_cards_not_supported_with_deferred_purchase_options": "Las tarjetas de regalo no son compatibles con las opciones de compra diferida.",
+        "address_zip_not_supported": "Esta ubicación no es compatible."
       },
       "payment_errors": {
         "generic_error": "Hubo un problema al procesar su pago. Vuelve a intentarlo o utiliza otro método de pago.",
@@ -880,7 +902,11 @@
             "title": "O envía un enlace a tu teléfono"
           }
         },
-        "view_business_customer_account": "Ver cuenta"
+        "view_business_customer_account": "Ver cuenta",
+        "company_location_title": "Ubicación",
+        "thank_you_title_review": "Su pedido ha sido enviado para revisión",
+        "thank_you_confirmed_order_with_draft": "Te avisaremos si necesitamos más información o cuando se confirme tu pedido.",
+        "payment_method_draft_order": "Vence después de revisar el pedido"
       },
       "review": {
         "title": "Revisar",
@@ -900,6 +926,116 @@
           "change_payment_method_link_label": "Cambiar método de pago",
           "pick_up_in_store_shipping_method_html": "Recoger en tienda · %{location_name}"
         }
+      },
+      "remember_me": {
+        "save": "Ahorrar",
+        "title": "Acuérdate de mí",
+        "label": "Guardar mi información para un pago más rápido",
+        "description_html": "La próxima vez que visites aquí o en otras tiendas con tecnología de Shopify, recibirás un código por mensaje de texto para comprar de forma segura con Shop Pay.",
+        "mobile_phone_icon_alt": "Teléfono móvil",
+        "mobile_phone_number": "Número de teléfono móvil",
+        "terms_and_privacy_html": "Al continuar, acepta los %{privacy_href} y %{terms_href} de Shop Pay.",
+        "privacy_policy": "Política de privacidad",
+        "terms_of_service": "Términos de servicio",
+        "errors": {
+          "optin": "Shop Pay no está disponible"
+        },
+        "installments": {
+          "paid_in_installments": "Pago a plazos con Shop Pay.",
+          "view_schedule": "Ver horario"
+        },
+        "title_with_logo_html": "Recuérdame con %{shopify_pay}",
+        "label_address_payment_and_faster_checkouts": "Deje que Shop Pay complete mi dirección e información de pago para pagos más rápidos.",
+        "label_faster_checkouts_and_thousand_shops": "Guarde mi información con Shop Pay para pagos más rápidos en más de un millón de tiendas.",
+        "external_acessibility_label": "(abre una nueva ventana)"
+      },
+      "notifications": {
+        "title": "Notificaciones"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Importe a pagar por el pedido %{order_name}",
+        "changes_summary": {
+          "added": {
+            "one": "Adicional",
+            "other": "%{count} añadido"
+          },
+          "removed": "Remoto"
+        }
+      },
+      "tips": {
+        "message": "Gracias, lo apreciamos",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Ninguna"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Compra %{product_name}",
+          "one": "Compra %{product_name} y %{count} otro artículo",
+          "other": "Compra %{product_name} y %{count} otros artículos"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "día",
+            "other": "%{count} días"
+          },
+          "week": {
+            "one": "semana",
+            "other": "%{count} semanas"
+          },
+          "month": {
+            "one": "mes",
+            "other": "%{count} meses"
+          },
+          "year": {
+            "one": "año",
+            "other": "%{count} años"
+          }
+        },
+        "recurring_totals": "%{total_price} cada %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Primer pago %{total_price_with_discount}, luego %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Primer pago %{total_price}",
+            "other": "Primeros %{count} pagos %{total_price} cada uno"
+          },
+          "following_cycles": ", luego %{total_price} cada %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", luego %{count} pago en %{total_price}",
+            "other": ", luego %{count} pagos en %{total_price} cada uno"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Métodos de pago",
+        "title": "Métodos de pago",
+        "update_card_button_label": "Tarjeta de actualización",
+        "delete_customer_mandate": {
+          "generic_error": "Hubo un problema procesando tu petición.",
+          "success_message": "Su método de pago ha sido eliminado con éxito"
+        }
+      },
+      "shop_policies": {
+        "purchase_options_policy": "política de opciones de compra",
+        "contact_information": "Información del contacto"
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Producto no disponible",
+          "other": "Productos no disponibles"
+        },
+        "products_not_available": {
+          "one": "Este producto se eliminará de su carrito porque no está disponible en su país\/región.",
+          "other": "Estos productos se eliminarán de su carrito porque no están disponibles en su país o región."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Este producto no está disponible en su país\/región.",
+          "other": "Estos productos no están disponibles en su país\/región."
+        },
+        "unavailable_label": "Indisponible"
       }
     }
   }
