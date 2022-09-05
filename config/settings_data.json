@@ -83,11 +83,11 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "accent-2",
-    "social_twitter_link": "",
-    "social_facebook_link": "",
-    "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
+    "social_twitter_link": "https:\/\/twitter.com\/holyteanl",
+    "social_facebook_link": "https:\/\/www.facebook.com\/holyteanl",
+    "social_pinterest_link": "https:\/\/pinterest.com\/holyteanl\/",
+    "social_instagram_link": "https:\/\/instagram.com\/holytea.nl",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@holyteanl",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -146,7 +146,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Info",
-              "menu": "footer"
+              "menu": "brand-information"
             }
           }
         },
@@ -157,7 +157,7 @@
         "settings": {
           "color_scheme": "accent-2",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Join our mailing list & be the first to hear about new blends, competitions, recipes to try at home and our famous sale!",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": true,
