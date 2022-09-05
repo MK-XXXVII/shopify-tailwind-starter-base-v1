@@ -983,7 +983,7 @@
         }
       },
       "shipping_errors": {
-        "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Seleccione una nueva tarifa.",
+        "shipping_method": "Tu carrito ha sido actualizado y la tarifa de envío anterior no es válida. Seleccione una nueva tarifa.",
         "shipping_method_not_available": "Su carrito se actualizó y los artículos que agregó no se pueden enviar a su dirección. Retire los artículos para completar su pedido.",
         "shipping_method_not_available_generic": {
           "one": "Este pedido no se puede enviar a la dirección que ingresaste. Revise su dirección para asegurarse de que todos los campos se hayan ingresado correctamente y vuelva a intentarlo.",
@@ -1200,6 +1200,34 @@
           "other": "Estos productos no están disponibles en su país\/región."
         },
         "unavailable_label": "Indisponible"
+      },
+      "processing": {
+        "continue_to_payment_gateway_button_label": "continuar con el pago",
+        "complete_your_purchase_title_error": "Corrija su información de pago",
+        "continue_to_payment_gateway_notice_error": "No se pudo verificar su información de pago.",
+        "continue_to_payment_gateway_button_label_error": "Actualizar información de pago",
+        "page_title": "Orden de procesamiento",
+        "title": "Orden de procesamiento",
+        "your_order_has_been_received_title": "Gracias por tu orden",
+        "you_will_receive_confirmation": "Estamos recibiendo muchos pedidos en este momento. Debería recibir una confirmación por correo electrónico o mensaje de texto pronto. Si no lo recibe en la próxima hora, háganoslo saber.",
+        "you_will_not_be_charged": "Aún no se te cobrará",
+        "wait": {
+          "short": "Tu pedido está siendo procesado.",
+          "medium": {
+            "one": "Tu pedido está siendo procesado. El tiempo de espera estimado es %{count} minuto.",
+            "other": "Tu pedido está siendo procesado. El tiempo de espera estimado es de %{count} minutos."
+          },
+          "long": "Recibirá un correo electrónico tan pronto como se procese su pedido. Actualmente hay un gran volumen de pedidos.",
+          "no_auto_refresh_html": "Si no se le redirige automáticamente, %{link}.",
+          "refresh_this_page": "actualizar esta página"
+        }
+      },
+      "failed_payment": {
+        "page_title": "No se pudo procesar el pago",
+        "title": "No se pudo procesar el pago",
+        "payment_not_processed_title": "Su pago no pudo ser procesado",
+        "payment_not_processed_text": "No te han cobrado. Regrese a su carrito para completar su compra.",
+        "return_to_cart_button_label": "volver al carrito"
       }
     }
   }
