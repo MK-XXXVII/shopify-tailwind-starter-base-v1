@@ -1398,7 +1398,31 @@
         "load_more": "Charger plus",
         "load_more_accessibility_label": "Charger plus d'articles",
         "loading_accessibility_label": "Chargement des éléments"
-      }
+      },
+      "hide_items": "Masquer les éléments",
+      "loading": "Chargement des détails de la commande",
+      "loading_finished_accessibility_message": "Les détails de la commande ont été chargés",
+      "location": "Emplacement",
+      "no_data": "Aucun",
+      "not_applicable": "N \/ A",
+      "partially_refunded_label": "PARTIELLEMENT REMBOURSÉ",
+      "payment": {
+        "status_in_review": "Paiement dû après examen",
+        "status_unpaid": "Paiement dû le {{date}}",
+        "title": "Paiement"
+      },
+      "refunded_amount": "Remboursé",
+      "shipping": {
+        "address": "Adresse de livraison",
+        "address_map_marker": "Adresse de livraison",
+        "method": "Mode de livraison",
+        "summary": "Expédition"
+      },
+      "show_items": "Afficher les éléments",
+      "subtitle": "Confirmé {{date}}",
+      "subtotal": "Total",
+      "summary_list_title_accessibility_label": "Items commandés",
+      "summary_title": "Récapitulatif de la commande"
     },
     "addresses": {
       "add_button": "Ajoutez l'adresse",
@@ -1429,12 +1453,32 @@
         "default": "Modifier l'adresse",
         "billing": "Modifier l'adresse de facturation",
         "shipping": "Modifier l'adresse de livraison"
-      }
+      },
+      "loading_accessibility_message": "Adresse de chargement",
+      "loading_addresses_accessibility_message": "Chargement des adresses",
+      "loading_billing_accessibility_message": "Chargement de l'adresse de facturation",
+      "loading_finished_accessibility_message": "Une nouvelle page d'adresses a été chargée",
+      "loading_shipping_accessibility_message": "Chargement de l'adresse de livraison",
+      "save_new_address_accessibility_label": "Enregistrer l'adresse",
+      "title": "Adresses"
     },
     "address_form": {
       "save_accessibility_label": "Enregistrer l'adresse {{address}}",
       "section_title_accessibility_label": "Ajoutez l'adresse",
-      "update_success_notification": "Adresse mise à jour"
+      "update_success_notification": "Adresse mise à jour",
+      "auto_complete_close_accessibility_label": "Fermer les suggestions",
+      "auto_complete_title": "Suggestions",
+      "billing_address": "Utiliser comme adresse de facturation",
+      "cancel": "Annuler",
+      "cancel_accessibility_label": "Annuler la modification de l'adresse {{address}}",
+      "creation_success_notification": "Adresse ajoutée",
+      "default_address": "Ceci est mon adresse par défaut",
+      "default_address_creation_success_notification": "Adresse par défaut ajoutée",
+      "default_address_update_success_notification": "Adresse par défaut mise à jour",
+      "loading_add_form_accessibility_message": "Chargement du nouveau formulaire d'adresse",
+      "loading_edit_form_accessibility_message": "Chargement du formulaire de modification d'adresse",
+      "loading_finished_accessibility_message": "Le formulaire a été chargé",
+      "save": "sauvegarder"
     },
     "B2B": {
       "account_information": {
