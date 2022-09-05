@@ -1,20 +1,20 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Ga winkel binnen met wachtwoord:",
+      "login_form_heading": "Ga naar de winkel met wachtwoord:",
       "login_password_button": "Ga naar binnen met wachtwoord",
       "login_form_password_label": "Wachtwoord",
-      "login_form_password_placeholder": "Je wachtwoord",
+      "login_form_password_placeholder": "Uw wachtwoord",
       "login_form_error": "Wachtwoord onjuist!",
-      "login_form_submit": "Invoeren",
-      "admin_link_html": "Ben je de winkeleigenaar? <a href=\"\/admin\" class=\"link underlined-link\">Log hier in<\/a>",
-      "powered_by_shopify_html": "Deze winkel wordt door {{ shopify }} aangedreven"
+      "login_form_submit": "Binnenkomen",
+      "admin_link_html": "Ben jij de winkeleigenaar? <a href=\"\/admin\" class=\"link underlined-link\">Log hier in<\/a>",
+      "powered_by_shopify_html": "Deze winkel wordt mogelijk gemaakt door {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Delen op Facebook",
-        "share_on_twitter": "Twitteren op Twitter",
-        "share_on_pinterest": "Pinnen op Pinterest"
+        "share_on_twitter": "Tweeten op Twitter",
+        "share_on_pinterest": "Pin op Pinterest"
       },
       "links": {
         "twitter": "Twitter",
@@ -91,7 +91,7 @@
       "message": "Reactie",
       "post": "Plaats een reactie",
       "back_to_blog": "Terug naar blog",
-      "share": "Dit artikelen delen",
+      "share": "deel dit artikel",
       "success": "Je reactie is geplaatst! Bedankt!",
       "success_moderated": "Je reactie is geplaatst. Wij publiceren het zo; onze blog wordt gemodereerd."
     }
@@ -102,9 +102,9 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Aan winkelwagen toevoegen",
+      "add_to_cart": "Voeg toe aan winkelkar",
       "description": "Beschrijving",
-      "on_sale": "Aanbieding",
+      "on_sale": "Uitverkoop",
       "product_variants": "Productvarianten",
       "quantity": {
         "label": "Aantal",
@@ -121,7 +121,7 @@
       "share": "Dit product delen",
       "sold_out": "Uitverkocht",
       "unavailable": "Niet beschikbaar",
-      "vendor": "Verkoper",
+      "vendor": "Leverancier",
       "video_exit_message": "{{ title }} opent een video op volledig scherm in hetzelfde venster.",
       "xr_button": "Bekijk in je ruimte",
       "xr_button_label": "Bekijk in je ruimte, laadt artikel in augmented reality-venster",
@@ -145,8 +145,8 @@
         "image_available": "Afbeelding {{ index }} is nu beschikbaar in gallery-weergave"
       },
       "view_full_details": "Alle details bekijken",
-      "include_taxes": "Inclusief btw.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten<\/a> worden berekend bij de checkout.",
+      "include_taxes": "Inclusief belasting.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzendkosten<\/a> berekend bij het afrekenen.",
       "choose_options": "Opties kiezen",
       "choose_product_options": "Opties kiezen voor {{ product_name }}"
     },
@@ -274,9 +274,9 @@
       "view_all": "Alles bekijken"
     },
     "collection_template": {
-      "title": "Collectie",
+      "title": "Verzameling",
       "empty": "Geen producten gevonden",
-      "use_fewer_filters_html": "Minder filters gebruiken of <a class=\"{{ class }}\" href=\"{{ link }}\">alles verwijderen<\/a>"
+      "use_fewer_filters_html": "Gebruik minder filters of <a class=\"{{ class }}\" href=\"{{ link }}\">verwijder alles<\/a>"
     },
     "video": {
       "load_video": "Video laden: {{ description }}"
@@ -305,22 +305,22 @@
       "title": "Account",
       "details": "Accountgegevens",
       "view_addresses": "Adressen bekijken",
-      "return": "Terug naar Accountgegevens"
+      "return": "Keer terug naar accountgegevens"
     },
     "account_fallback": "Account",
     "activate_account": {
-      "title": "Account activeren",
-      "subtext": "Maak je wachtwoord aan om je account te activeren.",
+      "title": "Activeer account",
+      "subtext": "Maak uw wachtwoord aan om uw account te activeren.",
       "password": "Wachtwoord",
-      "password_confirm": "Wachtwoord bevestigen",
-      "submit": "Account activeren",
-      "cancel": "Uitnodiging afwijzen"
+      "password_confirm": "Bevestig wachtwoord",
+      "submit": "Activeer account",
+      "cancel": "Uitnodiging weigeren"
     },
     "addresses": {
       "title": "Adressen",
       "default": "Standaard",
       "add_new": "Voeg een nieuw adres toe",
-      "edit_address": "Adres bewerken",
+      "edit_address": "Verander adres",
       "first_name": "Voornaam",
       "last_name": "Achternaam",
       "company": "Bedrijf",
@@ -517,6 +517,46 @@
         "confirmation": "Bedankt voor het abonneren op onze mailinglijst.",
         "disclaimer": "U kunt zich op elk moment afmelden.",
         "unsubscribe": "Afmelden"
+      },
+      "unsubscribed": {
+        "confirmation": "Je hebt je uitgeschreven van onze mailinglijst.",
+        "disclaimer": "Je ontvangt geen marketingupdates meer van ons. U kunt zich op elk moment opnieuw abonneren.",
+        "preview": "U bekijkt een voorbeeld van wat klanten te zien krijgen als ze zich afmelden."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Je hebt je aangemeld voor het e-mailen van open tracking.<\/b>",
+          "visibility": "Open rates van e-mail worden anoniem gerapporteerd. We zullen alleen zien of je een e-mail hebt geopend als onderdeel van een geaggregeerd e-mailopenpercentage.",
+          "opt_out_html": "U kunt zich <a style='text-decoration:underline;' href='%{link}'>afmelden<\/a> voor het volgen van open e-mail als u deze informatie niet wilt delen.",
+          "preview_bar": "U bekijkt een voorbeeld van wat klanten te zien krijgen wanneer ze zich aanmelden voor het bijhouden van openstaande e-mails."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>U heeft zich afgemeld voor het volgen van open e-mail.<\/b>",
+          "visibility": "We kunnen niet zien of je je e-mails hebt geopend.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Aanmelden<\/a> om open tracking te e-mailen.",
+          "preview_bar": "U bekijkt een voorbeeld van wat klanten te zien krijgen als ze zich afmelden voor het volgen van open e-mail."
+        },
+        "no_longer_track": {
+          "status_html": "<b>We volgen geen geopende e-mail meer.<\/b>",
+          "privacy_policy": "Nadat deze e-mail is verzonden, hebben we ons privacybeleid geüpdatet en volgen we de opening niet meer."
+        },
+        "track": {
+          "status_html": "<b>E-mail open tracking wordt gerapporteerd.<\/b>",
+          "visibility": "We zullen alleen zien of je de e-mail hebt geopend, als onderdeel van het totale e-mailopenpercentage."
+        },
+        "updated_policy": {
+          "status_html": "<b>E-mail open tracking wordt gerapporteerd.<\/b>",
+          "visibility": "We hebben ons beleid bijgewerkt en volgen nu geopende e-mails. Open rates van e-mail worden anoniem gerapporteerd. We zullen alleen zien of je een e-mail hebt geopend als onderdeel van het totale e-mailopenpercentage.",
+          "opt_out_html": "Als u deze informatie niet wilt delen, kunt u zich <a style='text-decoration:underline;' href='%{link}'>uitschrijven.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Beschikbaarheid",
+        "value": {
+          "in_stock": "Op voorraad"
+        }
       }
     }
   }
