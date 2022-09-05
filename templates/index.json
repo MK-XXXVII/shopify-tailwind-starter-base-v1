@@ -35,9 +35,9 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/We-Craft-Exclusive-Tea-Blends-mobile-600-480.jpg",
+        "image": "shopify:\/\/shop_images\/tea-scoop-banner-1.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -75,7 +75,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 32
+        "padding_bottom": 40
       }
     },
     "featured_collection": {
