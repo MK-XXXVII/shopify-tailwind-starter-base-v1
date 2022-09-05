@@ -93,7 +93,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Most freshly Crafted Bundles",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
