@@ -423,5 +423,101 @@
       "copy_code_success": "Code gekopieerd",
       "print_gift_card": "Afdrukken"
     }
+  },
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "en",
+      "last_word_connector": ", en"
+    },
+    "pagination": {
+      "previous": "Vorig",
+      "next": "Volgende"
+    },
+    "links": {
+      "powered_by_shopify": "Mogelijk gemaakt door Shopify",
+      "learn_more": "Leer meer"
+    },
+    "feed": {
+      "more": "Meer"
+    },
+    "attributes": {
+      "email": "e-mail",
+      "password": "wachtwoord",
+      "password_confirmation": "De wachtwoordbevestiging",
+      "first_name": "Voornaam",
+      "last_name": "achternaam",
+      "body": "lichaam",
+      "signature": "Adres"
+    },
+    "addresses": {
+      "zip_code": "postcode",
+      "postal_code": "Postcode",
+      "postcode": "postcode",
+      "pincode": "Pincode",
+      "region": "Regio"
+    },
+    "errors": {
+      "email_domain_invalid": "provider wordt niet ondersteund",
+      "invalid_for_country": "is niet geldig voor %{country}",
+      "invalid_for_country_and_province": "is niet geldig voor %{province} en %{country}",
+      "invalid_province_in_country": "is geen geldige provincie in %{country}",
+      "invalid_state_in_country": "is geen geldige status in %{country}",
+      "invalid_region_in_country": "is geen geldige regio in %{country}",
+      "less_than_or_equal_to": "moet kleiner zijn dan of gelijk zijn aan %{count}",
+      "not_supported": "wordt niet ondersteund",
+      "full_name_required": "Voer een voornaam en achternaam in",
+      "invalid_for_card_type": "is niet geldig",
+      "invalid_type": "sorry, we accepteren geen kaarten van dit type",
+      "invalid_format": "formaat is niet geldig",
+      "expired": "is verstreken",
+      "invalid_start_date_or_issue_number_for_debit": "een geldige startdatum of uitgiftenummer is vereist",
+      "invalid_expiry_year": "is geen geldig vervaljaar",
+      "reset_password_html": "Dit e-mailadres is al gekoppeld aan een account. Als dit account van jou is, kun je <a href=\"\/account\/login#recover\">je wachtwoord opnieuw instellen<\/a>",
+      "verify_email": "We hebben een e-mail gestuurd naar %{customer_email}. Klik op de bijgevoegde link om uw e-mailadres te verifiëren."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Fout bij resetten wachtwoord",
+        "no_account_found": "Geen account gevonden met dat e-mailadres.",
+        "invalid_credentials": "Incorrecte email of wachtwoord."
+      },
+      "order": {
+        "fulfillment_status": {
+          "unfulfilled": "onvervuld",
+          "restocked": "Bijgevuld"
+        },
+        "transaction_status": {
+          "success": "Succes",
+          "pending": "In afwachting",
+          "failure": "Mislukking",
+          "error": "Fout"
+        },
+        "cancel_reason": {
+          "declined": "Betaling geweigerd",
+          "inventory": "Artikelen niet beschikbaar",
+          "fraud": "Frauduleuze bestelling",
+          "customer": "Klant heeft bestelling gewijzigd\/geannuleerd",
+          "other": "Ander"
+        },
+        "cash_on_delivery": "Rembours (COD)"
+      },
+      "storefront": {
+        "invalid_password": "Wachtwoord onjuist, probeer het opnieuw."
+      },
+      "tags": {
+        "add_articles": "Zoekopdracht beperken tot artikelen die ook de tag %{tag} . hebben",
+        "add_products": "Selectie beperken tot producten die overeenkomen met tag %{tag}",
+        "remove_articles": "Zoek breder naar artikelen die niet zijn getagd %{tag}",
+        "remove_products": "Tag %{tag} Remove verwijderen"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Bedankt voor het abonneren op onze mailinglijst.",
+        "disclaimer": "U kunt zich op elk moment afmelden.",
+        "unsubscribe": "Afmelden"
+      }
+    }
   }
 }
