@@ -364,23 +364,23 @@
       "none": "Je hebt nog geen bestellingen geplaatst."
     },
     "recover_password": {
-      "title": "Wachtwoord opnieuw instellen",
-      "subtext": "Wij sturen je een e-mail om je wachtwoord opnieuw in te stellen",
-      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord opnieuw in te stellen."
+      "title": "Stel je wachtwoord opnieuw in",
+      "subtext": "We sturen je een e-mail om je wachtwoord opnieuw in te stellen",
+      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord bij te werken."
     },
     "register": {
-      "title": "Account aanmaken",
+      "title": "Maak account",
       "first_name": "Voornaam",
       "last_name": "Achternaam",
-      "email": "E‑mail",
+      "email": "E-mail",
       "password": "Wachtwoord",
-      "submit": "Aanmaken"
+      "submit": "Creëren"
     },
     "reset_password": {
-      "title": "Account-wachtwoord opnieuw instellen",
+      "title": "Accountwachtwoord opnieuw instellen",
       "subtext": "Voer een nieuw wachtwoord in",
       "password": "Wachtwoord",
-      "password_confirm": "Wachtwoord bevestigen",
+      "password_confirm": "Bevestig wachtwoord",
       "submit": "Wachtwoord opnieuw instellen"
     },
     "order": {
@@ -411,10 +411,10 @@
   },
   "gift_cards": {
     "issued": {
-      "title": "Hier is je cadeaubon ter waarde van {{ value }} voor {{ shop }}!",
-      "subtext": "Je cadeaubon",
-      "gift_card_code": "Cadeaubon code",
-      "shop_link": "Terugkeren naar winkel",
+      "title": "Hier is je {{ value }} cadeaubon voor {{ shop }}!",
+      "subtext": "Uw cadeaubon",
+      "gift_card_code": "Cadeaukaartcode",
+      "shop_link": "Doorgaan met winkelen",
       "remaining_html": "Resterend bedrag: {{ balance }}",
       "add_to_apple_wallet": "Aan Apple Wallet toevoegen",
       "qr_image_alt": "QR-code — scannen om cadeaubon te verzilveren",
@@ -557,6 +557,64 @@
         "value": {
           "in_stock": "Op voorraad"
         }
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "loading_message": "Bezig met laden",
+      "log_out_link": "Uitloggen",
+      "login_prompt": {
+        "continue": "Doorgaan",
+        "privacy": "Privacy",
+        "title": "Ga verder om in te loggen"
+      },
+      "logout_overlay_label": "Je uitloggen...",
+      "nav_label_accessibility_label": "Hoofdnavigatie",
+      "navigation_accessibility_message": "U navigeerde naar {{sectionName}}",
+      "open_menu_accessibility_label": "Hoofdnavigatie openen",
+      "orders_link_label": "Bestellingen",
+      "shop_logo_accessibility_label": "{{shopName}}-logo"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Accountgegevens laden",
+      "loading_finished_accessibility_message": "Accountgegevens zijn geladen",
+      "profile_card": {
+        "cancel": "Annuleren",
+        "cancel_accessibility_label": "Profiel bewerken annuleren",
+        "edit": "Bewerk",
+        "edit_accessibility_label": "Bewerk profiel",
+        "email_help_text": "E-mailadres gebruikt om in te loggen kan niet worden gewijzigd",
+        "first_name": "Voornaam",
+        "last_name": "Achternaam"
+      }
+    },
+    "orders": {
+      "order_list": {
+        "two_images_accessibility_label": "Bestelling omvat {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Bestelling omvat {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Bestelling omvat {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} artikel",
+          "other": "{{count}} items"
+        },
+        "list_view": "Lijstweergave weergeven",
+        "multiple_shipments": "Meerdere zendingen",
+        "no_filtered_results_description": "Verwijder of pas filters aan om je bestellingen te zien",
+        "no_filtered_results_title": "Geen gefilterde resultaten",
+        "order_link": "Bekijk bestelling {{name}}",
+        "order_number": "Bestel {{name}}",
+        "orders_title": "Bevestigd",
+        "pagination": {
+          "nav_accessibility_label": "Navigatieknoppen voor bestellingen",
+          "next": "Volgende",
+          "next_accessibility_label": "Volgende bestellingen",
+          "previous": "Vorige",
+          "previous_accessibility_label": "Vorige bestellingen"
+        },
+        "sort_by": "Sorteer op: {{option}}",
+        "sort_hide_options_accessibility_label": "Verberg sorteeropties voor bevestigde bestellingen.",
+        "sort_show_options_accessibility_label": "Toon sorteeropties voor bevestigde bestellingen."
       }
     }
   }
