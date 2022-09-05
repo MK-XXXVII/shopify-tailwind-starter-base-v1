@@ -2,10 +2,10 @@
   "general": {
     "password_page": {
       "login_form_heading": "Ga naar de winkel met wachtwoord:",
-      "login_password_button": "Ga naar binnen met wachtwoord",
+      "login_password_button": "Voer in met wachtwoord",
       "login_form_password_label": "Wachtwoord",
       "login_form_password_placeholder": "Uw wachtwoord",
-      "login_form_error": "Wachtwoord onjuist!",
+      "login_form_error": "Verkeerd wachtwoord!",
       "login_form_submit": "Binnenkomen",
       "admin_link_html": "Ben jij de winkeleigenaar? <a href=\"\/admin\" class=\"link underlined-link\">Log hier in<\/a>",
       "powered_by_shopify_html": "Deze winkel wordt mogelijk gemaakt door {{ shopify }}"
@@ -28,7 +28,7 @@
         "tiktok": "TikTok"
       }
     },
-    "continue_shopping": "Terugkeren naar winkel",
+    "continue_shopping": "Doorgaan met winkelen",
     "pagination": {
       "label": "Paginering",
       "page": "Pagina {{ number }}",
@@ -43,15 +43,15 @@
       "item_added": "Artikel toegevoegd aan uw winkelwagen"
     },
     "share": {
-      "copy_to_clipboard": "Link kopiëren",
-      "share_url": "Link",
+      "copy_to_clipboard": "Kopieer link",
+      "share_url": "Koppeling",
       "success_message": "Link gekopieerd naar klembord",
       "close": "Delen sluiten"
     },
     "slider": {
       "of": "van",
-      "next_slide": "Naar rechts schuiven",
-      "previous_slide": "Naar links schuiven"
+      "next_slide": "Schuif naar rechts",
+      "previous_slide": "Schuif naar links"
     }
   },
   "newsletter": {
@@ -72,20 +72,20 @@
     },
     "loading": "Bezig met laden...",
     "skip_to_product_info": "Ga direct naar productinformatie",
-    "total_reviews": "totaal aantal recensies",
-    "star_reviews_info": "{{ rating_value }} van de {{ rating_max }} sterren",
-    "collapsible_content_title": "Inklapbare content"
+    "total_reviews": "totaal aantal beoordelingen",
+    "star_reviews_info": "{{ rating_value }} van {{ rating_max }} sterren",
+    "collapsible_content_title": "Opvouwbare inhoud"
   },
   "blogs": {
     "article": {
       "blog": "Blog",
-      "read_more_title": "Lees verder: {{ title }}",
+      "read_more_title": "Lees meer: ​​{{ title }}",
       "comments": {
-        "one": "{{ count }} reactie",
+        "one": "{{ count }} opmerking",
         "other": "{{ count }} reacties"
       },
       "moderated": "Let op: opmerkingen moeten worden goedgekeurd voordat ze worden gepubliceerd.",
-      "comment_form_title": "Reactie plaatsen",
+      "comment_form_title": "laat een reactie achter",
       "name": "Naam",
       "email": "E‑mail",
       "message": "Reactie",
@@ -186,15 +186,15 @@
   },
   "templates": {
     "search": {
-      "no_results": "Geen resultaten gevonden voor “{{ terms }}”. Controleer de spelling of gebruik een ander woord of een andere zin.",
+      "no_results": "Geen resultaten gevonden voor \"{{ terms }}\". Controleer de spelling of gebruik een ander woord of een andere zin.",
       "results_with_count": {
         "one": "{{ count }} resultaat",
         "other": "{{ count }} resultaten"
       },
       "title": "Zoekresultaten",
-      "page": "Pagina",
+      "page": "Bladzijde",
       "products": "Producten",
-      "search_for": "Zoeken naar '{{ terms }}'",
+      "search_for": "Zoek naar \"{{ terms }}\"",
       "results_with_count_and_term": {
         "one": "{{ count }} resultaat gevonden voor “{{ terms }}”",
         "other": "{{ count }} resultaten gevonden voor “{{ terms }}”"
@@ -206,13 +206,13 @@
     "contact": {
       "form": {
         "name": "Naam",
-        "email": "E‑mail",
+        "email": "E-mail",
         "phone": "Telefoonnummer",
-        "comment": "Reactie",
-        "send": "Sturen",
-        "post_success": "Bedankt dat je contact met ons hebt opgenomen. Je hoort zo snel mogelijk van ons.",
+        "comment": "Opmerking",
+        "send": "Versturen",
+        "post_success": "Bedankt dat u contact met ons heeft opgenomen. We komen zo snel mogelijk bij je terug.",
         "error_heading": "Pas het volgende aan:",
-        "title": "Contactformulier"
+        "title": "Contact Formulier"
       }
     },
     "404": {
@@ -226,7 +226,7 @@
       "menu": "Menu",
       "cart_count": {
         "one": "{{ count }} artikel",
-        "other": "{{ count }} artikelen"
+        "other": "{{ count }} items"
       }
     },
     "cart": {
@@ -258,20 +258,20 @@
       }
     },
     "footer": {
-      "payment": "Betaalmethoden"
+      "payment": "Betaalmethodes"
     },
     "featured_blog": {
-      "view_all": "Alles bekijken",
+      "view_all": "Bekijk alles",
       "onboarding_title": "Blogpost",
-      "onboarding_content": "Geef je klanten een overzicht van je blogpost"
+      "onboarding_content": "Geef je klanten een samenvatting van je blogpost"
     },
     "featured_collection": {
-      "view_all": "Alles bekijken",
-      "view_all_label": "Bekijk alle producten in de collectie {{ collection_name }}",
+      "view_all": "Bekijk alles",
+      "view_all_label": "Bekijk alle producten in de {{ collection_name }} collectie",
       "slider": "Schuifregelaar"
     },
     "collection_list": {
-      "view_all": "Alles bekijken"
+      "view_all": "Bekijk alles"
     },
     "collection_template": {
       "title": "Verzameling",
@@ -279,7 +279,7 @@
       "use_fewer_filters_html": "Gebruik minder filters of <a class=\"{{ class }}\" href=\"{{ link }}\">verwijder alles<\/a>"
     },
     "video": {
-      "load_video": "Video laden: {{ description }}"
+      "load_video": "Laad video: {{ description }}"
     },
     "slideshow": {
       "load_slide": "Dia laden",
@@ -288,10 +288,10 @@
       "pause_slideshow": "Diavoorstelling pauzeren",
       "play_slideshow": "Diavoorstelling afspelen",
       "carousel": "Carrousel",
-      "slide": "Dia"
+      "slide": "Schuif"
     },
     "page": {
-      "title": "Paginatitel"
+      "title": "Pagina titel"
     }
   },
   "localization": {
@@ -614,7 +614,20 @@
         },
         "sort_by": "Sorteer op: {{option}}",
         "sort_hide_options_accessibility_label": "Verberg sorteeropties voor bevestigde bestellingen.",
-        "sort_show_options_accessibility_label": "Toon sorteeropties voor bevestigde bestellingen."
+        "sort_show_options_accessibility_label": "Toon sorteeropties voor bevestigde bestellingen.",
+        "payment_status": {
+          "list_view": {
+            "due": "Betaling verschuldigd {{date}}",
+            "due_today": "Betaling vandaag verschuldigd"
+          },
+          "table_view": {
+            "overdue": "Achterstallig",
+            "due": "Vervalt {{date}}",
+            "due_today": "Vandaag uitgerekend",
+            "paid": "Betaald"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Momenteel gesorteerd op: {{option}}"
       },
       "order_status": {
         "estimated_delivery": "Geschatte levering {{date}}",
@@ -628,7 +641,8 @@
         "out_for_delivery_title": "Uw zending is onderweg",
         "resume_tracking": "Volgen hervatten",
         "submitted_label": "Ingediend",
-        "track_shipment": "Zending volgen"
+        "track_shipment": "Zending volgen",
+        "request_return": "Retour aanvragen"
       },
       "status_mark_as_delivered": "Markeren als afgeleverd",
       "status_title": "Bestelstatus"
@@ -668,7 +682,16 @@
       "taxes": "Belastingen",
       "title": "Bestel {{name}}",
       "total": "Totaal",
-      "unit_price": "({{price}}\/ea)"
+      "unit_price": "({{price}}\/ea)",
+      "returns": {
+        "expand_events_label": "Toon details",
+        "hide_events_label": "Verberg details"
+      },
+      "pagination": {
+        "load_more": "Meer laden",
+        "load_more_accessibility_label": "Laad meer items",
+        "loading_accessibility_label": "Items laden"
+      }
     },
     "addresses": {
       "add_button": "Voeg adres toe",
@@ -687,7 +710,12 @@
       "delete_confirmation_message": "Adres verwijderen? Bestaande bestellingen worden niet beïnvloed.",
       "edit_button": "Bewerk",
       "edit_button_accessibility_label": "Bewerken {{address}}",
-      "edit_section_accessibility_label": "Bewerken {{address}}"
+      "edit_section_accessibility_label": "Bewerken {{address}}",
+      "add_address_banner": "Adressen toevoegen om te gebruiken bij het afrekenen",
+      "pagination": {
+        "load_more": "Meer laden",
+        "load_more_accessibility_label": "Laad meer adressen"
+      }
     },
     "B2B": {
       "location_selection": {
@@ -747,6 +775,12 @@
         },
         "subtitle": "Ingediend {{date}}",
         "title": "Bestel {{name}}"
+      },
+      "locations": {
+        "tax_exemptions": "Belastingvrijstellingen",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} meer",
+        "multiple_tax_exemptions_and": "en",
+        "tax_exemptions_modal_close": "Dichtbij"
       }
     },
     "errors": {
