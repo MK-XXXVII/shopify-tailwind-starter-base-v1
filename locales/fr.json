@@ -347,18 +347,18 @@
       "delete_confirm": "Êtes-vous sûr de vouloir supprimer cette adresse ?"
     },
     "log_in": "Connexion",
-    "log_out": "Déconnexion",
+    "log_out": "Se déconnecter",
     "login_page": {
       "cancel": "Annuler",
       "create_account": "Créer un compte",
       "email": "E-mail",
-      "forgot_password": "Mot de passe oublié ?",
+      "forgot_password": "Mot de passe oublié?",
       "guest_continue": "Continuer",
-      "guest_title": "Continuer en tant qu'invité(e)",
+      "guest_title": "Continuer en tant qu'invité",
       "password": "Mot de passe",
       "title": "Connexion",
-      "sign_in": "Connexion",
-      "submit": "Envoyer"
+      "sign_in": "S'identifier",
+      "submit": "Soumettre"
     },
     "orders": {
       "title": "Historique des commandes",
@@ -392,7 +392,7 @@
     },
     "order": {
       "title": "Commande {{ name }}",
-      "date_html": "Passée le {{ date }}",
+      "date_html": "Placé sur {{ date }}",
       "cancelled_html": "Commande annulée le {{ date }}",
       "cancelled_reason": "Motif : {{ reason }}",
       "billing_address": "Adresse de facturation",
@@ -413,7 +413,7 @@
       "tracking_company": "Transporteur",
       "tracking_number": "Numéro de suivi",
       "subtotal": "Total",
-      "total_duties": "Frais de douane"
+      "total_duties": "Fonctions"
     }
   },
   "gift_cards": {
