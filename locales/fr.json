@@ -72,9 +72,9 @@
     },
     "loading": "Chargement en cours...",
     "skip_to_product_info": "Passer aux informations produits",
-    "total_reviews": "total des critiques",
-    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
-    "collapsible_content_title": "Contenu réductible"
+    "total_reviews": "avis totaux",
+    "star_reviews_info": "{{ rating_value }} étoiles sur {{ rating_max }}",
+    "collapsible_content_title": "Contenu pliable"
   },
   "blogs": {
     "article": {
@@ -98,8 +98,8 @@
     }
   },
   "onboarding": {
-    "product_title": "Titre du produit",
-    "collection_title": "Le nom de votre collection"
+    "product_title": "Exemple de titre de produit",
+    "collection_title": "Nom de votre collection"
   },
   "products": {
     "product": {
@@ -190,19 +190,19 @@
   },
   "templates": {
     "search": {
-      "no_results": "Aucun résultat trouvé pour « {{ terms }} ». Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
+      "no_results": "Aucun résultat trouvé pour \"{{ terms }}\". Vérifiez l'orthographe ou utilisez un autre mot ou une autre expression.",
       "results_with_count": {
-        "one": "{{ count }} résultat",
-        "other": "{{ count }} résultats",
+        "one": "{{ count }} résultat",
+        "other": "{{ count }} résultats",
         "many": "{{ count }} résultats"
       },
-      "title": "Résultats de la recherche",
+      "title": "Résultats de recherche",
       "page": "Page",
-      "products": "Produits",
-      "search_for": "Rechercher « {{ terms }} »",
+      "products": "Des produits",
+      "search_for": "Rechercher \"{{ terms }}\"",
       "results_with_count_and_term": {
-        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
-        "other": "{{ count }} résultats trouvés pour « {{ terms }} »",
+        "one": "{{ count }} résultat trouvé pour « {{ terms }} »",
+        "other": "{{ count }} résultats trouvés pour \"{{ terms }}\"",
         "many": "{{ count }} résultats trouvés pour « {{ terms }} »"
       }
     },
@@ -1203,7 +1203,20 @@
             "descending": "Total de la commande (décroissant)"
           }
         },
-        "table_view": "Afficher le tableau"
+        "table_view": "Afficher le tableau",
+        "payment_status": {
+          "list_view": {
+            "due": "Paiement dû {{date}}",
+            "due_today": "Paiement dû aujourd'hui"
+          },
+          "table_view": {
+            "overdue": "En retard",
+            "due": "Échu {{date}}",
+            "due_today": "Dû aujourd'hui",
+            "paid": "Payé"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Actuellement trié par : {{option}}"
       },
       "order_status": {
         "canceled_description": "Votre commande a été annulée le {{date}}.",
@@ -1227,7 +1240,8 @@
         "out_for_delivery_title": "Votre envoi est en cours de livraison",
         "resume_tracking": "Reprendre le suivi",
         "submitted_label": "Soumis",
-        "track_shipment": "Suivi de livraison"
+        "track_shipment": "Suivi de livraison",
+        "request_return": "Demander un retour"
       },
       "status_mark_as_delivered": "Marquer comme livré",
       "status_title": "Statut de la commande"
@@ -1243,7 +1257,16 @@
       "taxes": "Impôts",
       "title": "Commande {{name}}",
       "total": "Total",
-      "unit_price": "({{price}}\/ch)"
+      "unit_price": "({{price}}\/ch)",
+      "returns": {
+        "expand_events_label": "Afficher les détails",
+        "hide_events_label": "Cacher les détails"
+      },
+      "pagination": {
+        "load_more": "Charger plus",
+        "load_more_accessibility_label": "Charger plus d'articles",
+        "loading_accessibility_label": "Chargement des éléments"
+      }
     },
     "addresses": {
       "add_button": "Ajoutez l'adresse",
@@ -1262,7 +1285,12 @@
       "delete_confirmation_message": "Supprimer l'adresse ? Les commandes existantes ne sont pas affectées.",
       "edit_button": "Éditer",
       "edit_button_accessibility_label": "Modifier {{address}}",
-      "edit_section_accessibility_label": "Modifier {{address}}"
+      "edit_section_accessibility_label": "Modifier {{address}}",
+      "add_address_banner": "Ajouter des adresses à utiliser lors du paiement",
+      "pagination": {
+        "load_more": "Charger plus",
+        "load_more_accessibility_label": "Charger plus d'adresses"
+      }
     },
     "address_form": {
       "save_accessibility_label": "Enregistrer l'adresse {{address}}",
@@ -1289,7 +1317,11 @@
         "section_title": "Emplacement",
         "shipping_address_required": "Ajoutez une adresse de livraison à cet emplacement pour commencer à passer des commandes.",
         "tax_details_title": "Détails fiscaux",
-        "tax_id": "Numéro d'identification fiscale"
+        "tax_id": "Numéro d'identification fiscale",
+        "tax_exemptions": "Exonérations fiscales",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} plus",
+        "multiple_tax_exemptions_and": "et",
+        "tax_exemptions_modal_close": "proche"
       },
       "addresses": {
         "cancel_adding_shipping_address_accessibility_label": "Annuler l'ajout de l'adresse de livraison",
