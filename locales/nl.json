@@ -39,8 +39,8 @@
       "search": "Zoeken"
     },
     "cart": {
-      "view": "Winkelwagen bekijken ({{ count }})",
-      "item_added": "Artikel toegevoegd aan winkelwagen"
+      "view": "Bekijk mijn winkelwagen ({{ count }})",
+      "item_added": "Artikel toegevoegd aan uw winkelwagen"
     },
     "share": {
       "copy_to_clipboard": "Link kopiëren",
@@ -249,12 +249,12 @@
         "price": "Prijs",
         "total": "Totaal",
         "quantity": "Aantal",
-        "image": "Productafbeelding"
+        "image": "Product afbeelding"
       },
-      "update": "Bijwerken",
+      "update": "Update",
       "login": {
-        "title": "Heb je een account?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> om sneller af te rekenen."
+        "title": "Een account hebben?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Log in<\/a> om sneller uit te checken."
       }
     },
     "footer": {
