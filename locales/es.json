@@ -777,7 +777,57 @@
         "deferred_payment_required": "Este pedido requiere un pago diferido. Por favor, compruebe su pedido y vuelva a intentarlo.",
         "deferred_amount_changed": "No se pudo procesar su pago porque el monto del pago diferido cambió. Por favor, compruebe su pedido y vuelva a intentarlo.",
         "deferred_date_changed": "No se pudo procesar su pago porque la fecha de pago diferido ha cambiado. Por favor, compruebe su pedido y vuelva a intentarlo.",
-        "order_total_changed": "No se pudo procesar su pago porque el total de su pedido ha cambiado. Comprueba el total de tu pedido e inténtalo de nuevo."
+        "order_total_changed": "No se pudo procesar su pago porque el total de su pedido ha cambiado. Comprueba el total de tu pedido e inténtalo de nuevo.",
+        "payment_processing": "Su pago no se puede procesar por razones técnicas. Vuelve a intentarlo o utiliza otro método de pago.",
+        "payment_processing_no_retry": "Su pago no se puede procesar por razones técnicas. Intente con otro método de pago.",
+        "paypal_zero_amount": "No puede usar PayPal para %{amount} pedidos. Confirme que su pedido es correcto y realice el pago sin PayPal.",
+        "paypal_invalid_token": "PayPal no estaba disponible. Vuelva a intentarlo o use una opción de pago diferente.",
+        "pay_later_failed": "Hubo un error al procesar su pago con Pagar más tarde. Elija otro método de pago y vuelva a intentarlo.",
+        "three_d_secure_failed": "Su pago no pudo ser verificado. Vuelve a intentarlo o utiliza otro método de pago.",
+        "three_d_secure_failed_duplicate": "La autenticación 3D Secure de la tarjeta de crédito falló porque ya hay otra en curso.",
+        "three_d_secure_throttled": "Demasiados intentos; por favor espere antes de volver a intentarlo",
+        "subscription_agreement_blank": "Para comprar una suscripción, es necesario guardar sus datos de pago. Para continuar, confirme que está de acuerdo o elimine los artículos de suscripción de su pedido.",
+        "insufficient_funds": "Su pago fue rechazado debido a fondos insuficientes. Vuelve a intentarlo o utiliza otro método de pago.",
+        "fraud_payment_errors": {
+          "transaction_declined": "La transacción ha sido rechazada",
+          "address_mismatch": "La dirección de la calle y el código postal no coinciden.",
+          "cannot_process": "Esta operación no se puede procesar.",
+          "no_match": "Sin coincidencia",
+          "card_declined": "Tu tarjeta fue rechazada"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method": "Su carrito ha sido actualizado y la tarifa de envío anterior no es válida. Seleccione una nueva tarifa.",
+        "shipping_method_not_available": "Su carrito se actualizó y los artículos que agregó no se pueden enviar a su dirección. Retire los artículos para completar su pedido.",
+        "shipping_method_not_available_generic": {
+          "one": "Este pedido no se puede enviar a la dirección que ingresaste. Revise su dirección para asegurarse de que todos los campos se hayan ingresado correctamente y vuelva a intentarlo.",
+          "other": "Algunos artículos en su carrito no se pueden enviar a la dirección que ingresó. Revise su dirección para asegurarse de que todos los campos se hayan ingresado correctamente y vuelva a intentarlo."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "El artículo que agregó no se envía a su ubicación. Quítelo para pagar o comuníquese con la tienda."
+        }
+      },
+      "thank_you": {
+        "tracking_number": "El número de rastreo:",
+        "company_tracking_number": "%{company} número de seguimiento:",
+        "estimated_arrival": "Fecha estimada de entrega:",
+        "estimated_delivery": "Entrega estimada",
+        "re-order": "Reordenar los mismos artículos",
+        "confirmed": "Confirmado",
+        "gift_card_confirmation_by_text": "Las tarjetas de regalo se envían por mensaje de texto. Si no ha recibido los suyos, intente enviarlos nuevamente o contáctenos.",
+        "gift_card_confirmation_by_email": "Las tarjetas de regalo se envían por correo electrónico. Si no ha recibido los suyos, intente enviarlos nuevamente o contáctenos.",
+        "gift_card_title": "Tarjetas de regalo",
+        "resend_gift_cards": "Reenviar tarjetas de regalo",
+        "thank_you_title": "Tu pedido está confirmado",
+        "thank_you_title_payment": "Su pago está confirmado",
+        "thank_you_confirmed_order_with_email": "En breve recibirá un correo electrónico de confirmación con su número de pedido.",
+        "thank_you_confirmed_order_with_phone": "En breve recibirá un mensaje de texto de confirmación con su número de pedido.",
+        "thank_you_confirmed_order_with_email_and_phone": "Recibirá un correo electrónico de confirmación y un mensaje de texto con su número de pedido en breve.",
+        "thank_you_confirmed_order_with_email_payment": "Realizó un pago en su pedido %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Realizó un pago en su pedido %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Realizó un pago en su pedido %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Recibirá un correo electrónico cuando su pedido esté listo para ser recogido.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Recibirá un mensaje de texto cuando su pedido esté listo para ser recogido."
       }
     }
   }
