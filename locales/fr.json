@@ -1452,7 +1452,13 @@
         "cancel_adding_shipping_address_accessibility_label": "Annuler l'ajout de l'adresse de livraison",
         "save_new_billing_address_accessibility_label": "Enregistrer l'adresse de facturation",
         "save_new_shipping_address_accessibility_label": "Enregistrer l'adresse de livraison",
-        "shipping_address_card_title": "Adresse de livraison"
+        "shipping_address_card_title": "Adresse de livraison",
+        "add_billing_address_button": "Ajouter une adresse de facturation",
+        "add_billing_address_section_accessibility_label": "Ajouter une adresse de facturation",
+        "add_shipping_address_button": "Ajouter une adresse de livraison",
+        "add_shipping_address_section_accessibility_label": "Ajouter une adresse de livraison",
+        "billing_address_card_title": "Adresse de facturation",
+        "cancel_adding_billing_address_accessibility_label": "Annuler l'ajout de l'adresse de facturation"
       },
       "orders": {
         "draft_order_list": {
@@ -1482,9 +1488,53 @@
               "other": "Votre paiement est dû dans {{count}} jours"
             },
             "banner_due_today": "Votre paiement est dû aujourd'hui",
-            "title": "Paiement dû"
-          }
-        }
+            "title": "Paiement dû",
+            "title_with_date": "Paiement dû {{date}}",
+            "description_overdue": "Votre paiement est en retard.",
+            "description_partially_paid": "Cette commande a été partiellement payée. Vous avez un solde restant.",
+            "description_authorized": "Votre mode de paiement sera débité à la date d'échéance, ou vous pouvez payer maintenant."
+          },
+          "draft": {
+            "description": "Les détails du paiement sont décidés lors de la confirmation de la commande.",
+            "title": "Paiement pas encore dû"
+          },
+          "paid": {
+            "title": "Payé",
+            "title_with_date": "Payé {{date}}",
+            "description": "Votre commande est entièrement payée."
+          },
+          "refund": {
+            "title": "Remboursé",
+            "title_with_date": "Remboursé {{date}}",
+            "description_full_refund": "Vous avez reçu un remboursement complet pour cette commande.",
+            "description_single_refund": "Vous avez reçu un remboursement partiel pour cette commande.",
+            "description_multiple_refunds": "Vous avez reçu des remboursements partiels pour cette commande."
+          },
+          "canceled": {
+            "title": "Paiement annulé",
+            "description": "Vous ne serez pas débité."
+          },
+          "pay_now": "Payez maintenant",
+          "title": "Statut de paiement"
+        },
+        "subtitle": "Soumis {{date}}",
+        "title": "Commande {{name}}"
+      },
+      "location_selection": {
+        "continue_to_store": "Continuer à stocker",
+        "description": "Si vous avez déjà des articles dans votre panier, la modification des emplacements peut affecter les prix et les quantités du panier.",
+        "list_accessibility_label": "Liste des emplacements",
+        "list_item_accessibility_label": "{{name}} : {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}} : Pas d'adresse",
+        "list_loading_accessibility_message": "Chargement de la liste des lieux",
+        "list_loading_address_accessibility_message": "Adresse de chargement pour {{locationName}}",
+        "list_loading_finished_accessibility_message": "La liste des emplacements a été chargée",
+        "loading_store_accessibility_message": "Aller au magasin",
+        "no_location_title": "Commandes personnelles uniquement",
+        "no_location_description": "Vous n'êtes plus autorisé à passer des commandes pour {{company}}. Vous pouvez toujours passer des commandes personnelles.",
+        "selection_cancel_button": "Annuler",
+        "selection_confirmation_button": "Choisissez l'emplacement",
+        "title": "Pour quel emplacement achetez-vous ?"
       }
     },
     "errors": {
