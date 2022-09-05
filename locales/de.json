@@ -1464,7 +1464,143 @@
       "loading_add_form_accessibility_message": "Neues Adressformular wird geladen",
       "loading_edit_form_accessibility_message": "Formular zum Bearbeiten der Adresse wird geladen",
       "loading_finished_accessibility_message": "Formular wurde geladen",
-      "save": "Speichern"
+      "save": "Speichern",
+      "save_accessibility_label": "Adresse {{address}} speichern",
+      "section_title_accessibility_label": "Adresse hinzufügen",
+      "update_success_notification": "Adresse aktualisiert"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Name der Firma",
+        "company_card_section_accessibility_label": "Gesellschaft"
+      },
+      "locations": {
+        "contact_email": "Email",
+        "contact_list_title": "Personen",
+        "contact_name": "Name",
+        "contact_permissions": "Berechtigungen",
+        "contact_phone_number": "Telefonnummer",
+        "location_picker_label": "Standortnamen",
+        "net_payment_terms_description": "{{name}}: Zahlungen fällig innerhalb von {{numberOfDays}} Tagen",
+        "payment_details_title": "Zahlungsdetails",
+        "payment_terms": "Zahlungsbedingungen",
+        "permissions_label": "Ihre Berechtigungen",
+        "permissions_title": "Berechtigungen",
+        "section_title": "Ort",
+        "shipping_address_required": "Fügen Sie diesem Standort eine Lieferadresse hinzu, um Bestellungen aufzugeben.",
+        "tax_details_title": "Steuerdetails",
+        "tax_id": "Steuer ID"
+      },
+      "addresses": {
+        "cancel_adding_shipping_address_accessibility_label": "Hinzufügen der Lieferadresse abbrechen",
+        "save_new_billing_address_accessibility_label": "Rechnungsadresse speichern",
+        "save_new_shipping_address_accessibility_label": "Lieferadresse speichern",
+        "shipping_address_card_title": "Lieferanschrift"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Versteck alles",
+          "show_all": "Zeige alles",
+          "hide_all_accessibility_label": "Alle Bestellungen in der Überprüfung ausblenden",
+          "show_all_accessibility_label": "Alle Bestellungen im Überblick anzeigen",
+          "title": "Im Rückblick",
+          "pagination": {
+            "nav_accessibility_label": "Navigationsschaltflächen für Bestellungen in der Überprüfung"
+          }
+        },
+        "order_list_column_headers_location": "Ort"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bestätigt {{date}} von Auftrag {{draftOrderName}}",
+        "loading": "Bestelldetails werden geladen",
+        "loading_finished_accessibility_message": "Bestelldetails wurden geladen",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Ihre Zahlung ist {{count}} Tag überfällig",
+              "other": "Ihre Zahlung ist {{count}} Tage überfällig"
+            },
+            "banner_due": {
+              "one": "Ihre Zahlung ist am {{count}} Tag fällig",
+              "other": "Ihre Zahlung ist in {{count}} Tagen fällig"
+            },
+            "banner_due_today": "Ihre Zahlung ist heute fällig",
+            "title": "Zahlung fällig",
+            "title_with_date": "Zahlung fällig {{date}}",
+            "description_overdue": "Ihre Zahlung ist verspätet.",
+            "description_partially_paid": "Diese Bestellung wurde teilweise bezahlt. Sie haben ein Restguthaben.",
+            "description_authorized": "Ihre Zahlungsmethode wird am Fälligkeitsdatum belastet, oder Sie können jetzt bezahlen."
+          },
+          "draft": {
+            "description": "Zahlungsdetails werden entschieden, wenn die Bestellung bestätigt wird.",
+            "title": "Zahlung noch nicht fällig"
+          },
+          "paid": {
+            "title": "Bezahlt",
+            "title_with_date": "Bezahlt {{date}}",
+            "description": "Ihre Bestellung ist vollständig bezahlt."
+          },
+          "refund": {
+            "title": "Erstattet",
+            "title_with_date": "Zurückerstattet {{date}}",
+            "description_full_refund": "Sie haben eine vollständige Rückerstattung für diese Bestellung erhalten.",
+            "description_single_refund": "Sie haben eine teilweise Rückerstattung für diese Bestellung erhalten.",
+            "description_multiple_refunds": "Sie haben Teilrückerstattungen für diese Bestellung erhalten."
+          },
+          "canceled": {
+            "title": "Zahlung storniert",
+            "description": "Ihnen werden keine Kosten in Rechnung gestellt."
+          },
+          "pay_now": "Zahlen Sie jetzt",
+          "title": "Zahlungsstatus"
+        },
+        "subtitle": "Gesendet {{date}}",
+        "title": "Auftrag {{name}}"
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Beim Löschen dieser Adresse ist ein Problem aufgetreten. Versuchen Sie es erneut oder aktualisieren Sie die Seite."
+      },
+      "addresses_loading_issue": {
+        "description": "Verbindungsfehler. Überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut."
+      },
+      "banner_title": {
+        "one": "Es liegt ein {{count}}-Fehler vor",
+        "other": "Es liegen {{count}}-Fehler vor"
+      },
+      "failed_address_creation": {
+        "description": "Beim Erstellen Ihrer Adresse ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "failed_address_update": {
+        "description": "Beim Aktualisieren Ihrer Adresse ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Melden Sie sich bei einem anderen Konto an",
+        "description": "Sie sind nicht als B2B-Kunde bei {{shopName}} registriert",
+        "title": "Kein Zugang"
+      },
+      "no_access_to_locations": {
+        "description": "Sie haben keinen Zugriff auf Standorte"
+      },
+      "not_found": {
+        "description": "Überprüfen Sie die URL oder versuchen Sie es in ein paar Minuten erneut.",
+        "title": "Beim Laden dieser Seite ist ein Problem aufgetreten"
+      },
+      "order_not_found": {
+        "description": "Diese Bestellung existiert nicht oder Sie sind nicht berechtigt, sie anzuzeigen.",
+        "title": "Bestellung nicht gefunden"
+      },
+      "profile_update_error": {
+        "description": "Beim Aktualisieren Ihres Profils ist ein Problem aufgetreten. Versuchen Sie, diese Seite zu aktualisieren, oder überprüfen Sie Ihre Internetverbindung."
+      },
+      "retry_action_label": "Wiederholen"
+    },
+    "shop_policies": {
+      "legal_notice": "Impressum",
+      "privacy_policy": "Datenschutz-Bestimmungen",
+      "refund_policy": "Rückgaberecht",
+      "shipping_policy": "Versandbedingungen"
     }
   }
 }
