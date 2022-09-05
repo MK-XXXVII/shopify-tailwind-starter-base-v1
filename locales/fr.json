@@ -569,9 +569,135 @@
         "local_delivery": "Livraison à domicile",
         "subscription_delivery_description": {
           "prepaid_delivery_frequency": {
-            "one": "pour %{count} livraison"
-          }
+            "one": "pour %{count} livraison",
+            "other": "pour %{count} livraisons"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "tous les jours",
+              "other": "tous les %{count} jours"
+            },
+            "week": {
+              "one": "toutes les semaines",
+              "other": "toutes les %{count} semaines"
+            },
+            "month": {
+              "one": "chaque mois",
+              "other": "tous les %{count} mois"
+            },
+            "year": {
+              "one": "chaque année",
+              "other": "tous les %{count} ans"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} par livraison",
+          "prepaid_shipping_price_label": "%{shipping_price} par livraison x %{delivery_interval_count}",
+          "initial_order_discounted": "Coût d'expédition d'abord %{discounted_shipping_cost}, puis %{frequency_description}",
+          "prepaid_initial_order_discounted": "Premier frais de port %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Premier coût d'expédition %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "D'abord frais de port %{discounted_shipping_price} %{prepaid_delivery_frequency}, puis %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "D'abord frais de port %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), puis %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Inclus",
+          "recurring_order_shipping_price": "suivi de %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Première commande incluse, suivie de %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} par diffusion), suivi de %{recurring_order_shipping_price}"
         }
+      },
+      "payment": {
+        "delete_customer_mandate_modal_cancel": "Annuler",
+        "card_verification_value_label": "Code de sécurité",
+        "card_verification_value_placeholder": "Code de sécurité",
+        "card_verification_confirm": "À des fins de vérification, veuillez entrer le code de sécurité de votre carte.",
+        "card_expiry_date_explanation": "Date d'expiration de la carte au format : mois, mois, année, année",
+        "card_expiration_month_label": "Mois d'expiration",
+        "card_expiration_year_label": "Année d'expiration",
+        "card_verification_value_explanation": "Code de sécurité à 3 chiffres qui se trouve généralement au dos de votre carte. Les cartes American Express ont un code à 4 chiffres situé sur le devant.",
+        "card_verification_value_explanation_amex": "Code de sécurité à 4 chiffres au recto de votre carte",
+        "card_verification_value_explanation_other": "Code de sécurité à 3 chiffres au dos de votre carte",
+        "card_start_label": "Date d'émission (MM \/ AA)",
+        "card_start_placeholder": "Date d'émission (MM \/ AA)",
+        "card_issue_number_label": "Numéro de série",
+        "card_issue_number_placeholder": "Numéro de série",
+        "card_change_label": "Changer",
+        "card_update_label": "Mettre à jour la carte",
+        "ends_with_label": "se terminant par %{last_digits}",
+        "masked_digits_label": "•••• %{last_digits}",
+        "expiry_long": "(Expire %{month}\/%{year})",
+        "expiry_short": "(Exp %{month}\/%{year})",
+        "saved_by_payment_method": "Enregistré par %{payment_method}",
+        "pay_with_payment_method": "Payer avec %{payment_method}",
+        "different_credit_card_label": "Utiliser une autre carte de crédit",
+        "same_billing_address_label": "Même que l'adresse d'expédition",
+        "different_billing_address_label": "Utiliser une autre adresse de facturation",
+        "billing_address_associated_with_mandate": "Utiliser l'adresse associée au moyen de paiement",
+        "billing_address_associated_with_mandate_info": "Si vous souhaitez modifier votre adresse de facturation, veuillez supprimer et ressaisir les détails de votre carte de crédit",
+        "free_order_notice_html": "Votre commande est <strong>gratuite<\/strong>. Aucun paiement n'est requis.",
+        "express_checkout_free_order": "Vous ne serez pas facturé pour une commande gratuite",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Votre commande est couverte par votre carte cadeau.",
+          "other": "Votre commande est couverte par vos cartes cadeaux."
+        },
+        "offsite_gateway_redirect_hint": "Après avoir cliqué sur \"%{button_label}\", vous serez redirigé vers %{gateway_label} pour finaliser votre achat en toute sécurité.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} total %{total_shop_price}",
+        "billing_address_title": "Adresse de facturation",
+        "billing_address_description": "Sélectionnez l'adresse qui correspond à votre carte ou à votre mode de paiement.",
+        "billing_address_description_no_shipping_address": "Entrez l'adresse qui correspond à votre carte ou à votre mode de paiement.",
+        "no_js_credit_card_fields_redirect_hint": "Vous serez redirigé pour ajouter vos informations de paiement.",
+        "card_fields_container_prefix": "Conteneur de terrain pour :",
+        "card_fields_unavailable_html": {
+          "one": "Les paiements par carte de crédit et de débit ne sont pas disponibles pour le moment.<br><a href=\"%{current_url}\">Actualisez cette page<\/a> ou réessayez plus tard.",
+          "other": "Les paiements par carte de crédit et de débit ne sont pas disponibles pour le moment.<br><a href=\"%{current_url}\">Actualisez cette page<\/a> ou essayez un autre mode de paiement."
+        },
+        "subscription_agreement_label_html": "Je comprends que j'accepte un abonnement. Il sera renouvelé au prix et à la fréquence indiqués jusqu'à ce qu'il se termine ou soit\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">annulé<\/a>.",
+        "change_currency_section_description": "Sélectionnez une option de devise",
+        "no_real_orders_dev_store": "Ce magasin ne peut pas accepter de commandes réelles ou de paiements réels.",
+        "waiting_on_payment_methods": "Obtenir les modes de paiement disponibles...",
+        "apple_pay_payment_error": "Votre paiement n'a pas pu être effectué. Réessayez ou utilisez un autre mode de paiement.",
+        "taxes_not_included": "Taxes non incluses",
+        "no_taxes_banner_content": "Les taxes ne seront pas facturées sur cette commande. Une fois que vous avez perçu le paiement, les taxes ne peuvent plus être ajoutées.",
+        "paypal": {
+          "connect": "Cliquez pour connecter votre compte PayPal"
+        },
+        "apple": {
+          "connect": "Cliquez pour connecter votre compte Apple Pay",
+          "not_available": "Apple Pay n'est pas disponible dans ce navigateur. Pour connecter votre compte Apple Pay, vous devez utiliser Safari sur un appareil Apple."
+        },
+        "google": {
+          "connect": "Cliquez pour vous connecter à votre compte Google Pay",
+          "error_authorizing": "Erreur lors de l'autorisation de paiement"
+        },
+        "account_connected": "Compte Connecté",
+        "email_connected": "Compte Connecté:",
+        "mor_disclaimer_html": "En cliquant ci-dessous et en complétant votre commande, vous acceptez d'acheter vos articles auprès de Global-e en tant que marchand attitré\npour cette transaction, selon les <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">Conditions générales<\/a> de Global-e\net <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Politique de confidentialité<\/a>. Global-e est une société internationale\nfournisseur de services d'exécution à %{shop_name}"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Solde actuel %{amount}",
+        "credit_card_expires_on_notice": "Expire le %{month}\/%{year}",
+        "express_payment_gateway_label": "Exprimer",
+        "manual_payment_gateway_label": "Manuel",
+        "billing_address_title": "Adresse de facturation"
+      },
+      "field_errors": {
+        "address_address2_blank": "Entrez dans un appartement, une suite, etc.",
+        "address_address2_too_long": "La deuxième ligne d'adresse est trop longue (le maximum est de 255 caractères)",
+        "address_address2_contains_emojis": "L'adresse 2 ne peut pas contenir d'emojis",
+        "address_address2_contains_html_tags": "Adresse2 ne peut pas contenir de balises HTML.",
+        "address_city_blank": "Entrez une ville",
+        "address_city_too_long": "La ville est trop longue (le maximum est de 255 caractères)",
+        "address_city_contains_emojis": "La ville ne peut pas contenir d'emojis",
+        "address_city_contains_html_tags": "La ville ne peut pas contenir de balises HTML.",
+        "address_country_blank": "Sélectionnez un pays\/une région",
+        "address_country_not_supported": "Nous ne livrons pas dans ce pays ou cette région. Saisissez une nouvelle adresse de livraison et réessayez.",
+        "address_province_blank": "Sélectionnez un état \/ province",
+        "address_company_blank": "Saisissez un nom d'entreprise",
+        "address_company_too_long": "Le nom de l'entreprise est trop long (255 caractères maximum)",
+        "address_company_contains_emojis": "L'entreprise ne peut pas contenir d'emojis",
+        "address_company_contains_html_tags": "L'entreprise ne peut pas contenir de balises HTML.",
+        "address_phone_blank": "Entrez un numéro de téléphone valide",
+        "address_phone_contains_emojis": "Le numéro de téléphone ne peut pas contenir d'emojis",
+        "address_zip_blank": "Entrez un code postal \/ code postal",
+        "address_zip_invalid_for_country": "Entrez un code postal valide pour %{country}",
+        "address_zip_invalid_for_country_and_province": "Entrez un code postal valide pour %{province}, %{country}"
       }
     }
   }
