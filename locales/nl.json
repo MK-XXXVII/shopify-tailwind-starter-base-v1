@@ -615,7 +615,79 @@
         "sort_by": "Sorteer op: {{option}}",
         "sort_hide_options_accessibility_label": "Verberg sorteeropties voor bevestigde bestellingen.",
         "sort_show_options_accessibility_label": "Toon sorteeropties voor bevestigde bestellingen."
-      }
+      },
+      "order_status": {
+        "estimated_delivery": "Geschatte levering {{date}}",
+        "in_review_description": "We laten het je weten als we meer informatie nodig hebben of wanneer je bestelling is bevestigd.",
+        "in_review_label": "In beoordeling",
+        "in_review_title": "Uw bestelling wordt beoordeeld",
+        "no_tracking_number": "Er is geen trackingnummer voor deze zending.",
+        "on_its_way_label": "Onderweg",
+        "on_its_way_title": "Uw zending is onderweg",
+        "out_for_delivery_label": "Uit voor levering",
+        "out_for_delivery_title": "Uw zending is onderweg",
+        "resume_tracking": "Volgen hervatten",
+        "submitted_label": "Ingediend",
+        "track_shipment": "Zending volgen"
+      },
+      "status_mark_as_delivered": "Markeren als afgeleverd",
+      "status_title": "Bestelstatus"
+    },
+    "order_details": {
+      "addresses_section_title": "Facturering en verzending",
+      "billing_address": "Facturatie adres",
+      "card_ending_with": "eindigend met {{lastDigits}}",
+      "contact": "Contact",
+      "fully_refunded_label": "TERUGBETAALD",
+      "discount": "Korting",
+      "hide_items": "Items verbergen",
+      "loading": "Bestellingsdetails laden",
+      "loading_finished_accessibility_message": "Bestelgegevens zijn geladen",
+      "location": "Plaats",
+      "no_data": "Geen",
+      "not_applicable": "Nvt",
+      "partially_refunded_label": "GEDEELTELIJK TERUGBETAALD",
+      "payment": {
+        "status_in_review": "Betaling verschuldigd na beoordeling",
+        "status_unpaid": "Betaling verschuldigd op {{date}}",
+        "title": "Betaling"
+      },
+      "refunded_amount": "Terugbetaald",
+      "shipping": {
+        "address": "Verzendingsadres",
+        "address_map_marker": "Verzendingsadres",
+        "method": "Verzendmethode:",
+        "summary": "Verzenden"
+      },
+      "show_items": "Artikelen weergeven",
+      "subtitle": "Bevestigd {{date}}",
+      "subtotal": "Subtotaal",
+      "summary_list_title_accessibility_label": "Artikelen bestellen",
+      "summary_title": "Overzicht van de bestelling",
+      "summary_totals_title_accessibility_label": "Ordertotalen",
+      "taxes": "Belastingen",
+      "title": "Bestel {{name}}",
+      "total": "Totaal",
+      "unit_price": "({{price}}\/ea)"
+    },
+    "addresses": {
+      "add_button": "Voeg adres toe",
+      "address_deleted_notification": "Adres verwijderd",
+      "cancel_adding_address_accessibility_label": "Toevoegen van adres annuleren",
+      "cancel_deletion_button": "Annuleren",
+      "cancel_deletion_button_accessibility_label": "Annuleer het verwijderen van {{address}}",
+      "default_address": {
+        "title": "Standaard adres",
+        "title_accessibility_label": "Standaard adres: {{address}}"
+      },
+      "delete_button": "Verwijderen",
+      "delete_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_button": "Adres verwijderen",
+      "delete_confirmation_button_accessibility_label": "Verwijder {{address}}",
+      "delete_confirmation_message": "Adres verwijderen? Bestaande bestellingen worden niet beïnvloed.",
+      "edit_button": "Bewerk",
+      "edit_button_accessibility_label": "Bewerken {{address}}",
+      "edit_section_accessibility_label": "Bewerken {{address}}"
     }
   }
 }
