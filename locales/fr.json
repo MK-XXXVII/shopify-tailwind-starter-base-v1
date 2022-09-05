@@ -697,7 +697,57 @@
         "address_phone_contains_emojis": "Le numéro de téléphone ne peut pas contenir d'emojis",
         "address_zip_blank": "Entrez un code postal \/ code postal",
         "address_zip_invalid_for_country": "Entrez un code postal valide pour %{country}",
-        "address_zip_invalid_for_country_and_province": "Entrez un code postal valide pour %{province}, %{country}"
+        "address_zip_invalid_for_country_and_province": "Entrez un code postal valide pour %{province}, %{country}",
+        "gift_card_expired": "Cette carte-cadeau a expiré",
+        "gift_card_depleted": "Cette carte-cadeau n'a plus de fonds",
+        "gift_card_currency_mismatch": "Seules les cartes-cadeaux en %{checkout_currency} peuvent être utilisées avec cette commande",
+        "payment_gateway_needs_paid_plan_error": "Ce mode de paiement n'est pas disponible sur la boutique pour le moment",
+        "payment_gateway_not_in_test_mode": "n'est pas configuré pour tester les commandes. Ce magasin ne peut pas accepter de commandes réelles ou de paiements réels.",
+        "payment_gateway_incompatible_with_multi_currency": "Pour effectuer ce paiement dans votre devise locale, vous devez payer par carte de crédit.",
+        "payment_gateway_unsupported_for_subscriptions": "Ce mode de paiement n'est pas disponible pour les commandes d'abonnement.",
+        "subscription_agreement_blank": "Pour poursuivre votre achat, acceptez les conditions d'abonnement",
+        "physical_gift_card_invalid_quantity": "Les éléments de ligne de carte-cadeau physique doivent avoir une quantité qui correspond au nombre de codes de carte-cadeau.",
+        "physical_gift_card_duplicate_code": "L'élément de campagne de la carte-cadeau physique contient un code en double.",
+        "physical_gift_card_invalid_code": "Le code physique de la carte-cadeau n'est pas valide."
+      },
+      "payment_errors": {
+        "generic_error": "Un problème est survenu lors du traitement de votre paiement. Réessayez ou utilisez un autre mode de paiement.",
+        "rejected_transaction": "Votre paiement a été refusé. Réessayez ou utilisez un autre mode de paiement.",
+        "credit_card_processing": "Votre paiement ne peut pas être traité pour des raisons techniques. Réessayez dans quelques minutes ou utilisez un autre mode de paiement.",
+        "checkout_amount_changed": "Votre paiement n'a pas pu être traité car le montant dû à la caisse a changé. Veuillez vérifier votre commande et réessayer.",
+        "deferred_payment_not_allowed": "Les paiements différés ne sont pas autorisés. Veuillez vérifier votre commande et réessayer.",
+        "deferred_payment_required": "Cette commande nécessite un paiement différé. Veuillez vérifier votre commande et réessayer.",
+        "deferred_amount_changed": "Votre paiement n'a pas pu être traité car le montant du paiement différé a changé. Veuillez vérifier votre commande et réessayer.",
+        "deferred_date_changed": "Votre paiement n'a pas pu être traité car la date de paiement différé a changé. Veuillez vérifier votre commande et réessayer.",
+        "order_total_changed": "Votre paiement n'a pas pu être traité car le total de votre commande a changé. Vérifiez le total de votre commande et réessayez.",
+        "payment_processing": "Votre paiement ne peut pas être traité pour des raisons techniques. Réessayez ou utilisez un autre mode de paiement.",
+        "payment_processing_no_retry": "Votre paiement ne peut pas être traité pour des raisons techniques. Veuillez essayer un autre mode de paiement.",
+        "paypal_zero_amount": "Vous ne pouvez pas utiliser PayPal pour %{amount} commandes. Confirmez que votre commande est correcte et payez sans PayPal.",
+        "paypal_invalid_token": "PayPal n'était pas disponible. Réessayez ou utilisez une autre option de paiement.",
+        "pay_later_failed": "Une erreur s'est produite lors du traitement de votre paiement avec Payer plus tard. Choisissez un autre mode de paiement et réessayez.",
+        "three_d_secure_failed": "Votre paiement n'a pas pu être vérifié. Réessayez ou utilisez un autre mode de paiement.",
+        "three_d_secure_failed_duplicate": "L'authentification 3D Secure de la carte bancaire a échoué car une autre est déjà en cours.",
+        "three_d_secure_throttled": "Trop d'essais; veuillez patienter avant de réessayer",
+        "subscription_agreement_blank": "Pour acheter un abonnement, vos informations de paiement doivent être enregistrées. Pour continuer, confirmez que vous acceptez ou supprimez les articles d'abonnement de votre commande.",
+        "insufficient_funds": "Votre paiement a été refusé en raison de fonds insuffisants. Réessayez ou utilisez un autre mode de paiement.",
+        "fraud_payment_errors": {
+          "transaction_declined": "cette transaction a été refusée",
+          "address_mismatch": "L'adresse municipale et le code postal ne correspondent pas.",
+          "cannot_process": "Cette transaction ne peut pas être traitée.",
+          "no_match": "Aucune concordance",
+          "card_declined": "Votre carte a été refusée"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method": "Votre panier a été mis à jour et le tarif d'expédition précédent n'est pas valide. Sélectionnez un nouveau tarif.",
+        "shipping_method_not_available": "Votre panier a été mis à jour et les articles que vous avez ajoutés ne peuvent pas être expédiés à votre adresse. Retirez les articles pour terminer votre commande.",
+        "shipping_method_not_available_generic": {
+          "one": "Cette commande ne peut pas être expédiée à l'adresse que vous avez saisie. Vérifiez votre adresse pour vous assurer que tous les champs ont été saisis correctement et réessayez.",
+          "other": "Certains articles de votre panier ne peuvent pas être expédiés à l'adresse que vous avez saisie. Vérifiez votre adresse pour vous assurer que tous les champs ont été saisis correctement et réessayez."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "L'article que vous avez ajouté n'est pas livré à votre emplacement. Retirez-le pour vérifier ou contactez le magasin."
+        }
       }
     }
   }
