@@ -39,8 +39,8 @@
       "search": "Recherche"
     },
     "cart": {
-      "view": "Afficher mon panier ({{ count }})",
-      "item_added": "Article ajouté au panier"
+      "view": "Voir mon panier ({{ count }})",
+      "item_added": "Article ajouté à votre panier"
     },
     "share": {
       "copy_to_clipboard": "Copier le lien",
@@ -207,7 +207,7 @@
       }
     },
     "cart": {
-      "cart": "Panier"
+      "cart": "Chariot"
     },
     "contact": {
       "form": {
@@ -256,12 +256,12 @@
         "price": "Prix",
         "total": "Total",
         "quantity": "Quantité",
-        "image": "Image de produit"
+        "image": "Image du produit"
       },
-      "update": "Mettre à jour",
+      "update": "Mise à jour",
       "login": {
-        "title": "Vous possédez un compte ?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Connectez-vous<\/a> pour payer plus vite."
+        "title": "Avoir un compte?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Connectez-vous<\/a> pour payer plus rapidement."
       }
     },
     "footer": {
