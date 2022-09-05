@@ -90,11 +90,11 @@
       "name": "Nom",
       "email": "E-mail",
       "message": "Commentaire",
-      "post": "Publier le commentaire",
+      "post": "Poster un commentaire",
       "back_to_blog": "Retour au blog",
       "share": "Partagez cet article",
-      "success": "Votre commentaire a bien été publié ! Merci !",
-      "success_moderated": "Votre commentaire a bien été publié. Nous le publierons sous peu, conformément au processus de modération de notre blog."
+      "success": "Votre commentaire a été posté avec succès ! Merci!",
+      "success_moderated": "Votre commentaire a été posté avec succès. Nous le publierons dans quelques instants, car notre blog est modéré."
     }
   },
   "onboarding": {
@@ -104,13 +104,13 @@
   "products": {
     "product": {
       "add_to_cart": "Ajouter au panier",
-      "description": "Description",
+      "description": "La description",
       "on_sale": "Vente",
-      "product_variants": "Variantes de produits",
+      "product_variants": "Variantes de produit",
       "quantity": {
         "label": "Quantité",
         "input_label": "Quantité pour {{ product }}",
-        "increase": "Augmenter la quantité de {{ product }}",
+        "increase": "Augmenter la quantité pour {{ product }}",
         "decrease": "Diminuer la quantité pour {{ product }}"
       },
       "price": {
@@ -136,20 +136,20 @@
         "refresh": "Rafraîchir"
       },
       "media": {
-        "open_media": "Ouvrir le média {{ index }} dans une fenêtre modale",
-        "play_model": "Lire la visionneuse 3D",
+        "open_media": "Ouvrir le média {{ index }} en modal",
+        "play_model": "Jouer à la visionneuse 3D",
         "play_video": "Lire la vidéo",
-        "gallery_viewer": "Visionneuse de la galerie",
-        "load_image": "Charger l'image {{ index }} dans la galerie",
-        "load_model": "Charger le modèle 3D {{ index }} dans la galerie",
-        "load_video": "Lire la vidéo {{ index }} dans la galerie",
-        "image_available": "L'image {{ index }} est maintenant disponible dans la galerie"
+        "gallery_viewer": "Visionneuse de galerie",
+        "load_image": "Charger l'image {{ index }} dans la vue galerie",
+        "load_model": "Charger le modèle 3D {{ index }} dans la vue galerie",
+        "load_video": "Lire la vidéo {{ index }} dans la vue galerie",
+        "image_available": "L'image {{ index }} est maintenant disponible dans la vue galerie"
       },
       "view_full_details": "Voir tous les détails",
       "include_taxes": "Taxes incluses.",
       "shipping_policy_html": "<a href=\"{{ link }}\">Frais d'expédition<\/a> calculés à l'étape de paiement.",
-      "choose_options": "Choisir des options",
-      "choose_product_options": "Choisir des options pour {{ product_name }}"
+      "choose_options": "Choisissez les options",
+      "choose_product_options": "Choisissez les options pour {{ product_name }}"
     },
     "modal": {
       "label": "Galerie des médias"
