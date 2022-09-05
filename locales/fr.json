@@ -56,22 +56,22 @@
   },
   "newsletter": {
     "label": "E-mail",
-    "success": "Merci de votre inscription",
-    "button_label": "S'inscrire"
+    "success": "Merci pour votre subscription",
+    "button_label": "S'abonner"
   },
   "accessibility": {
-    "skip_to_text": "Ignorer et passer au contenu",
-    "close": "Fermer",
+    "skip_to_text": "Aller au contenu",
+    "close": "proche",
     "unit_price_separator": "par",
-    "vendor": "Distributeur :",
+    "vendor": "Vendeur:",
     "error": "Erreur",
-    "refresh_page": "Le choix d'une sélection entraîne l'actualisation de la page entière.",
+    "refresh_page": "Le choix d'une sélection entraîne une actualisation complète de la page.",
     "link_messages": {
       "new_window": "Ouvre dans une nouvelle fenêtre.",
-      "external": "Ouvre un site web externe."
+      "external": "Ouvre un site Web externe."
     },
-    "loading": "Chargement en cours...",
-    "skip_to_product_info": "Passer aux informations produits",
+    "loading": "Chargement...",
+    "skip_to_product_info": "Passer aux informations sur le produit",
     "total_reviews": "avis totaux",
     "star_reviews_info": "{{ rating_value }} étoiles sur {{ rating_max }}",
     "collapsible_content_title": "Contenu pliable"
@@ -1504,7 +1504,10 @@
         "tax_exemptions": "Exonérations fiscales",
         "multiple_tax_exemptions": "{{taxExemptionsCount}} plus",
         "multiple_tax_exemptions_and": "et",
-        "tax_exemptions_modal_close": "proche"
+        "tax_exemptions_modal_close": "proche",
+        "taxes_none": "Aucun",
+        "tax_exemption_not_applicable": "N \/ A",
+        "tax_exemptions_modal_button_accessibility_label": "Voir toutes les exonérations fiscales"
       },
       "addresses": {
         "cancel_adding_shipping_address_accessibility_label": "Annuler l'ajout de l'adresse de livraison",
@@ -1527,9 +1530,12 @@
           "title": "En revue",
           "pagination": {
             "nav_accessibility_label": "Boutons de navigation Commandes en révision"
-          }
+          },
+          "show_all_orders_in_review": "Afficher toutes les commandes en cours d'examen",
+          "show_less_orders_in_review": "Afficher moins de commandes en révision"
         },
-        "order_list_column_headers_location": "Emplacement"
+        "order_list_column_headers_location": "Emplacement",
+        "order_list_column_headers_contact": "Contact"
       },
       "draft_order_details": {
         "draft_order_subtitle": "Confirmé {{date}} de la commande {{draftOrderName}}",
@@ -1550,10 +1556,12 @@
             "title_with_date": "Paiement dû {{date}}",
             "description_overdue": "Votre paiement est en retard.",
             "description_partially_paid": "Cette commande a été partiellement payée. Vous avez un solde restant.",
-            "description_authorized": "Votre mode de paiement sera débité à la date d'échéance, ou vous pouvez payer maintenant."
+            "description_authorized": "Votre mode de paiement sera débité à la date d'échéance, ou vous pouvez payer maintenant.",
+            "title_due_on_receipt": "Le paiement n'est pas encore dû",
+            "description_due_on_receipt": "Vous recevrez une facture lorsque le paiement est dû."
           },
           "draft": {
-            "description": "Les modalités de paiement sont décidées lors de la confirmation de la commande.",
+            "description": "Les détails du paiement sont décidés lors de la confirmation de la commande.",
             "title": "Paiement pas encore dû"
           },
           "paid": {
