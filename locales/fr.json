@@ -1342,7 +1342,7 @@
           },
           "table_view": {
             "overdue": "En retard",
-            "due": "Échu {{date}}",
+            "due": "Échéance {{date}}",
             "due_today": "Dû aujourd'hui",
             "paid": "Payé"
           }
@@ -1553,7 +1553,7 @@
             "description_authorized": "Votre mode de paiement sera débité à la date d'échéance, ou vous pouvez payer maintenant."
           },
           "draft": {
-            "description": "Les détails du paiement sont décidés lors de la confirmation de la commande.",
+            "description": "Les modalités de paiement sont décidées lors de la confirmation de la commande.",
             "title": "Paiement pas encore dû"
           },
           "paid": {
