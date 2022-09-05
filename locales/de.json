@@ -1,19 +1,19 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Shop mit Passwort betreten:",
+      "login_form_heading": "Geben Sie den Store mit dem Passwort ein:",
       "login_password_button": "Mit Passwort betreten",
       "login_form_password_label": "Passwort",
-      "login_form_password_placeholder": "Dein Passwort",
+      "login_form_password_placeholder": "Ihr Passwort",
       "login_form_error": "Falsches Passwort!",
-      "login_form_submit": "Eingeben",
-      "admin_link_html": "Bist du der Shop-Inhaber? <a href=\"\/admin\" class=\"link underlined-link\">Hier einloggen<\/a>",
-      "powered_by_shopify_html": "Dieser Shop wird unterstützt von {{ shopify }}"
+      "login_form_submit": "Eintreten",
+      "admin_link_html": "Sind Sie der Ladenbesitzer? <a href=\"\/admin\" class=\"link underlined-link\">Melden Sie sich hier an<\/a>",
+      "powered_by_shopify_html": "Dieser Shop wird betrieben von {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Auf Facebook teilen",
-        "share_on_twitter": "Auf Twitter twittern",
+        "share_on_twitter": "Twittern Sie auf Twitter",
         "share_on_pinterest": "Auf Pinterest pinnen"
       },
       "links": {
@@ -91,7 +91,7 @@
       "message": "Kommentar",
       "post": "Kommentar posten",
       "back_to_blog": "Zurück zum Blog",
-      "share": "Diesen Artikel teilen",
+      "share": "Teile diesen Artikel",
       "success": "Dein Kommentar wurde erfolgreich gepostet! Vielen Dank!",
       "success_moderated": "Dein Kommentar wurde erfolgreich gepostet. Da unser Blog moderiert wird, werden wir ihn erst kurze Zeit später veröffentlichen."
     }
@@ -274,9 +274,9 @@
       "view_all": "Alle anzeigen"
     },
     "collection_template": {
-      "title": "Kategorie",
+      "title": "Sammlung",
       "empty": "Keine Produkte gefunden",
-      "use_fewer_filters_html": "Verwende weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">entferne alle<\/a>"
+      "use_fewer_filters_html": "Verwenden Sie weniger Filter oder <a class=\"{{ class }}\" href=\"{{ link }}\">entfernen Sie alle<\/a>"
     },
     "video": {
       "load_video": "Video laden: {{ description }}"
@@ -1215,6 +1215,110 @@
         "confirmation": "Vielen Dank, dass Sie unsere Mailingliste abonniert haben.",
         "disclaimer": "Sie können sich jederzeit abmelden.",
         "unsubscribe": "Abbestellen"
+      },
+      "unsubscribed": {
+        "confirmation": "Sie haben sich von unserer Mailingliste abgemeldet.",
+        "disclaimer": "Sie erhalten von uns keine Marketing-Updates mehr. Sie können sich jederzeit erneut anmelden.",
+        "preview": "Sie sehen in der Vorschau, was Kunden sehen, wenn sie sich abmelden."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Sie haben sich für die Nachverfolgung von offenen E-Mails angemeldet.<\/b>",
+          "visibility": "E-Mail-Öffnungsraten werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail als Teil einer aggregierten E-Mail-Öffnungsrate geöffnet haben.",
+          "opt_out_html": "Sie können die Nachverfolgung von E-Mail-Öffnungen <a style='text-decoration:underline;' href='%{link}'>abwählen<\/a>, wenn Sie diese Informationen nicht weitergeben möchten.",
+          "preview_bar": "Sie zeigen eine Vorschau dessen an, was Kunden sehen, wenn sie sich für die Verfolgung offener E-Mails entscheiden."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Sie haben sich von der Verfolgung geöffneter E-Mails abgemeldet.<\/b>",
+          "visibility": "Wir werden nicht sehen, ob Sie Ihre E-Mails geöffnet haben.",
+          "opt_in_html": "<a style='text-decoration:underline;' href='%{link}'>Opt-in<\/a>, um das Offen-Tracking per E-Mail zu versenden.",
+          "preview_bar": "Sie zeigen eine Vorschau dessen an, was Kunden sehen, wenn sie sich von der Verfolgung offener E-Mails abmelden."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Wir verfolgen keine geöffneten E-Mails mehr.<\/b>",
+          "privacy_policy": "Nachdem diese E-Mail gesendet wurde, haben wir unsere Datenschutzrichtlinie aktualisiert und verfolgen keine Öffnungen mehr."
+        },
+        "track": {
+          "status_html": "<b>Nachverfolgung von E-Mail-Öffnungen wird gemeldet.<\/b>",
+          "visibility": "Als Teil der gesamten E-Mail-Öffnungsrate sehen wir nur, ob Sie die E-Mail geöffnet haben."
+        },
+        "updated_policy": {
+          "status_html": "<b>Nachverfolgung von E-Mail-Öffnungen wird gemeldet.<\/b>",
+          "visibility": "Wir haben unsere Richtlinie aktualisiert und verfolgen jetzt das Öffnen von E-Mails. E-Mail-Öffnungsraten werden anonym gemeldet. Wir sehen nur, ob Sie eine E-Mail als Teil der gesamten E-Mail-Öffnungsrate geöffnet haben.",
+          "opt_out_html": "Wenn Sie diese Informationen nicht weitergeben möchten, können Sie sich <a style='text-decoration:underline;' href='%{link}'>abmelden.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Verfügbarkeit",
+        "value": {
+          "in_stock": "Auf Lager",
+          "out_of_stock": "Ausverkauft"
+        }
+      },
+      "vendor": {
+        "label": "Marke"
+      },
+      "price": {
+        "label": "Preis"
+      },
+      "product_type": {
+        "label": "Produktart"
+      },
+      "boolean": {
+        "true_label": "Ja",
+        "false_label": "Nein"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevanz",
+        "price_ascending": "Preis niedrig bis hoch",
+        "price_descending": "Preis, hoch bis niedrig"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Fehler - %{title}",
+      "products": "Produkte",
+      "shopping_cart": "Dein Einkaufswagen",
+      "account": "Konto",
+      "create_account": "Konto anlegen",
+      "reset_account": "Konto zurücksetzen",
+      "addresses": "Adressen",
+      "order": "Bestellen Sie %{name}",
+      "search": "Suche",
+      "search_results": {
+        "one": "Suche: %{count} Ergebnis gefunden für \"%{terms}\"",
+        "other": "Suche: %{count} Ergebnisse gefunden für \"%{terms}\""
+      },
+      "collections": "Sammlungen",
+      "not_found": "404 Nicht gefunden",
+      "challenge": "Herausforderung",
+      "checkpoint": "Kontrollpunkt"
+    },
+    "challenge": {
+      "message": "Lassen Sie uns wissen, dass Sie kein Roboter sind, um fortzufahren.",
+      "error": "Ihre Antwort war nicht richtig, bitte versuchen Sie es erneut.",
+      "submit_button_text": "Einreichen"
+    },
+    "checkpoint": {
+      "message": "Lösen Sie das Captcha, um fortzufahren",
+      "error": "Captcha-Validierung fehlgeschlagen",
+      "submit_button_text": "Einreichen"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Normalerweise in 1 Stunde fertig",
+        "two_hours": "Normalerweise in 2 Stunden fertig",
+        "four_hours": "Normalerweise in 4 Stunden fertig",
+        "twenty_four_hours": "Normalerweise in 24 Stunden fertig",
+        "two_to_four_days": "Normalerweise in 2-4 Tagen fertig",
+        "five_or_more_days": "Normalerweise in 5+ Tagen fertig",
+        "zero_to_two_hours": "Normalerweise in 2 Stunden fertig",
+        "two_to_four_hours": "Normalerweise in 4 Stunden fertig",
+        "immediately": "Jetzt abholbereit",
+        "next_day": "Am nächsten Tag abholbereit"
       }
     }
   }
