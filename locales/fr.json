@@ -1215,8 +1215,54 @@
         "confirmed_title": "Votre commande est confirmée",
         "delivered_description": "Votre envoi a été livré le {{date}}.",
         "delivered_label": "Livré",
-        "delivered_title": "Votre envoi a été livré"
-      }
+        "delivered_title": "Votre envoi a été livré",
+        "estimated_delivery": "Livraison estimée {{date}}",
+        "in_review_description": "Nous vous ferons savoir si nous avons besoin de plus d'informations ou lorsque votre commande sera confirmée.",
+        "in_review_label": "En revue",
+        "in_review_title": "Votre commande est en cours d'examen",
+        "no_tracking_number": "Il n'y a pas de numéro de suivi pour cet envoi.",
+        "on_its_way_label": "Sur son chemin",
+        "on_its_way_title": "Votre envoi est en route",
+        "out_for_delivery_label": "En cours de livraison",
+        "out_for_delivery_title": "Votre envoi est en cours de livraison",
+        "resume_tracking": "Reprendre le suivi",
+        "submitted_label": "Soumis",
+        "track_shipment": "Suivi de livraison"
+      },
+      "status_mark_as_delivered": "Marquer comme livré",
+      "status_title": "Statut de la commande"
+    },
+    "order_details": {
+      "addresses_section_title": "Facturation et expédition",
+      "billing_address": "Adresse de facturation",
+      "card_ending_with": "se terminant par {{lastDigits}}",
+      "contact": "Contact",
+      "fully_refunded_label": "REMBOURSÉ",
+      "discount": "Remise",
+      "summary_totals_title_accessibility_label": "Totaux de la commande",
+      "taxes": "Impôts",
+      "title": "Commande {{name}}",
+      "total": "Total",
+      "unit_price": "({{price}}\/ch)"
+    },
+    "addresses": {
+      "add_button": "Ajoutez l'adresse",
+      "address_deleted_notification": "Adresse supprimée",
+      "cancel_adding_address_accessibility_label": "Annuler l'ajout d'adresse",
+      "cancel_deletion_button": "Annuler",
+      "cancel_deletion_button_accessibility_label": "Annuler la suppression de {{address}}",
+      "default_address": {
+        "title": "Adresse par défaut",
+        "title_accessibility_label": "Adresse par défaut : {{address}}"
+      },
+      "delete_button": "Effacer",
+      "delete_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_button": "Supprimer l'adresse",
+      "delete_confirmation_button_accessibility_label": "Supprimer {{address}}",
+      "delete_confirmation_message": "Supprimer l'adresse ? Les commandes existantes ne sont pas affectées.",
+      "edit_button": "Éditer",
+      "edit_button_accessibility_label": "Modifier {{address}}",
+      "edit_section_accessibility_label": "Modifier {{address}}"
     }
   }
 }
