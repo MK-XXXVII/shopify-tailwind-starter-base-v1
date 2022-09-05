@@ -371,9 +371,9 @@
       "none": "Vous n'avez encore passé aucune commande."
     },
     "recover_password": {
-      "title": "Réinitialiser son mot de passe",
-      "subtext": "Nous vous ferons parvenir un e-mail pour réinitialiser votre mot de passe",
-      "success": "Nous vous avons envoyé un e-mail contenant un lien pour mettre à jour votre mot de passe."
+      "title": "réinitialisez votre mot de passe",
+      "subtext": "Nous vous enverrons un e-mail pour réinitialiser votre mot de passe",
+      "success": "Nous vous avons envoyé un e-mail avec un lien pour mettre à jour votre mot de passe."
     },
     "register": {
       "title": "Créer un compte",
@@ -385,9 +385,9 @@
     },
     "reset_password": {
       "title": "Réinitialiser le mot de passe du compte",
-      "subtext": "Saisissez un nouveau mot de passe",
+      "subtext": "entrer un nouveau mot de passe",
       "password": "Mot de passe",
-      "password_confirm": "Confirmer le mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
       "submit": "Réinitialiser le mot de passe"
     },
     "order": {
@@ -399,7 +399,7 @@
       "payment_status": "Statut de paiement",
       "shipping_address": "Adresse d'expédition",
       "fulfillment_status": "Statut des commandes",
-      "discount": "Réduction",
+      "discount": "Remise",
       "shipping": "Expédition",
       "tax": "Taxes",
       "product": "Produit",
@@ -412,16 +412,16 @@
       "tracking_url": "Lien de suivi",
       "tracking_company": "Transporteur",
       "tracking_number": "Numéro de suivi",
-      "subtotal": "Sous-total",
+      "subtotal": "Total",
       "total_duties": "Frais de douane"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "Voici votre carte-cadeau {{ shop }} d'une valeur de {{ value }} !",
-      "subtext": "Votre carte-cadeau",
-      "gift_card_code": "Code de la carte-cadeau",
-      "shop_link": "Continuer les achats",
+      "title": "Voici votre carte-cadeau {{ value }} pour {{ shop }} !",
+      "subtext": "Votre carte cadeau",
+      "gift_card_code": "Code carte cadeau",
+      "shop_link": "Continuer vos achats",
       "remaining_html": "Reste {{ balance }}",
       "add_to_apple_wallet": "Ajouter à Apple Wallet",
       "qr_image_alt": "Code QR : scannez-le pour utiliser votre carte-cadeau",
@@ -1104,6 +1104,118 @@
       "search_results": {
         "one": "Recherche : %{count} résultat trouvé pour \"%{terms}\"",
         "other": "Recherche : %{count} résultats trouvés pour \"%{terms}\""
+      }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "loading_message": "Chargement",
+      "log_out_link": "Se déconnecter",
+      "login_prompt": {
+        "continue": "Continuer",
+        "privacy": "Intimité",
+        "title": "Continuer à vous connecter"
+      },
+      "logout_overlay_label": "Vous déconnecter...",
+      "nav_label_accessibility_label": "Navigation principale",
+      "navigation_accessibility_message": "Vous avez navigué jusqu'à {{sectionName}}",
+      "open_menu_accessibility_label": "Ouvrir la navigation principale",
+      "orders_link_label": "Ordres",
+      "shop_logo_accessibility_label": "{{shopName}} logo"
+    },
+    "account_information": {
+      "loading_accessibility_message": "Chargement des informations de compte",
+      "loading_finished_accessibility_message": "Les informations de compte ont été chargées",
+      "profile_card": {
+        "cancel": "Annuler",
+        "cancel_accessibility_label": "Annuler la modification du profil",
+        "edit": "Éditer",
+        "edit_accessibility_label": "Editer le profil",
+        "email_help_text": "L'e-mail utilisé pour la connexion ne peut pas être modifié",
+        "first_name": "Prénom",
+        "last_name": "Nom de famille",
+        "phone_number_help_text": "Le numéro de téléphone utilisé pour la connexion ne peut pas être modifié",
+        "save": "sauvegarder",
+        "save_accessibility_label": "Enregistrer le profil",
+        "title": "Profil"
+      },
+      "profile_update_confirmation_message": "Profil mis à jour",
+      "title": "Information sur le compte"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Options de mise en page",
+      "list_title": "Ordres",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "Date de livraison",
+          "order_date": "Date de commande",
+          "order_number": "Numéro de commande",
+          "status": "Statut de la commande",
+          "total": "Total"
+        },
+        "delivered": "Livré {{date}}",
+        "empty_state_order_source_description": "Seules les commandes passées par {{email}} s'afficheront ici.",
+        "empty_state_subtitle": "Rendez-vous en magasin pour passer une commande.",
+        "empty_state_title": "Pas encore de commandes",
+        "estimated": "Estimation {{date}}",
+        "estimated_delivery": "Livraison estimée {{date}}",
+        "one_images_accessibility_label": "La commande comprend {{lineItemName1}}",
+        "two_images_accessibility_label": "La commande comprend {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "La commande comprend {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "La commande comprend {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} élément",
+          "other": "{{count}} éléments"
+        },
+        "list_view": "Afficher la vue en liste",
+        "multiple_shipments": "Expéditions multiples",
+        "no_filtered_results_description": "Supprimez ou ajustez les filtres pour voir vos commandes",
+        "no_filtered_results_title": "Aucun résultat filtré",
+        "order_link": "Afficher la commande {{name}}",
+        "order_number": "Commande {{name}}",
+        "orders_title": "Confirmé",
+        "pagination": {
+          "nav_accessibility_label": "Boutons de navigation des commandes",
+          "next": "Prochain",
+          "next_accessibility_label": "Prochaines commandes",
+          "previous": "Précédent",
+          "previous_accessibility_label": "Commandes précédentes"
+        },
+        "sort_by": "Trier par : {{option}}",
+        "sort_hide_options_accessibility_label": "Masquer les options de tri pour les commandes confirmées.",
+        "sort_show_options_accessibility_label": "Afficher les options de tri pour les commandes confirmées.",
+        "sort_title": "Trier",
+        "sort": {
+          "date": {
+            "newest": "Du plus récent au plus ancien",
+            "oldest": "Du plus ancien au plus récent"
+          },
+          "location": {
+            "ascending": "Emplacement (A-Z)",
+            "descending": "Emplacement (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Numéro de commande (de bas en haut)",
+            "descending": "Numéro de commande (de haut en bas)"
+          },
+          "order_total": {
+            "ascending": "Total de la commande (de bas en haut)",
+            "descending": "Total de la commande (décroissant)"
+          }
+        },
+        "table_view": "Afficher le tableau"
+      },
+      "order_status": {
+        "canceled_description": "Votre commande a été annulée le {{date}}.",
+        "canceled_label": "Annulé",
+        "canceled_title": "Votre commande a été annulée",
+        "come_back": "Revenez sur cette page pour des mises à jour sur l'état de votre envoi.",
+        "company_tracking_number": "{{company}} numéro de suivi :",
+        "confirmed_label": "Confirmé",
+        "confirmed_title": "Votre commande est confirmée",
+        "delivered_description": "Votre envoi a été livré le {{date}}.",
+        "delivered_label": "Livré",
+        "delivered_title": "Votre envoi a été livré"
       }
     }
   }
