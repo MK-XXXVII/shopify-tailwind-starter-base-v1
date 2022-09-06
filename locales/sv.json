@@ -695,6 +695,108 @@
         "tips_invalid_tip_amount": "Ange ett tips som inte är mer än %{amount}",
         "gift_card_already_applied": "Detta presentkort har redan tillämpats på din beställning",
         "gift_card_disabled": "Detta presentkort är inte längre tillgängligt"
+      },
+      "payment_errors": {
+        "payment_processing": "Din betalning kan inte behandlas av tekniska skäl. Försök igen eller använd en annan betalningsmetod.",
+        "payment_processing_no_retry": "Din betalning kan inte behandlas av tekniska skäl. Prova en annan betalningsmetod.",
+        "paypal_zero_amount": "Du kan inte använda PayPal för %{amount}-beställningar. Bekräfta att din beställning är korrekt och checka ut utan PayPal.",
+        "paypal_invalid_token": "PayPal var inte tillgängligt. Försök igen eller använd ett annat kassaalternativ.",
+        "pay_later_failed": "Det uppstod ett fel när din betalning behandlades med Pay senare. Välj en annan betalningsmetod och försök igen.",
+        "three_d_secure_failed": "Din betalning kunde inte verifieras. Försök igen eller använd en annan betalningsmetod.",
+        "three_d_secure_failed_duplicate": "Kreditkortets 3D Secure-autentisering misslyckades eftersom en annan redan pågår.",
+        "three_d_secure_throttled": "För många försök; vänta innan du försöker igen",
+        "subscription_agreement_blank": "För att köpa ett abonnemang måste dina betalningsuppgifter sparas. För att fortsätta, bekräfta att du godkänner eller ta bort prenumerationsartiklar från din beställning.",
+        "insufficient_funds": "Din betalning avvisades på grund av otillräckliga medel. Försök igen eller använd en annan betalningsmetod.",
+        "fraud_payment_errors": {
+          "transaction_declined": "Den här överföringen har nekats",
+          "address_mismatch": "Gatuadress och postnummer stämmer inte överens.",
+          "cannot_process": "Denna transaktion kan inte behandlas.",
+          "no_match": "Ingen match",
+          "card_declined": "ditt kort godkändes ej"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method": "Din varukorg har uppdaterats och den tidigare fraktkostnaden är inte giltig. Välj en ny kurs.",
+        "shipping_method_not_available": "Din varukorg har uppdaterats och varorna du lagt till kan inte skickas till din adress. Ta bort varorna för att slutföra din beställning.",
+        "shipping_method_not_available_generic": {
+          "one": "Den här beställningen kan inte skickas till den adress du angav. Granska din adress för att säkerställa att alla fält har angetts korrekt och försök igen.",
+          "other": "Vissa varor i din kundvagn kan inte skickas till den adress du angav. Granska din adress för att säkerställa att alla fält har angetts korrekt och försök igen."
+        },
+        "shipping_method_not_available_updated": {
+          "one": "Varan du lade till skickas inte till din plats. Ta bort den för att checka ut eller kontakta butiken."
+        }
+      },
+      "processing": {
+        "continue_to_payment_gateway_button_label": "Fortsätt till betalning",
+        "complete_your_purchase_title_error": "Rätta din betalningsinformation",
+        "continue_to_payment_gateway_notice_error": "Din betalningsinformation kunde inte verifieras.",
+        "continue_to_payment_gateway_button_label_error": "Uppdatera betalningsinformation",
+        "page_title": "Bearbetar beställning",
+        "title": "Bearbetar beställning",
+        "your_order_has_been_received_title": "tack för din beställning",
+        "you_will_receive_confirmation": "Vi får många beställningar just nu. Du bör snart få bekräftelse via e-post eller sms. Om du inte får den inom den närmaste timmen, låt oss veta.",
+        "you_will_not_be_charged": "Du kommer inte att debiteras ännu",
+        "wait": {
+          "short": "Din beställning behandlas.",
+          "medium": {
+            "one": "Din beställning behandlas. Beräknad väntetid är %{count} minut.",
+            "other": "Din beställning behandlas. Beräknad väntetid är %{count} minuter."
+          },
+          "long": "Du kommer att få ett e-postmeddelande så snart din beställning har behandlats. Det finns för närvarande en hög volym av beställningar.",
+          "no_auto_refresh_html": "Om du inte omdirigeras automatiskt, %{link}.",
+          "refresh_this_page": "uppdatera den här sidan"
+        }
+      },
+      "failed_payment": {
+        "page_title": "Betalningen kunde inte behandlas",
+        "title": "Betalningen kunde inte behandlas",
+        "payment_not_processed_title": "Din betalning kunde inte behandlas",
+        "payment_not_processed_text": "Du har inte debiterats. Gå tillbaka till din varukorg för att slutföra ditt köp.",
+        "return_to_cart_button_label": "Gå tillbaka till varukorgen"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Kreditkort",
+        "bank_deposit_label": "Bank insättning",
+        "cash_on_delivery_label": "Postförskott (efterkrav)",
+        "money_order_label": "Postanvisning"
+      },
+      "thank_you": {
+        "title": "Tack för ditt köp!",
+        "confirmation_email_sent_text": "Ett bekräftelsemail har skickats till %{email}",
+        "return_to_store_link_label": "Fortsätt handla",
+        "print_link_label": "Skriv ut kvitto",
+        "payment_information_title": "Betalningsinformation",
+        "shipping_information_title": "Fraktinformation",
+        "page_title": "Tack %{display_name}!",
+        "page_title_no_name": "Tack!",
+        "cancelled_page_title": "Beställning annullerad",
+        "customer_information_title": "Kundinformation",
+        "contact_information_title": "Kontaktinformation",
+        "billing_address_title": "Fakturaadress",
+        "shipping_address_title": "Leveransadress",
+        "shipping_address_map_title": "Google-karta som visar exakta leveransadress: %{address}",
+        "payment_method_title": "Betalningsmetod",
+        "shipping_method_title": "Frakt metod",
+        "tracking_number": "Spårningsnummer:",
+        "company_tracking_number": "%{company} spårningsnummer:",
+        "estimated_arrival": "Beräknat leveransdatum:",
+        "estimated_delivery": "beräknad leverans",
+        "re-order": "Beställ om samma varor",
+        "confirmed": "Bekräftad",
+        "gift_card_confirmation_by_text": "Presentkort skickas med sms. Om du inte har fått dina, försök att skicka dem igen eller kontakta oss.",
+        "gift_card_confirmation_by_email": "Presentkort skickas via mail. Om du inte har fått dina, försök att skicka dem igen eller kontakta oss.",
+        "gift_card_title": "Presentkort",
+        "resend_gift_cards": "Skicka presentkort igen",
+        "thank_you_title": "Din beställning är bekräftad",
+        "thank_you_title_payment": "Din betalning är bekräftad",
+        "thank_you_confirmed_order_with_email": "Du kommer att få ett bekräftelsemail med ditt ordernummer inom kort.",
+        "thank_you_confirmed_order_with_phone": "Du kommer att få ett bekräftelsemeddelande med ditt ordernummer inom kort.",
+        "thank_you_confirmed_order_with_email_and_phone": "Du kommer att få ett bekräftelsemail och ett sms med ditt ordernummer inom kort.",
+        "thank_you_confirmed_order_with_email_payment": "Du gjorde en betalning på din beställning %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Du gjorde en betalning på din beställning %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Du gjorde en betalning på din beställning %{date}.",
+        "thank_you_confirmed_order_with_email_pick_up": "Du får ett e-postmeddelande när din beställning är klar för avhämtning.",
+        "thank_you_confirmed_order_with_phone_pick_up": "Du får ett sms när din beställning är klar för avhämtning."
       }
     }
   }
