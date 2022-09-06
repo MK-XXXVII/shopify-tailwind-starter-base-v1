@@ -350,20 +350,20 @@
     "log_out": "Cerrar sesión",
     "login_page": {
       "cancel": "Cancelar",
-      "create_account": "Crear cuenta",
+      "create_account": "Crear una cuenta",
       "email": "Correo electrónico",
       "forgot_password": "¿Olvidaste tu contraseña?",
       "guest_continue": "Continuar",
       "guest_title": "Continuar como invitado",
-      "password": "Contraseña",
-      "title": "Inicio de sesión",
+      "password": "Clave",
+      "title": "Acceso",
       "sign_in": "Iniciar sesión",
       "submit": "Enviar"
     },
     "orders": {
       "title": "Historial de pedidos",
       "order_number": "Pedido",
-      "order_number_link": "Número de pedido {{ number }}",
+      "order_number_link": "Número de orden {{ number }}",
       "date": "Fecha",
       "payment_status": "Estado del pago",
       "fulfillment_status": "Estado de preparación del pedido",
@@ -392,7 +392,7 @@
     },
     "order": {
       "title": "Pedido {{ name }}",
-      "date_html": "Realizado el {{ date }}",
+      "date_html": "Colocado en {{ date }}",
       "cancelled_html": "Pedido cancelado el {{ date }}",
       "cancelled_reason": "Motivo: {{ reason }}",
       "billing_address": "Dirección de facturación",
@@ -413,7 +413,7 @@
       "tracking_company": "Empresa de transporte",
       "tracking_number": "Número de seguimiento",
       "subtotal": "Total parcial",
-      "total_duties": "Aranceles"
+      "total_duties": "Deberes"
     }
   },
   "gift_cards": {
