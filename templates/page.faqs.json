@@ -62,9 +62,9 @@
         "1662451252fe6ded4d-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Ingredients",
+            "icon": "leaf",
+            "row_content": "<p>The ingredients of our various teas and blends appear on the individual page that describes the product, as well as its packaging. Simply scroll down below the customer reviews.<\/p>",
             "page": ""
           }
         },
