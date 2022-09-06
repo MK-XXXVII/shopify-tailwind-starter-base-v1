@@ -624,7 +624,77 @@
         "ends_with_label": "slutar med %{last_digits}",
         "masked_digits_label": "•••• %{last_digits}",
         "expiry_long": "(Upphör att gälla %{month}\/%{year})",
-        "expiry_short": "(Exp %{month}\/%{year})"
+        "expiry_short": "(Exp %{month}\/%{year})",
+        "subscription_agreement_label_html": "Jag förstår att jag godkänner en prenumeration. Det kommer att förnyas till det pris och den frekvens som anges tills det slutar eller är\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">avbruten<\/a>.",
+        "change_currency_section_description": "Välj ett valutaalternativ",
+        "no_real_orders_dev_store": "Den här butiken kan inte acceptera riktiga beställningar eller riktiga betalningar.",
+        "waiting_on_payment_methods": "Hämtar tillgängliga betalningsmetoder...",
+        "apple_pay_payment_error": "Din betalning kunde inte slutföras. Försök igen eller använd en annan betalningsmetod.",
+        "taxes_not_included": "Skatter ingår ej",
+        "no_taxes_banner_content": "Skatter kommer inte att debiteras för denna beställning. När du har samlat in betalningen kan skatter inte längre läggas till.",
+        "paypal": {
+          "connect": "Klicka för att ansluta ditt PayPal-konto"
+        },
+        "apple": {
+          "connect": "Klicka för att ansluta ditt Apple Pay-konto",
+          "not_available": "Apple Pay är inte tillgängligt i den här webbläsaren. För att ansluta ditt Apple Pay-konto måste du använda Safari på en Apple-enhet."
+        },
+        "google": {
+          "connect": "Klicka för att ansluta till ditt Google Pay-konto",
+          "error_authorizing": "Fel vid auktorisering av betalning"
+        },
+        "account_connected": "Konto anslutet",
+        "email_connected": "Konto anslutet:",
+        "mor_disclaimer_html": "Genom att klicka nedan och slutföra din beställning samtycker du till att köpa dina varor från Global-e som registrerad handlare\nför denna transaktion, enligt Global-e:s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">villkor<\/a>\noch <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Sekretesspolicy<\/a>. Global-e är en internationell\ntjänsteleverantör till %{shop_name}"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Nuvarande saldo %{amount}",
+        "credit_card_expires_on_notice": "Upphör att gälla %{month}\/%{year}",
+        "express_payment_gateway_label": "uttrycka",
+        "manual_payment_gateway_label": "Manuell",
+        "billing_address_title": "Fakturaadress"
+      },
+      "field_errors": {
+        "address_address2_blank": "Gå in i en lägenhet, svit osv.",
+        "address_address2_too_long": "Den andra adressraden är för lång (högst 255 tecken)",
+        "address_address2_contains_emojis": "Adress2 kan inte innehålla emojis",
+        "address_address2_contains_html_tags": "Adress2 kan inte innehålla HTML-taggar.",
+        "address_city_blank": "Ange en stad",
+        "address_city_too_long": "Staden är för lång (högst 255 tecken)",
+        "address_city_contains_emojis": "Stad kan inte innehålla emojis",
+        "address_city_contains_html_tags": "Stad får inte innehålla HTML-taggar.",
+        "address_country_blank": "Välj ett land\/region",
+        "address_country_not_supported": "Vi skickar inte till detta land eller denna region. Ange en ny leveransadress och försök igen.",
+        "address_province_blank": "Välj en stat\/provins",
+        "address_company_blank": "Ange ett företagsnamn",
+        "address_company_too_long": "Företagsnamnet är för långt (högst 255 tecken)",
+        "address_company_contains_emojis": "Företaget får inte innehålla emojis",
+        "address_company_contains_html_tags": "Företaget får inte innehålla HTML-taggar.",
+        "address_phone_blank": "Ange ett giltigt telefonnummer",
+        "address_phone_contains_emojis": "Telefonnumret får inte innehålla emojis",
+        "address_zip_blank": "Ange ett postnummer",
+        "address_zip_invalid_for_country": "Ange ett giltigt postnummer för %{country}",
+        "address_zip_invalid_for_country_and_province": "Ange ett giltigt postnummer för %{province}, %{country}",
+        "address_zip_contains_emojis": "Postnummer kan inte innehålla emojis",
+        "credit_card_name_blank": "Ange ditt namn exakt som det står på ditt kort",
+        "credit_card_name_invalid": "Ange ditt namn exakt som det står på ditt kort",
+        "credit_card_number_invalid": "Ange ett giltigt kortnummer",
+        "credit_card_expiry_invalid": "Ange ett giltigt korts utgångsdatum",
+        "credit_card_month_invalid": "Ange en giltig kortets utgångsmånad",
+        "credit_card_year_invalid": "Ange ett giltigt korts utgångsår",
+        "credit_card_start_invalid": "Ange ett giltigt startdatum för kortet",
+        "credit_card_start_month_invalid": "Ange ett giltigt kortstartmånad",
+        "credit_card_start_year_invalid": "Ange ett giltigt kortstartår",
+        "credit_card_verification_value_blank": "Ange CVV eller säkerhetskoden på ditt kort",
+        "reduction_code_code_not_found": "Ange en giltig rabattkod eller presentkort",
+        "reduction_code_discount_not_found": "Ange en giltig rabattkod",
+        "reduction_code_gift_card_code_invalid": "Ange ett giltigt presentkort",
+        "reduction_code_gift_card_unusable": "Du kan inte använda ett presentkort för att köpa ett annat presentkort",
+        "shipping_line_phone_blank": "Ange ett telefonnummer för att använda denna leveransmetod",
+        "shipping_line_phone_invalid": "Ange ett giltigt telefonnummer för att använda denna leveransmetod",
+        "tips_invalid_tip_amount": "Ange ett tips som inte är mer än %{amount}",
+        "gift_card_already_applied": "Detta presentkort har redan tillämpats på din beställning",
+        "gift_card_disabled": "Detta presentkort är inte längre tillgängligt"
       }
     }
   }
