@@ -64,7 +64,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "leaf",
-            "row_content": "<p>The ingredients of our various teas and blends appear on the individual page that describes the product, as well as its packaging. Simply scroll down below the customer reviews.<\/p>",
+            "row_content": "<p>The ingredients of our various teas and blends appear on the individual page that describes the product, as well as its packaging.<\/p>",
             "page": ""
           }
         },
