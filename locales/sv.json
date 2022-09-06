@@ -1,20 +1,20 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Ange lösenord för att komma i butiken:",
+      "login_form_heading": "Gå in i butik med lösenord:",
       "login_password_button": "Ange lösenord för att komma in",
       "login_form_password_label": "Lösenord",
       "login_form_password_placeholder": "Ditt lösenord",
       "login_form_error": "Fel lösenord!",
-      "login_form_submit": "Ange",
-      "admin_link_html": "Är du butiksägare? <a href=\"\/admin\" class=\"link underlined-link\">Logga in här<\/a>",
-      "powered_by_shopify_html": "Denna butik kommer drivas av {{ shopify }}"
+      "login_form_submit": "Stiga på",
+      "admin_link_html": "Är du butiksägaren? <a href=\"\/admin\" class=\"link underlined-link\">Logga in här<\/a>",
+      "powered_by_shopify_html": "Denna butik kommer att drivas av {{ shopify }}"
     },
     "social": {
       "alt_text": {
         "share_on_facebook": "Dela på Facebook",
         "share_on_twitter": "Tweet på Twitter",
-        "share_on_pinterest": "Spara en pin på Pinterest"
+        "share_on_pinterest": "Fäst på Pinterest"
       },
       "links": {
         "twitter": "Twitter",
@@ -90,8 +90,8 @@
       "email": "Email",
       "message": "Kommentar",
       "post": "Lägg upp kommentar",
-      "back_to_blog": "Tillbaka till blogg",
-      "share": "Dela denna artikel",
+      "back_to_blog": "Tillbaka till bloggen",
+      "share": "Dela den här artikeln",
       "success": "Din kommentar har lagts upp! Tack!",
       "success_moderated": "Din kommentar har lagts upp. Vi kommer publicera den lite senare, eftersom att bloggen är modererad."
     }
@@ -119,8 +119,8 @@
         "unit_price": "Enhetspris"
       },
       "share": "Dela den här produkten",
-      "sold_out": "Slutsåld",
-      "unavailable": "Ej tillgänglig",
+      "sold_out": "Utsåld",
+      "unavailable": "Inte tillgänglig",
       "vendor": "Säljare",
       "video_exit_message": "{{ title }} öppnar helskärmsvideo i samma fönster.",
       "xr_button": "Visa i ditt utrymme",
@@ -274,7 +274,7 @@
       "view_all": "Visa alla"
     },
     "collection_template": {
-      "title": "Produktserie",
+      "title": "Samling",
       "empty": "Inga produkter hittades",
       "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort alla<\/a>"
     },
@@ -327,17 +327,17 @@
       "address1": "Adress 1",
       "address2": "Adress 2",
       "city": "Stad",
-      "country": "Land\/Region",
+      "country": "Land\/region",
       "province": "Provins",
       "zip": "Postnummer",
       "phone": "Telefon",
-      "set_default": "Ange som standardadress",
+      "set_default": "Ställ in som standardadress",
       "add": "Lägg till adress",
       "update": "Uppdatera adress",
       "cancel": "Avbryt",
       "edit": "Redigera",
       "delete": "Radera",
-      "delete_confirm": "Är du säker på att du vill radera den här adressen?"
+      "delete_confirm": "Är du säker på att du vill ta bort den här adressen?"
     },
     "log_in": "Logga in",
     "log_out": "Logga ut",
@@ -354,8 +354,8 @@
       "submit": "Skicka"
     },
     "orders": {
-      "title": "Orderhistorik",
-      "order_number": "Order",
+      "title": "Beställningshistorik",
+      "order_number": "Ordning",
       "order_number_link": "Ordernummer {{ number }}",
       "date": "Datum",
       "payment_status": "Betalningsstatus",
@@ -1139,6 +1139,48 @@
         "confirmation": "Tack för att du prenumererar på vår e-postlista.",
         "disclaimer": "Du kan avbryta prenumerationen när som helst.",
         "unsubscribe": "Säga upp"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "out_of_stock": "Slut i lager"
+        }
+      },
+      "vendor": {
+        "label": "varumärke"
+      },
+      "price": {
+        "label": "Pris"
+      },
+      "product_type": {
+        "label": "Produkttyp"
+      },
+      "boolean": {
+        "true_label": "Ja",
+        "false_label": "Nej"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Relevans",
+        "price_ascending": "Pris, lågt till högt",
+        "price_descending": "Pris, högt till lågt"
+      }
+    },
+    "page_titles": {
+      "blog_or_article_with_error": "Fel - %{title}",
+      "products": "Produkter",
+      "shopping_cart": "din kundvagn",
+      "account": "konto",
+      "create_account": "Skapa konto",
+      "reset_account": "Återställ konto",
+      "addresses": "Adresser",
+      "order": "Beställ %{name}",
+      "search": "Sök",
+      "search_results": {
+        "one": "Sök: %{count} resultat hittades för \"%{terms}\"",
+        "other": "Sök: %{count} resultat hittades för \"%{terms}\""
       }
     }
   }
