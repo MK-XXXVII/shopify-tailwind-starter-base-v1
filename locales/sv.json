@@ -544,7 +544,11 @@
         "recurring_total_tooltip": "Inkluderar inte frakt, skatter, tullar eller tillämpliga rabatter.",
         "confirmation_number_label": "Bekräftelse #%{confirmation_number}",
         "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunde inte användas med dina befintliga rabatter. Du har redan en bättre kombination.",
-        "percent_off_shipping": "%{percent}% rabatt på frakt"
+        "percent_off_shipping": "%{percent}% rabatt på frakt",
+        "payment_terms_totals": {
+          "due_later_checkout_to_draft": "Totalt betalas senare"
+        },
+        "maximum_discount_code_limit_reached": "Du har nått det maximala antalet rabattkoder. Ta bort en befintlig kod för att använda <strong style=\"text-transform:uppercase\">%{code}<\/strong>."
       },
       "shipping": {
         "estimated_delivery_date": {
@@ -583,7 +587,10 @@
             "other": "För första %{count} beställningar"
           }
         },
-        "one_time_purchase_shipping": "Engångsfrakt"
+        "one_time_purchase_shipping": "Engångsfrakt",
+        "subscription_local_delivery": "Prenumeration lokal leverans",
+        "subscription_pickup": "Avhämtning av abonnemang",
+        "delivery_date_range": "%{min_time}–%{max_time}"
       },
       "localized_fields": {
         "additional_information": {
@@ -645,7 +652,18 @@
         },
         "account_connected": "Konto anslutet",
         "email_connected": "Konto anslutet:",
-        "mor_disclaimer_html": "Genom att klicka nedan och slutföra din beställning samtycker du till att köpa dina varor från Global-e som registrerad handlare\nför denna transaktion, enligt Global-e:s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">villkor<\/a>\noch <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Sekretesspolicy<\/a>. Global-e är en internationell\ntjänsteleverantör till %{shop_name}"
+        "mor_disclaimer_html": "Genom att klicka nedan och slutföra din beställning samtycker du till att köpa dina varor från Global-e som registrerad handlare\nför denna transaktion, enligt Global-e:s <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">villkor<\/a>\noch <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">Sekretesspolicy<\/a>. Global-e är en internationell\ntjänsteleverantör till %{shop_name}",
+        "receiver_payment_experience_hint": "Efter att du har lagt din beställning får du betalningsinformation. Gör betalningen i en bankomat eller online inom %{due_days} dagar.",
+        "pending_payment": {
+          "due_notice": "Din betalning på %{amount_due} ska betalas %{due_date}.",
+          "multibanco": {
+            "instruction_html": "Gör din betalning i en bankomat eller online med hjälp av informationen nedan. För frågor eller för att uppdatera betalningsinformation, %{contact_us}.",
+            "entity": "Entitet",
+            "reference": "Referens",
+            "amount": "Belopp",
+            "find_nearest_atm": "Hitta närmaste bankomat"
+          }
+        }
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Nuvarande saldo %{amount}",
@@ -694,7 +712,8 @@
         "shipping_line_phone_invalid": "Ange ett giltigt telefonnummer för att använda denna leveransmetod",
         "tips_invalid_tip_amount": "Ange ett tips som inte är mer än %{amount}",
         "gift_card_already_applied": "Detta presentkort har redan tillämpats på din beställning",
-        "gift_card_disabled": "Detta presentkort är inte längre tillgängligt"
+        "gift_card_disabled": "Detta presentkort är inte längre tillgängligt",
+        "address_zip_not_supported": "Den här platsen stöds inte."
       },
       "payment_errors": {
         "payment_processing": "Din betalning kan inte behandlas av tekniska skäl. Försök igen eller använd en annan betalningsmetod.",
@@ -895,7 +914,10 @@
             "title": "Eller skicka en länk till din telefon"
           }
         },
-        "view_business_customer_account": "Visa konto"
+        "view_business_customer_account": "Visa konto",
+        "thank_you_title_review": "Din beställning har skickats för granskning",
+        "thank_you_confirmed_order_with_draft": "Vi meddelar dig om vi behöver mer information eller när din beställning har bekräftats.",
+        "payment_method_draft_order": "Förfaller efter att beställning har granskats"
       },
       "review": {
         "title": "Recension",
@@ -978,7 +1000,57 @@
         "presets_description": "Välj en dricksprocent",
         "custom_label": "Anpassat tips",
         "add_tip": "Lägg till tips",
-        "update_tip": "Uppdateringstips"
+        "update_tip": "Uppdateringstips",
+        "message": "Tack, vi uppskattar det",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Ingen"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Köp %{product_name}",
+          "one": "Köp %{product_name} och %{count} annan vara",
+          "other": "Köp %{product_name} och %{count} andra artiklar"
+        }
+      },
+      "subscriptions": {
+        "recurring_total_intervals": {
+          "day": {
+            "one": "dag",
+            "other": "%{count} dagar"
+          },
+          "week": {
+            "one": "vecka",
+            "other": "%{count} veckor"
+          },
+          "month": {
+            "one": "månad",
+            "other": "%{count} månader"
+          },
+          "year": {
+            "one": "år",
+            "other": "%{count} år"
+          }
+        },
+        "recurring_totals": "%{total_price} varje %{interval}",
+        "recurring_totals_with_initial_order_shipping_discount": "Första betalning %{total_price_with_discount}, sedan %{recurring_total}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Första betalning %{total_price}",
+            "other": "Första %{count} betalningarna %{total_price} vardera"
+          },
+          "following_cycles": ", sedan %{total_price} varje %{interval}"
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", sedan %{count} betalning vid %{total_price}"
+          }
+        }
+      },
+      "contextual_availability": {
+        "all_products_in_cart_unavailable": {
+          "other": "Dessa produkter är inte tillgängliga i ditt land\/din region."
+        },
+        "unavailable_label": "Inte tillgänglig"
       }
     }
   }
