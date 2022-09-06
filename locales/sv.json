@@ -1052,6 +1052,94 @@
         },
         "unavailable_label": "Inte tillgänglig"
       }
+    },
+    "addresses": {
+      "prefecture": "Prefektur",
+      "province": "Provins",
+      "state": "stat",
+      "state_and_territory": "Stat\/territorium",
+      "county": "Grevskap",
+      "emirate": "Emirat",
+      "governorate": "Governorate",
+      "confirm": "Är du säker på att du vill ta bort den här adressen?"
+    },
+    "collections": {
+      "sorting": {
+        "manual": "Utvalda",
+        "best_selling": "Bästsäljare",
+        "az": "Alfabetiskt, A-Z",
+        "za": "Alfabetiskt, Z-A",
+        "price_ascending": "Pris, lågt till högt",
+        "price_descending": "Pris, högt till lågt",
+        "date_ascending": "Datum, gammalt till nytt",
+        "date_descending": "Datum, nytt till gammalt"
+      }
+    },
+    "errors": {
+      "blank": "kan inte vara tom",
+      "blocked_address": "Den här platsen stöds inte.",
+      "credit_card_session_expired": "Kreditkortsauktoriseringen har löpt ut. Ange din betalningsinformation igen. Ditt kort har inte debiterats.",
+      "empty": "kan inte vara tom",
+      "email_domain_invalid": "leverantören stöds inte",
+      "invalid_for_country": "är inte giltigt för %{country}",
+      "invalid_for_country_and_province": "är inte giltigt för %{province} och %{country}",
+      "invalid_province_in_country": "är inte en giltig provins i %{country}",
+      "invalid_state_in_country": "är inte ett giltigt tillstånd i %{country}",
+      "invalid_region_in_country": "är inte en giltig region i %{country}",
+      "less_than_or_equal_to": "måste vara mindre än eller lika med %{count}",
+      "not_supported": "stöds inte",
+      "full_name_required": "Ange ett förnamn och efternamn",
+      "invalid_for_card_type": "är inte giltigt",
+      "invalid_type": "Tyvärr, vi accepterar inte kort av denna typ",
+      "invalid_format": "formatet är inte giltigt",
+      "expired": "har löpt ut",
+      "invalid_start_date_or_issue_number_for_debit": "ett giltigt startdatum eller utfärdandenummer krävs",
+      "invalid_expiry_year": "är inte ett giltigt utgångsår",
+      "reset_password_html": "Den här e-postadressen är redan kopplad till ett konto. Om det här kontot är ditt kan du <a href=\"\/account\/login#recover\">återställa ditt lösenord<\/a>",
+      "verify_email": "Vi har skickat ett e-postmeddelande till %{customer_email}, klicka på länken som ingår för att verifiera din e-postadress."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Lösenordsåterställningsfel",
+        "no_account_found": "Inget konto hittades med den e-postadressen.",
+        "invalid_credentials": "Felaktig e-postadress eller lösenord."
+      },
+      "order": {
+        "fulfillment_status": {
+          "unfulfilled": "Ouppfylld",
+          "restocked": "Påfyllt"
+        },
+        "transaction_status": {
+          "success": "Framgång",
+          "pending": "I väntan på",
+          "failure": "Fel",
+          "error": "Fel"
+        },
+        "cancel_reason": {
+          "declined": "Betalning Nekad",
+          "inventory": "Artiklar är inte tillgängliga",
+          "fraud": "Bedräglig order",
+          "customer": "Kunden ändrade\/avbokade beställning",
+          "other": "Övrig"
+        },
+        "cash_on_delivery": "Postförskott (efterkrav)"
+      },
+      "storefront": {
+        "invalid_password": "Lösenordet är felaktigt, försök igen."
+      },
+      "tags": {
+        "add_articles": "Begränsa sökningen till artiklar som också har taggen %{tag}",
+        "add_products": "Begränsa urvalet till produkter som matchar taggen %{tag}",
+        "remove_articles": "Utöka sökningen till artiklar som inte är taggade %{tag}",
+        "remove_products": "Ta bort taggen %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Tack för att du prenumererar på vår e-postlista.",
+        "disclaimer": "Du kan avbryta prenumerationen när som helst.",
+        "unsubscribe": "Säga upp"
+      }
     }
   }
 }
