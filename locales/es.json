@@ -1546,6 +1546,94 @@
       "edit_button": "Editar",
       "edit_button_accessibility_label": "Editar {{address}}",
       "edit_section_accessibility_label": "Editar {{address}}"
+    },
+    "address_form": {
+      "save_accessibility_label": "Guardar dirección {{address}}",
+      "section_title_accessibility_label": "Añadir dirección",
+      "update_success_notification": "Dirección actualizada"
+    },
+    "B2B": {
+      "account_information": {
+        "company_card_name_label": "Nombre de empresa",
+        "company_card_section_accessibility_label": "Compañía"
+      },
+      "locations": {
+        "contact_email": "Correo electrónico",
+        "contact_list_title": "Gente",
+        "contact_name": "Nombre",
+        "contact_permissions": "permisos",
+        "contact_phone_number": "Número de teléfono",
+        "location_picker_label": "Nombre del lugar",
+        "net_payment_terms_description": "{{name}}: pagos vencidos dentro de {{numberOfDays}} días",
+        "payment_details_title": "Detalles del pago",
+        "payment_terms": "Términos de pago",
+        "permissions_label": "Tus permisos",
+        "permissions_title": "permisos",
+        "section_title": "Ubicación",
+        "shipping_address_required": "Agregue una dirección de envío a esta ubicación para comenzar a realizar pedidos.",
+        "tax_details_title": "Detalles de impuestos",
+        "tax_id": "Identificación del impuesto"
+      },
+      "location_selection": {
+        "continue_to_store": "Continuar a la tienda",
+        "description": "Si ya tiene artículos en su carrito, el cambio de ubicación puede afectar los precios y las cantidades del carrito.",
+        "list_accessibility_label": "Lista de ubicaciones",
+        "list_item_accessibility_label": "{{name}}: {{address}}",
+        "list_item_without_address_accessibility_label": "{{name}}: Sin dirección",
+        "list_loading_accessibility_message": "Cargando lista de ubicaciones",
+        "list_loading_address_accessibility_message": "Dirección de carga para {{locationName}}",
+        "list_loading_finished_accessibility_message": "Se ha cargado la lista de ubicaciones",
+        "loading_store_accessibility_message": "ir a la tienda",
+        "no_location_title": "Solo pedidos personales",
+        "no_location_description": "Ya no tiene permiso para realizar pedidos de {{company}}. Todavía puedes hacer pedidos personales.",
+        "selection_cancel_button": "Cancelar",
+        "selection_confirmation_button": "Elegir la ubicación",
+        "title": "¿Para qué ubicación está comprando?"
+      },
+      "addresses": {
+        "add_billing_address_button": "Añadir dirección de facturación",
+        "add_billing_address_section_accessibility_label": "Añadir dirección de facturación",
+        "add_shipping_address_button": "Agregar dirección de envío",
+        "add_shipping_address_section_accessibility_label": "Agregar dirección de envío",
+        "billing_address_card_title": "Dirección de Envio",
+        "cancel_adding_billing_address_accessibility_label": "Cancelar agregar dirección de facturación",
+        "cancel_adding_shipping_address_accessibility_label": "Cancelar agregar dirección de envío",
+        "save_new_billing_address_accessibility_label": "Guardar dirección de facturación",
+        "save_new_shipping_address_accessibility_label": "Guardar dirección de envío",
+        "shipping_address_card_title": "Dirección de Envío"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Ocultar todo",
+          "show_all": "Mostrar todo",
+          "hide_all_accessibility_label": "Ocultar todos los pedidos en revisión",
+          "show_all_accessibility_label": "Mostrar todos los pedidos en revisión",
+          "title": "En revisión",
+          "pagination": {
+            "nav_accessibility_label": "Pedidos en los botones de navegación de revisión"
+          }
+        },
+        "order_list_column_headers_location": "Ubicación"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Confirmado {{date}} del pedido {{draftOrderName}}",
+        "loading": "Cargando detalles del pedido",
+        "loading_finished_accessibility_message": "Se han cargado los detalles del pedido.",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Su pago tiene {{count}} días de retraso",
+              "other": "Su pago tiene {{count}} días de retraso"
+            },
+            "banner_due": {
+              "one": "Su pago vence en {{count}} día",
+              "other": "Su pago vence en {{count}} días"
+            },
+            "banner_due_today": "Su pago vence hoy",
+            "title": "Fecha de pago"
+          }
+        }
+      }
     }
   }
 }
