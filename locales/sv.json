@@ -359,9 +359,9 @@
       "order_number_link": "Ordernummer {{ number }}",
       "date": "Datum",
       "payment_status": "Betalningsstatus",
-      "fulfillment_status": "Distributionsstatus",
-      "total": "Totalt",
-      "none": "Du har ännu inte lagt någon order."
+      "fulfillment_status": "Uppfyllningsstatus",
+      "total": "Total",
+      "none": "Du har inte lagt några beställningar än."
     },
     "recover_password": {
       "title": "Återställ ditt lösenord",
@@ -384,26 +384,26 @@
       "submit": "Återställ lösenord"
     },
     "order": {
-      "title": "Order {{ name }}",
+      "title": "Beställ {{ name }}",
       "date_html": "Beställd den {{ date }}",
       "cancelled_html": "Ordern avbröts den {{ date }}",
-      "cancelled_reason": "Anledning: {{ reason }}",
-      "billing_address": "Faktureringsadress",
+      "cancelled_reason": "Orsak: {{ reason }}",
+      "billing_address": "Fakturaadress",
       "payment_status": "Betalningsstatus",
-      "shipping_address": "Leveransadress",
-      "fulfillment_status": "Distributionsstatus",
+      "shipping_address": "leveransadress",
+      "fulfillment_status": "Uppfyllningsstatus",
       "discount": "Rabatt",
       "shipping": "Frakt",
-      "tax": "Skatt",
+      "tax": "Beskatta",
       "product": "Produkt",
       "sku": "SKU",
       "price": "Pris",
       "quantity": "Kvantitet",
-      "total": "Totalt",
+      "total": "Total",
       "fulfilled_at_html": "Distribuerad {{ date }}",
-      "track_shipment": "Spåra försändelse",
+      "track_shipment": "Spåra leverans",
       "tracking_url": "Spårningslänk",
-      "tracking_company": "Transportör",
+      "tracking_company": "Bärare",
       "tracking_number": "Spårningsnummer",
       "subtotal": "Delsumma",
       "total_duties": "Tullavgifter"
@@ -415,13 +415,13 @@
       "subtext": "Ditt presentkort",
       "gift_card_code": "Presentkortskod",
       "shop_link": "Fortsätt shoppa",
-      "remaining_html": "Återstående {{ balance }}",
+      "remaining_html": "Kvar {{ balance }}",
       "add_to_apple_wallet": "Lägg till i Apple Wallet",
       "qr_image_alt": "QR-kod – skanna för att lösa in presentkort",
       "copy_code": "Kopiera kod",
-      "expired": "Har gått ut",
-      "copy_code_success": "Koden kopierades",
-      "print_gift_card": "Skriv ut"
+      "expired": "Utgånget",
+      "copy_code_success": "Koden har kopierats",
+      "print_gift_card": "Skriva ut"
     }
   },
   "shopify": {
@@ -1182,6 +1182,27 @@
         "one": "Sök: %{count} resultat hittades för \"%{terms}\"",
         "other": "Sök: %{count} resultat hittades för \"%{terms}\""
       }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Dölj kontomenyn",
+        "label": "konto",
+        "show_accessibility_label": "Visa kontomenyn"
+      },
+      "action_menu_accessibility_label": "Fler åtgärder",
+      "close_menu_accessibility_label": "Stäng huvudnavigeringen",
+      "contact_email_subject": "Kontakt från {{shopName}} webbutik",
+      "contact_link": "Kontakta oss",
+      "delete_confirmation": {
+        "cancel": "Avbryt",
+        "delete": "Radera"
+      },
+      "dismiss_toast": "Avfärda",
+      "document_title": "{{sectionName}} - {{shopName}} - Konto",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "Gå till affär"
     }
   }
 }
