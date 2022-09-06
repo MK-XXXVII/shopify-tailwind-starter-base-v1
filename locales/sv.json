@@ -39,8 +39,8 @@
       "search": "Sök"
     },
     "cart": {
-      "view": "Visa min varukorg ({{ count }})",
-      "item_added": "Artikeln har lagts till i varukorgen"
+      "view": "Se min kundvagn ({{ count }})",
+      "item_added": "Varan har lagts till i din kundvagn"
     },
     "share": {
       "copy_to_clipboard": "Kopiera länk",
@@ -201,7 +201,7 @@
       }
     },
     "cart": {
-      "cart": "Varukorg"
+      "cart": "Vagn"
     },
     "contact": {
       "form": {
@@ -251,10 +251,10 @@
         "quantity": "Kvantitet",
         "image": "Produktbild"
       },
-      "update": "Uppdatera",
+      "update": "Uppdatering",
       "login": {
-        "title": "Har du ett konto?",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logga in<\/a> för att gå till kassan snabbare."
+        "title": "Har ett konto?",
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">Logga in<\/a> för att checka ut snabbare."
       }
     },
     "footer": {
