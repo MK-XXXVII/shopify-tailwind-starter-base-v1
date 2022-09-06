@@ -72,9 +72,9 @@
     },
     "loading": "Cargando...",
     "skip_to_product_info": "Ir directamente a la información del producto",
-    "total_reviews": "reseñas totales",
+    "total_reviews": "revisiones totales",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
-    "collapsible_content_title": "Contenido desplegable"
+    "collapsible_content_title": "contenido colapsable"
   },
   "blogs": {
     "article": {
@@ -98,8 +98,8 @@
     }
   },
   "onboarding": {
-    "product_title": "Ejemplo de nombre del producto",
-    "collection_title": "Nombre de tu colección"
+    "product_title": "Ejemplo de título de producto",
+    "collection_title": "El nombre de tu colección"
   },
   "products": {
     "product": {
@@ -190,19 +190,19 @@
   },
   "templates": {
     "search": {
-      "no_results": "No se encontraron resultados para “{{ terms }}” Revisa la ortografía o usa una palabra o frase diferente.",
+      "no_results": "No se encontraron resultados para “{{ terms }}”. Verifique la ortografía o use una palabra o frase diferente.",
       "results_with_count": {
         "one": "{{ count }} resultado",
         "other": "{{ count }} resultados",
         "many": "{{ count }} resultados"
       },
-      "title": "Resultados de búsqueda",
+      "title": "Resultados de la búsqueda",
       "page": "Página",
-      "products": "Productos",
+      "products": "productos",
       "search_for": "Buscar “{{ terms }}”",
       "results_with_count_and_term": {
-        "one": "Se ha encontrado {{ count }} resultado para \"{{ terms }}\"",
-        "other": "Se han encontrado {{ count }} resultados para \"{{ terms }}\"",
+        "one": "{{ count }} resultado encontrado para “{{ terms }}”",
+        "other": "{{ count }} resultados encontrados para “{{ terms }}”",
         "many": "Se han encontrado {{ count }} resultados para \"{{ terms }}\""
       }
     },
@@ -216,8 +216,8 @@
         "phone": "Número de teléfono",
         "comment": "Comentario",
         "send": "Enviar",
-        "post_success": "Gracias por contactarnos. Te responderemos lo antes posible.",
-        "error_heading": "Por favor, ajusta lo siguiente:",
+        "post_success": "Gracias por contactarnos. Nos pondremos en contacto contigo lo antes posible.",
+        "error_heading": "Ajuste lo siguiente:",
         "title": "Formulario de contacto"
       }
     },
@@ -231,8 +231,8 @@
       "announcement": "Anuncio",
       "menu": "Menú",
       "cart_count": {
-        "one": "{{ count }} artículo",
-        "other": "{{ count }} artículos",
+        "one": "{{ count }} elemento",
+        "other": "{{ count }} elementos",
         "many": "{{ count }} artículos"
       }
     },
@@ -265,17 +265,17 @@
       }
     },
     "footer": {
-      "payment": "Formas de pago"
+      "payment": "Métodos de pago"
     },
     "featured_blog": {
       "view_all": "Ver todo",
-      "onboarding_title": "Artículo de blog",
-      "onboarding_content": "Ofrece a tus clientes un resumen de tu artículo de blog"
+      "onboarding_title": "Entrada en el blog",
+      "onboarding_content": "Brinde a sus clientes un resumen de su publicación de blog"
     },
     "featured_collection": {
       "view_all": "Ver todo",
       "view_all_label": "Ver todos los productos de la colección {{ collection_name }}",
-      "slider": "Carrusel de imágenes"
+      "slider": "Deslizador"
     },
     "collection_list": {
       "view_all": "Ver todo"
@@ -1506,7 +1506,20 @@
             "descending": "Orden total (mayor a menor)"
           }
         },
-        "table_view": "Mostrar vista de tabla"
+        "table_view": "Mostrar vista de tabla",
+        "payment_status": {
+          "list_view": {
+            "due": "Pago vencido {{date}}",
+            "due_today": "Pago vencido hoy"
+          },
+          "table_view": {
+            "overdue": "Atrasado",
+            "due": "Vencimiento {{date}}",
+            "due_today": "Para hoy",
+            "paid": "Pagado"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Actualmente ordenado por: {{option}}"
       },
       "order_status": {
         "canceled_description": "Su pedido fue cancelado el {{date}}.",
@@ -1518,7 +1531,8 @@
         "confirmed_title": "Tu pedido está confirmado",
         "delivered_description": "Su envío se entregó el {{date}}.",
         "delivered_label": "Entregado",
-        "delivered_title": "Su envío ha sido entregado"
+        "delivered_title": "Su envío ha sido entregado",
+        "request_return": "Solicitar devolución"
       }
     },
     "order_details": {
@@ -1526,7 +1540,16 @@
       "taxes": "Impuestos",
       "title": "Orden {{name}}",
       "total": "Total",
-      "unit_price": "({{price}}\/ea)"
+      "unit_price": "({{price}}\/ea)",
+      "returns": {
+        "expand_events_label": "Mostrar detalles",
+        "hide_events_label": "Ocultar detalles"
+      },
+      "pagination": {
+        "load_more": "Carga más",
+        "load_more_accessibility_label": "Cargar más elementos",
+        "loading_accessibility_label": "Cargando artículos"
+      }
     },
     "addresses": {
       "add_button": "Añadir dirección",
@@ -1545,7 +1568,12 @@
       "delete_confirmation_message": "¿Eliminar dirección? Los pedidos existentes no se ven afectados.",
       "edit_button": "Editar",
       "edit_button_accessibility_label": "Editar {{address}}",
-      "edit_section_accessibility_label": "Editar {{address}}"
+      "edit_section_accessibility_label": "Editar {{address}}",
+      "add_address_banner": "Agregar direcciones para usar al finalizar la compra",
+      "pagination": {
+        "load_more": "Carga más",
+        "load_more_accessibility_label": "Cargar más direcciones"
+      }
     },
     "address_form": {
       "save_accessibility_label": "Guardar dirección {{address}}",
@@ -1572,7 +1600,11 @@
         "section_title": "Ubicación",
         "shipping_address_required": "Agregue una dirección de envío a esta ubicación para comenzar a realizar pedidos.",
         "tax_details_title": "Detalles de impuestos",
-        "tax_id": "Identificación del impuesto"
+        "tax_id": "Identificación del impuesto",
+        "tax_exemptions": "Excepciones de impuestos",
+        "multiple_tax_exemptions": "{{taxExemptionsCount}} más",
+        "multiple_tax_exemptions_and": "y",
+        "tax_exemptions_modal_close": "Cerca"
       },
       "location_selection": {
         "continue_to_store": "Continuar a la tienda",
@@ -1634,6 +1666,50 @@
           }
         }
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Hubo un problema al eliminar esta dirección. Vuelva a intentarlo o actualice la página."
+      },
+      "addresses_loading_issue": {
+        "description": "Error de conexión. Comprueba tu conexión a Internet e inténtalo de nuevo."
+      },
+      "banner_title": {
+        "one": "Hay un error {{count}}",
+        "other": "Hay {{count}} errores"
+      },
+      "failed_address_creation": {
+        "description": "Hubo un problema al crear su dirección. Intente actualizar esta página o verifique su conexión a Internet."
+      },
+      "failed_address_update": {
+        "description": "Hubo un problema al actualizar su dirección. Intente actualizar esta página o verifique su conexión a Internet."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Iniciar sesión en una cuenta diferente",
+        "description": "No estás registrado como cliente B2B con {{shopName}}",
+        "title": "Sin acceso"
+      },
+      "no_access_to_locations": {
+        "description": "No tienes acceso a ninguna ubicación."
+      },
+      "not_found": {
+        "description": "Compruebe la URL o inténtelo de nuevo en unos minutos.",
+        "title": "Hay un problema al cargar esta página"
+      },
+      "order_not_found": {
+        "description": "Este pedido no existe o no tienes permiso para verlo.",
+        "title": "Pedido no encontrado"
+      },
+      "profile_update_error": {
+        "description": "Hubo un problema al actualizar tu perfil. Intente actualizar esta página o verifique su conexión a Internet."
+      },
+      "retry_action_label": "Rever"
+    },
+    "shop_policies": {
+      "legal_notice": "Aviso Legal",
+      "privacy_policy": "Política de privacidad",
+      "refund_policy": "Politica de reembolso",
+      "shipping_policy": "Politica de envios"
     }
   }
 }
