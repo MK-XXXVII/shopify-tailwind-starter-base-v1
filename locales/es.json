@@ -103,9 +103,9 @@
   },
   "products": {
     "product": {
-      "add_to_cart": "Agregar al carrito",
+      "add_to_cart": "Añadir a la cesta",
       "description": "Descripción",
-      "on_sale": "Oferta",
+      "on_sale": "Rebaja",
       "product_variants": "Variantes de producto",
       "quantity": {
         "label": "Cantidad",
@@ -122,7 +122,7 @@
       "share": "Compartir este producto",
       "sold_out": "Agotado",
       "unavailable": "No disponible",
-      "vendor": "Proveedor",
+      "vendor": "Vendedor",
       "video_exit_message": "{{ title }} abre el video en pantalla completa en la misma ventana.",
       "xr_button": "Ver en tu espacio",
       "xr_button_label": "Ver en tu espacio, carga el artículo en la ventana de realidad aumentada",
@@ -147,7 +147,7 @@
       },
       "view_full_details": "Ver todos los detalles",
       "include_taxes": "Impuesto incluido.",
-      "shipping_policy_html": "Los <a href=\"{{ link }}\">gastos de envío<\/a> se calculan en la pantalla de pago.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Envío<\/a> calculado al finalizar la compra.",
       "choose_options": "Seleccionar opciones",
       "choose_product_options": "Elegir opciones para {{ product_name }}"
     },
@@ -312,23 +312,23 @@
       "title": "Cuenta",
       "details": "Detalles de la cuenta",
       "view_addresses": "Ver direcciones",
-      "return": "Regresar a detalles de la cuenta"
+      "return": "Volver a los detalles de la cuenta"
     },
     "account_fallback": "Cuenta",
     "activate_account": {
-      "title": "Activar cuenta",
+      "title": "Activar la cuenta",
       "subtext": "Crea tu contraseña para activar tu cuenta.",
-      "password": "Contraseña",
+      "password": "Clave",
       "password_confirm": "Confirmar contraseña",
-      "submit": "Activar cuenta",
+      "submit": "Activar la cuenta",
       "cancel": "Rechazar invitación"
     },
     "addresses": {
-      "title": "Direcciones",
-      "default": "Predeterminada",
-      "add_new": "Agregar una nueva dirección",
+      "title": "direcciones",
+      "default": "Defecto",
+      "add_new": "añadir una nueva dirección",
       "edit_address": "Editar dirección",
-      "first_name": "Nombre",
+      "first_name": "Nombre de pila",
       "last_name": "Apellido",
       "company": "Empresa",
       "address1": "Dirección 1",
@@ -371,24 +371,24 @@
       "none": "Aún no has realizado ningún pedido."
     },
     "recover_password": {
-      "title": "Restablecer tu contraseña",
-      "subtext": "Te enviaremos un correo electrónico para restablecer tu contraseña",
-      "success": "Te hemos enviado un correo electrónico con un enlace para actualizar tu contraseña."
+      "title": "Restablecer su contraseña",
+      "subtext": "Le enviaremos un correo electrónico para restablecer su contraseña",
+      "success": "Le hemos enviado un correo electrónico con un enlace para actualizar su contraseña."
     },
     "register": {
-      "title": "Crear cuenta",
-      "first_name": "Nombre",
+      "title": "Crear una cuenta",
+      "first_name": "Nombre de pila",
       "last_name": "Apellido",
       "email": "Correo electrónico",
-      "password": "Contraseña",
+      "password": "Clave",
       "submit": "Crear"
     },
     "reset_password": {
       "title": "Restablecer contraseña de cuenta",
-      "subtext": "Introduce una nueva contraseña.",
-      "password": "Contraseña",
+      "subtext": "Introduzca una nueva contraseña",
+      "password": "Clave",
       "password_confirm": "Confirmar contraseña",
-      "submit": "Restablecer contraseña"
+      "submit": "Restablecer la contraseña"
     },
     "order": {
       "title": "Pedido {{ name }}",
@@ -412,23 +412,23 @@
       "tracking_url": "Enlace de seguimiento",
       "tracking_company": "Empresa de transporte",
       "tracking_number": "Número de seguimiento",
-      "subtotal": "Subtotal",
+      "subtotal": "Total parcial",
       "total_duties": "Aranceles"
     }
   },
   "gift_cards": {
     "issued": {
-      "title": "¡Aquí está tu tarjeta de regalo de {{ value }} para {{ shop }}!",
-      "subtext": "Tu tarjeta de regalo",
-      "gift_card_code": "Código de tarjeta de regalo",
+      "title": "¡Aquí está tu tarjeta de regalo {{ value }} para {{ shop }}!",
+      "subtext": "tu tarjeta regalo",
+      "gift_card_code": "Código de la tarjeta de regalo",
       "shop_link": "Seguir comprando",
-      "remaining_html": "Saldo {{ balance }}",
-      "add_to_apple_wallet": "Agregar a Apple Wallet",
-      "qr_image_alt": "Código QR: escanea para canjear la tarjeta de regalo",
+      "remaining_html": "Restante {{ balance }}",
+      "add_to_apple_wallet": "Agregar a la billetera de Apple",
+      "qr_image_alt": "Código QR: escanear para canjear la tarjeta de regalo",
       "copy_code": "Copiar código",
-      "expired": "Vencido",
-      "copy_code_success": "El código se copió correctamente",
-      "print_gift_card": "Imprimir"
+      "expired": "Venció",
+      "copy_code_success": "Código copiado con éxito",
+      "print_gift_card": "Impresión"
     }
   },
   "shopify": {
@@ -1437,6 +1437,27 @@
         "immediately": "Listo para recoger ahora",
         "next_day": "Listo para recoger al día siguiente"
       }
+    }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "Ocultar menú de cuenta",
+        "label": "Cuenta",
+        "show_accessibility_label": "Mostrar el menú de la cuenta"
+      },
+      "action_menu_accessibility_label": "Mas acciones",
+      "close_menu_accessibility_label": "Cerrar navegación principal",
+      "contact_email_subject": "Contacto de la tienda en línea {{shopName}}",
+      "contact_link": "Contáctenos",
+      "delete_confirmation": {
+        "cancel": "Cancelar",
+        "delete": "Borrar"
+      },
+      "dismiss_toast": "Despedir",
+      "document_title": "{{sectionName}} - {{shopName}} - Cuenta",
+      "generic_accessibility_label": "{{label}}: {{value}}",
+      "go_to_store_link": "Ir a la tienda"
     }
   }
 }
