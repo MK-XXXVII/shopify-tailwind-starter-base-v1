@@ -501,6 +501,80 @@
         "sold_out_label": "Utsåld",
         "reduced_label": "Nedsatt",
         "reduced_with_quantity_label": "Bara %{quantity_available} kvar"
+      },
+      "order_summary": {
+        "applied_discount_message": "%{amount} rabatt på det totala beställningspriset",
+        "discount_has_been_applied": "Rabatt har tillämpats",
+        "discount_has_been_removed": "Rabatten har tagits bort",
+        "gift_card_has_been_applied": "Presentkort har använts",
+        "gift_card_has_been_removed": "Presentkortet har tagits bort",
+        "gift_card_subscriptions_notice": "Presentkort gäller endast för din första betalning",
+        "discount_already_applied": "En rabatt har tillämpats på denna beställning. Du kan inte lägga till ytterligare en rabatt.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden är inte giltig för varorna i din varukorg",
+        "discount_requires_customer_notice": "Ange din fraktinformation för att använda <strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkod är inte tillgänglig för dig just nu",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkod är inte tillgänglig för din leveransadress",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> rabattkoden har redan använts",
+        "subtotal_label": "Delsumma",
+        "shipping_label": "Frakt",
+        "pickup_label": "Plocka upp",
+        "no_pickup_location": "Din beställning är inte tillgänglig för hämtning. Ange en leveransadress.",
+        "tip_label": "Dricks",
+        "calculating_shipping": "Beräknande…",
+        "shipping_default_value": "Beräknas vid nästa steg",
+        "shipping_pending_value": "—",
+        "product_change_label": "Förändra",
+        "product_image_label": "Produktbild",
+        "scroll_order_summary": "Bläddra för fler objekt",
+        "expand_order_summary": "Visa ordersammanfattning",
+        "collapse_order_summary": "Dölj beställningssammanfattning",
+        "original_price": "Original pris",
+        "sale_price": "Försäljningspris",
+        "total_updated_label": "Uppdaterat totalpris:",
+        "order_total_updated_label": "Uppdaterad totalt",
+        "total_already_paid_label": "Redan betalat",
+        "unit_price": {
+          "accessible_separator": "per",
+          "content_html": "%{price} %{accessible_separator} %{per_unit}"
+        },
+        "gift_card_ending": "Presentkort som slutar med %{last_characters}",
+        "estimated_tax_label": "Beräknad skatt",
+        "multiple_shipping_lines_label": "Frakt totalt",
+        "recurring_total_label": "Återkommande totalt",
+        "recurring_total_tooltip": "Inkluderar inte frakt, skatter, tullar eller tillämpliga rabatter.",
+        "confirmation_number_label": "Bekräftelse #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> kunde inte användas med dina befintliga rabatter. Du har redan en bättre kombination.",
+        "percent_off_shipping": "%{percent}% rabatt på frakt"
+      },
+      "shipping": {
+        "estimated_delivery_date": {
+          "other": "%{count} arbetsdagar"
+        },
+        "estimated_delivery_date_range": "%{minimum} till %{maximum} arbetsdagar",
+        "estimated_delivery_time": "Beräknad leverans %{time}",
+        "estimated_delivery_time_range": "Beräknad leverans %{min_time}–%{max_time}",
+        "arrives_time": "Anländer %{time}",
+        "arrives_time_range": "Anländer %{min_time}–%{max_time}",
+        "estimated_time": "Uppskattad %{time}",
+        "estimated_time_range": "Uppskattad %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Mobilnummer (obligatoriskt)",
+        "shipping_line_phone": "Din kurir kan använda detta nummer för att kontakta dig.",
+        "shipping_line_delivery_phone_label": "mobilnummer",
+        "shipping_line_delivery_phone": "Vi kan använda detta nummer för att ringa eller sms:a dig om din leverans.",
+        "optional_shipping_line_delivery_instructions_label": "Leveransanvisningar (valfritt)",
+        "shipping_line_delivery_instructions": "Ange nödvändig information som dörrkoder eller avlämningsinstruktioner.",
+        "other_method": {
+          "zero": "Inga andra metoder tillgängliga",
+          "one": "%{count} annan metod tillgänglig på",
+          "other": "%{count} andra tillgängliga metoder från och med"
+        },
+        "shipping_rate_discounted_amount": "Var: %{original_amount}. Nu: %{amount}",
+        "local_delivery": "Lokal leverans",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "för %{count} leverans"
+          }
+        }
       }
     }
   }
