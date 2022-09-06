@@ -28,7 +28,7 @@
         "tiktok": "Tick ​​tack"
       }
     },
-    "continue_shopping": "Fortsätt shoppa",
+    "continue_shopping": "Fortsätt handla",
     "pagination": {
       "label": "Paginering",
       "page": "Sida {{ number }}",
@@ -45,13 +45,13 @@
     "share": {
       "copy_to_clipboard": "Kopiera länk",
       "share_url": "Länk",
-      "success_message": "Länken kopierades till urklipp",
-      "close": "Stäng dela"
+      "success_message": "Länken har kopierats till urklipp",
+      "close": "Stäng aktie"
     },
     "slider": {
       "of": "av",
-      "next_slide": "Bild till höger",
-      "previous_slide": "Bild till vänster"
+      "next_slide": "Skjut åt höger",
+      "previous_slide": "Skjut åt vänster"
     }
   },
   "newsletter": {
@@ -84,16 +84,16 @@
         "one": "{{ count }} kommentar",
         "other": "{{ count }} kommentarer"
       },
-      "moderated": "Notera att kommentarer behöver godkännas innan de publiceras.",
+      "moderated": "Observera att kommentarer måste godkännas innan de publiceras.",
       "comment_form_title": "Lämna en kommentar",
-      "name": "Namn",
-      "email": "Email",
+      "name": "namn",
+      "email": "E-post",
       "message": "Kommentar",
-      "post": "Lägg upp kommentar",
+      "post": "Publicera kommentar",
       "back_to_blog": "Tillbaka till bloggen",
       "share": "Dela den här artikeln",
-      "success": "Din kommentar har lagts upp! Tack!",
-      "success_moderated": "Din kommentar har lagts upp. Vi kommer publicera den lite senare, eftersom att bloggen är modererad."
+      "success": "Din kommentar postades framgångsrikt! Tack!",
+      "success_moderated": "Din kommentar postades framgångsrikt. Vi kommer att publicera den om en liten stund, eftersom vår blogg är modererad."
     }
   },
   "onboarding": {
@@ -108,8 +108,8 @@
       "product_variants": "Produktvarianter",
       "quantity": {
         "label": "Kvantitet",
-        "input_label": "Kvantitet för {{ product }}",
-        "increase": "Öka kvantitet för {{ product }}",
+        "input_label": "Antal för {{ product }}",
+        "increase": "Öka kvantiteten för {{ product }}",
         "decrease": "Minska kvantitet för {{ product }}"
       },
       "price": {
@@ -135,14 +135,14 @@
         "refresh": "Uppdatera"
       },
       "media": {
-        "open_media": "Öppna mediet {{ index }} i modalfönster",
-        "play_model": "Spela 3D-visaren",
-        "play_video": "Spela video",
-        "gallery_viewer": "Gallerivisning",
-        "load_image": "Ladda bilden {{ index }} i gallerivisning",
-        "load_model": "Ladda 3D-modellen {{ index }} i gallerivisning",
-        "load_video": "Spela videon {{ index }} i gallerivisning",
-        "image_available": "Bilden {{ index }} är nu tillgänglig i gallerivisning"
+        "open_media": "Öppna media {{ index }} i modal",
+        "play_model": "Spela 3D Viewer",
+        "play_video": "Spela filmen",
+        "gallery_viewer": "Galleri Viewer",
+        "load_image": "Ladda bilden {{ index }} i gallerivyn",
+        "load_model": "Ladda 3D-modell {{ index }} i gallerivy",
+        "load_video": "Spela upp video {{ index }} i gallerivy",
+        "image_available": "Bild {{ index }} är nu tillgänglig i gallerivy"
       },
       "view_full_details": "Visa alla uppgifter",
       "include_taxes": "Skatt ingår.",
@@ -159,11 +159,11 @@
       "clear_all": "Ta bort alla",
       "from": "Från",
       "filter_and_sort": "Filtrera och sortera",
-      "filter_by_label": "Filter:",
-      "filter_button": "Filter",
+      "filter_by_label": "Filtrera:",
+      "filter_button": "Filtrera",
       "filters_selected": {
-        "one": "{{ count }} har valts",
-        "other": "{{ count }} har valts"
+        "one": "{{ count }} valt",
+        "other": "{{ count }} valt"
       },
       "max_price": "Det högsta priset är {{ price }}",
       "product_count": {
@@ -174,12 +174,12 @@
         "one": "{{ count }} produkt",
         "other": "{{ count }} produkter"
       },
-      "reset": "Återställ",
+      "reset": "Återställa",
       "sort_button": "Sortera",
       "sort_by_label": "Sortera efter:",
       "to": "Till",
-      "clear_filter": "Ta bort filter",
-      "filter_selected_accessibility": "{{ type }} ({{ count }}) filter valda",
+      "clear_filter": "Ta bort filtret",
+      "filter_selected_accessibility": "{{ type }} ({{ count }} filter valda)",
       "show_more": "Visa mer",
       "show_less": "Visa mindre"
     }
@@ -307,7 +307,7 @@
       "view_addresses": "Visa adresser",
       "return": "Återgå till kontouppgifter"
     },
-    "account_fallback": "Konto",
+    "account_fallback": "konto",
     "activate_account": {
       "title": "Aktivera konto",
       "subtext": "Skapa ditt lösenord för att aktivera ditt konto.",
