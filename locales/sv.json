@@ -1301,6 +1301,90 @@
       "loading_edit_form_accessibility_message": "Laddar redigera adressformulär",
       "loading_finished_accessibility_message": "Formuläret har laddats",
       "save": "Spara"
+    },
+    "B2B": {
+      "addresses": {
+        "cancel_adding_shipping_address_accessibility_label": "Avbryt lägga till leveransadress",
+        "save_new_billing_address_accessibility_label": "Spara faktureringsadress",
+        "save_new_shipping_address_accessibility_label": "Spara leveransadress",
+        "shipping_address_card_title": "Leveransadress"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "Göm alla",
+          "show_all": "Visa allt",
+          "hide_all_accessibility_label": "Dölj alla beställningar som granskas",
+          "show_all_accessibility_label": "Visa alla beställningar under granskning",
+          "title": "Under granskning",
+          "pagination": {
+            "nav_accessibility_label": "Beställningar i granskningsnavigeringsknappar"
+          }
+        },
+        "order_list_column_headers_location": "Plats"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "Bekräftad {{date}} från order {{draftOrderName}}",
+        "loading": "Laddar beställningsinformation",
+        "loading_finished_accessibility_message": "Beställningsinformation har laddats",
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "one": "Din betalning är {{count}} dagen försenad",
+              "other": "Din betalning är {{count}} dagar försenad"
+            },
+            "banner_due": {
+              "one": "Din betalning förfaller inom {{count}} dag",
+              "other": "Din betalning förfaller inom {{count}} dagar"
+            },
+            "banner_due_today": "Din betalning förfaller idag",
+            "title": "Förfallen betalning"
+          }
+        }
+      }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "Det gick inte att ta bort den här adressen. Försök igen eller uppdatera sidan."
+      },
+      "addresses_loading_issue": {
+        "description": "Anslutningsfel. Kontrollera din internetanslutning och försök igen."
+      },
+      "banner_title": {
+        "one": "Det finns ett {{count}}-fel",
+        "other": "Det finns {{count}}-fel"
+      },
+      "failed_address_creation": {
+        "description": "Det gick inte att skapa din adress. Testa att uppdatera den här sidan eller kontrollera din internetanslutning."
+      },
+      "failed_address_update": {
+        "description": "Det uppstod ett problem med att uppdatera din adress. Testa att uppdatera den här sidan eller kontrollera din internetanslutning."
+      },
+      "no_access": {
+        "back_to_authentication_link": "Logga in på ett annat konto",
+        "description": "Du är inte registrerad som B2B-kund hos {{shopName}}",
+        "title": "Ingen åtkomst"
+      },
+      "no_access_to_locations": {
+        "description": "Du har inte tillgång till några platser"
+      },
+      "not_found": {
+        "description": "Kontrollera webbadressen eller försök igen om några minuter.",
+        "title": "Det uppstod ett problem med att ladda den här sidan"
+      },
+      "order_not_found": {
+        "description": "Den här beställningen finns inte eller så har du inte behörighet att se den.",
+        "title": "Beställningen hittades inte"
+      },
+      "profile_update_error": {
+        "description": "Det uppstod ett problem med att uppdatera din profil. Testa att uppdatera den här sidan eller kontrollera din internetanslutning."
+      },
+      "retry_action_label": "Försök igen"
+    },
+    "shop_policies": {
+      "legal_notice": "Rättsligt meddelande",
+      "privacy_policy": "Integritetspolicy",
+      "refund_policy": "Återbetalningspolicy",
+      "shipping_policy": "Fraktpolicy"
     }
   }
 }
