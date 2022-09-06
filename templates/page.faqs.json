@@ -54,8 +54,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What is the shelf life of your teas?",
-            "icon": "check_mark",
-            "row_content": "",
+            "icon": "leaf",
+            "row_content": "<p>3 years – To keep your tea as fresh as possible, all teas should be kept away from direct light, moisture, and air. The best storage would be inside a closed cabinet.<\/p>",
             "page": ""
           }
         },
