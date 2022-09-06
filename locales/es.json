@@ -1458,6 +1458,94 @@
       "document_title": "{{sectionName}} - {{shopName}} - Cuenta",
       "generic_accessibility_label": "{{label}}: {{value}}",
       "go_to_store_link": "Ir a la tienda"
+    },
+    "account_information": {
+      "profile_card": {
+        "phone_number_help_text": "El número de teléfono utilizado para iniciar sesión no se puede cambiar",
+        "save": "Ahorrar",
+        "save_accessibility_label": "Guardar perfil",
+        "title": "Perfil"
+      },
+      "profile_update_confirmation_message": "Perfil actualizado",
+      "title": "Información de la cuenta"
+    },
+    "orders": {
+      "list_layout_accessibility_label": "Opciones de diseño",
+      "list_title": "Pedidos",
+      "order_list": {
+        "column_headers": {
+          "delivery_date": "Fecha de entrega",
+          "order_date": "Fecha de orden",
+          "order_number": "Número de orden",
+          "status": "Estado del pedido",
+          "total": "Total"
+        },
+        "delivered": "Entregado {{date}}",
+        "empty_state_order_source_description": "Aquí solo se mostrarán los pedidos realizados por {{email}}.",
+        "empty_state_subtitle": "Ir a la tienda para hacer un pedido.",
+        "empty_state_title": "Aún no hay pedidos",
+        "estimated": "Estimado {{date}}",
+        "estimated_delivery": "Entrega estimada {{date}}",
+        "one_images_accessibility_label": "El pedido incluye {{lineItemName1}}",
+        "sort_title": "Clasificar",
+        "sort": {
+          "date": {
+            "newest": "Más nuevo a más antiguo",
+            "oldest": "De más antiguo a más nuevo"
+          },
+          "location": {
+            "ascending": "Ubicación (A-Z)",
+            "descending": "Ubicación (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Número de orden (menor a mayor)",
+            "descending": "Número de orden (mayor a menor)"
+          },
+          "order_total": {
+            "ascending": "Orden total (menor a mayor)",
+            "descending": "Orden total (mayor a menor)"
+          }
+        },
+        "table_view": "Mostrar vista de tabla"
+      },
+      "order_status": {
+        "canceled_description": "Su pedido fue cancelado el {{date}}.",
+        "canceled_label": "Cancelado",
+        "canceled_title": "Su pedido ha sido cancelado",
+        "come_back": "Regrese a esta página para obtener actualizaciones sobre el estado de su envío.",
+        "company_tracking_number": "{{company}} número de seguimiento:",
+        "confirmed_label": "Confirmado",
+        "confirmed_title": "Tu pedido está confirmado",
+        "delivered_description": "Su envío se entregó el {{date}}.",
+        "delivered_label": "Entregado",
+        "delivered_title": "Su envío ha sido entregado"
+      }
+    },
+    "order_details": {
+      "summary_totals_title_accessibility_label": "Totales de pedidos",
+      "taxes": "Impuestos",
+      "title": "Orden {{name}}",
+      "total": "Total",
+      "unit_price": "({{price}}\/ea)"
+    },
+    "addresses": {
+      "add_button": "Añadir dirección",
+      "address_deleted_notification": "Dirección eliminada",
+      "cancel_adding_address_accessibility_label": "Cancelar agregar dirección",
+      "cancel_deletion_button": "Cancelar",
+      "cancel_deletion_button_accessibility_label": "Cancelar la eliminación de {{address}}",
+      "default_address": {
+        "title": "Dirección predeterminada",
+        "title_accessibility_label": "Dirección predeterminada: {{address}}"
+      },
+      "delete_button": "Borrar",
+      "delete_button_accessibility_label": "Eliminar {{address}}",
+      "delete_confirmation_button": "Eliminar dirección",
+      "delete_confirmation_button_accessibility_label": "Eliminar {{address}}",
+      "delete_confirmation_message": "¿Eliminar dirección? Los pedidos existentes no se ven afectados.",
+      "edit_button": "Editar",
+      "edit_button_accessibility_label": "Editar {{address}}",
+      "edit_section_accessibility_label": "Editar {{address}}"
     }
   }
 }
