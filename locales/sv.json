@@ -1203,6 +1203,104 @@
       "document_title": "{{sectionName}} - {{shopName}} - Konto",
       "generic_accessibility_label": "{{label}}: {{value}}",
       "go_to_store_link": "Gå till affär"
+    },
+    "orders": {
+      "order_list": {
+        "two_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Beställningen inkluderar {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "items": {
+          "one": "{{count}} objekt",
+          "other": "{{count}} objekt"
+        },
+        "list_view": "Visa listvy",
+        "multiple_shipments": "Flera försändelser",
+        "no_filtered_results_description": "Ta bort eller justera filter för att se dina beställningar",
+        "no_filtered_results_title": "Inga filtrerade resultat",
+        "order_link": "Visa order {{name}}",
+        "order_number": "Beställ {{name}}",
+        "orders_title": "Bekräftad",
+        "pagination": {
+          "nav_accessibility_label": "Beställer navigeringsknappar",
+          "next": "Nästa",
+          "next_accessibility_label": "Nästa beställningar",
+          "previous": "Föreg",
+          "previous_accessibility_label": "Tidigare beställningar"
+        },
+        "sort_by": "Sortera efter: {{option}}",
+        "sort_hide_options_accessibility_label": "Dölj sorteringsalternativ för bekräftade beställningar.",
+        "sort_show_options_accessibility_label": "Visa sorteringsalternativ för bekräftade beställningar."
+      },
+      "order_status": {
+        "estimated_delivery": "Beräknad leverans {{date}}",
+        "in_review_description": "Vi meddelar dig om vi behöver mer information eller när din beställning har bekräftats.",
+        "in_review_label": "Under granskning",
+        "in_review_title": "Din beställning granskas",
+        "no_tracking_number": "Det finns inget spårningsnummer för denna försändelse.",
+        "on_its_way_label": "På väg",
+        "on_its_way_title": "Din försändelse är på väg",
+        "out_for_delivery_label": "Ute för leverans",
+        "out_for_delivery_title": "Din försändelse är ute för leverans",
+        "resume_tracking": "Återuppta spårning",
+        "submitted_label": "Lämnats",
+        "track_shipment": "Spåra leverans"
+      },
+      "status_mark_as_delivered": "Märk som levererat",
+      "status_title": "Orderstatus"
+    },
+    "order_details": {
+      "addresses_section_title": "Fakturering och frakt",
+      "billing_address": "Fakturaadress",
+      "card_ending_with": "slutar med {{lastDigits}}",
+      "contact": "Kontakt",
+      "fully_refunded_label": "ÅTERBETALAD",
+      "discount": "Rabatt",
+      "summary_totals_title_accessibility_label": "Ordersummor",
+      "taxes": "Skatter",
+      "title": "Beställ {{name}}",
+      "total": "Total",
+      "unit_price": "({{price}}\/ea)"
+    },
+    "addresses": {
+      "add_button": "Lägg till adress",
+      "address_deleted_notification": "Adress raderad",
+      "cancel_adding_address_accessibility_label": "Avbryt att lägga till adress",
+      "cancel_deletion_button": "Avbryt",
+      "cancel_deletion_button_accessibility_label": "Avbryt borttagning av {{address}}",
+      "default_address": {
+        "title": "Standard adress",
+        "title_accessibility_label": "Standardadress: {{address}}"
+      },
+      "delete_button": "Radera",
+      "delete_button_accessibility_label": "Ta bort {{address}}",
+      "delete_confirmation_button": "Radera adress",
+      "delete_confirmation_button_accessibility_label": "Ta bort {{address}}",
+      "delete_confirmation_message": "Ta bort adress? Befintliga beställningar påverkas inte.",
+      "edit_button": "Redigera",
+      "edit_button_accessibility_label": "Redigera {{address}}",
+      "edit_section_accessibility_label": "Redigera {{address}}",
+      "loading_accessibility_message": "Laddar adress",
+      "loading_addresses_accessibility_message": "Laddar adresser",
+      "loading_billing_accessibility_message": "Laddar faktureringsadress",
+      "loading_finished_accessibility_message": "Ny sida med adresser har laddats",
+      "loading_shipping_accessibility_message": "Laddar leveransadress",
+      "save_new_address_accessibility_label": "Spara adress",
+      "title": "Adresser"
+    },
+    "address_form": {
+      "auto_complete_close_accessibility_label": "Stäng förslag",
+      "auto_complete_title": "Förslag",
+      "billing_address": "Använd som faktureringsadress",
+      "cancel": "Avbryt",
+      "cancel_accessibility_label": "Avbryt redigering av adress {{address}}",
+      "creation_success_notification": "Adress tillagd",
+      "default_address": "Det här är min standardadress",
+      "default_address_creation_success_notification": "Standardadress har lagts till",
+      "default_address_update_success_notification": "Standardadressen har uppdaterats",
+      "loading_add_form_accessibility_message": "Laddar nytt adressformulär",
+      "loading_edit_form_accessibility_message": "Laddar redigera adressformulär",
+      "loading_finished_accessibility_message": "Formuläret har laddats",
+      "save": "Spara"
     }
   }
 }
