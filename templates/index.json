@@ -119,19 +119,11 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
+            "collection": "black-tea"
           }
         },
         "collection-1": {
@@ -139,12 +131,18 @@
           "settings": {
             "collection": ""
           }
+        },
+        "c18cab57-2382-4c1f-a92c-6a9d0e0d219a": {
+          "type": "collection",
+          "settings": {
+            "collection": "wellness-tea"
+          }
         }
       },
       "block_order": [
         "collection-0",
-        "product",
-        "collection-1"
+        "collection-1",
+        "c18cab57-2382-4c1f-a92c-6a9d0e0d219a"
       ],
       "settings": {
         "heading": "Multimedia collage",
