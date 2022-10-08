@@ -184,7 +184,21 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "3847134708050210359": {
+        "type": "shopify:\/\/apps\/transcy-ai-language-translate\/blocks\/switcher_embed_block\/bce4f1c0-c18c-43b0-b0b2-a1aefaa44573",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "10312807297210203588": {
+        "type": "shopify:\/\/apps\/aftersell-upsell-cross-sell\/blocks\/utm-triggers\/509ec35d-0632-4dfc-a105-fa799cd9d149",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
