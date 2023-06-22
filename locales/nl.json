@@ -553,7 +553,6 @@
     },
     "filters": {
       "availability": {
-        "label": "Beschikbaarheid",
         "value": {
           "in_stock": "Op voorraad"
         }

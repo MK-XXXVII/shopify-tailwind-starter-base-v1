@@ -344,14 +344,14 @@
     "login_page": {
       "cancel": "Avbryt",
       "create_account": "Skapa konto",
-      "email": "E-postadress",
-      "forgot_password": "Har du glömt ditt lösenord?",
-      "guest_continue": "Fortsätt",
+      "email": "E-post",
+      "forgot_password": "Glömt ditt lösenord?",
+      "guest_continue": "Fortsätta",
       "guest_title": "Fortsätt som gäst",
       "password": "Lösenord",
-      "title": "Inloggning",
+      "title": "Logga in",
       "sign_in": "Logga in",
-      "submit": "Skicka"
+      "submit": "Skicka in"
     },
     "orders": {
       "title": "Beställningshistorik",
@@ -385,8 +385,8 @@
     },
     "order": {
       "title": "Beställ {{ name }}",
-      "date_html": "Beställd den {{ date }}",
-      "cancelled_html": "Ordern avbröts den {{ date }}",
+      "date_html": "Placerad på {{ date }}",
+      "cancelled_html": "Beställning annullerad {{ date }}",
       "cancelled_reason": "Orsak: {{ reason }}",
       "billing_address": "Fakturaadress",
       "payment_status": "Betalningsstatus",
@@ -406,7 +406,7 @@
       "tracking_company": "Bärare",
       "tracking_number": "Spårningsnummer",
       "subtotal": "Delsumma",
-      "total_duties": "Tullavgifter"
+      "total_duties": "plikter"
     }
   },
   "gift_cards": {
@@ -1147,15 +1147,6 @@
         "value": {
           "out_of_stock": "Slut i lager"
         }
-      },
-      "vendor": {
-        "label": "varumärke"
-      },
-      "price": {
-        "label": "Pris"
-      },
-      "product_type": {
-        "label": "Produkttyp"
       },
       "boolean": {
         "true_label": "Ja",
